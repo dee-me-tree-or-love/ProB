@@ -1,0 +1,101 @@
+*{
+	margin: 0pt;
+	padding: 0pt;
+}
+
+
+#header{
+	
+  background : #DBBB5F;
+  background : rgba(219, 187, 95, 0.7);
+  position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+  height : 25pt;
+  overflow : hidden;
+}
+
+#header a{
+	/*TEXT*/
+	text-decoration: none;
+    font-family : Copperplate Gothic Bold;
+	font-size : 15pt;
+	color : #FFFBF0;
+	
+}
+
+#home{
+	position: relative;
+	float: left;
+	width:40pt;
+	margin-top: 5pt;
+	margin-left: 20pt;
+	margin-bottom: 5pt;
+}
+
+#menu{
+	float:right;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	margin-left: 20pt;
+}
+
+
+ul#pages{
+	list-style-type: none;
+	margin: 0pt;
+	padding: 0pt;
+	
+}
+
+div.navig{
+	display: inline-block;
+	
+	
+}
+
+ ul#pages li { 
+	display: inline;
+	padding-right: 20pt;
+}
+
+#content{
+	display: block;
+	color: red;
+	height: 500 pt;
+}
+
+#footer{
+	display: block;
+  background : #DBBB5F;
+  background : rgba(219, 187, 95, 0.7);
+  position: relative;
+    top:90%;
+    width: 100%;
+	
+  height : 25pt;
+  overflow : hidden;
+}
+
+
+
+
+/*=================================================IMAGES=====================================================================================*/
+#bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+}
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
