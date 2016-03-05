@@ -24,3 +24,6 @@ a:visited{
 .AboutButtons:hover {
 	background-color:#dbbc5f;
 }
+div#Content{
+  background : #FFFBF0;
+}
