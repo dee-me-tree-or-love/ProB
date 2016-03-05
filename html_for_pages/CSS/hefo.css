@@ -124,11 +124,9 @@ div.footermenu {
   border-width : 1pt;
   position : relative ;
   left: 50%;
-  display: block;
-  margin-left: -240pt;
-  margin-top: 0;
-  width : 480pt;
-  height : 60pt;	
+
+  width : auto;
+  height : auto;	
 }	
   
 .footermenu ul{
@@ -137,24 +135,20 @@ div.footermenu {
 	padding: 0pt;
 }
 ul.footermenu li { 
-	
+	display: inline;
 	padding-right: 20pt;
 }
 
 div.footermenu h5{
-	
+	display:block;
 	font-family : Copperplate Gothic Light;
 	font-size : 15pt;
 	color : #FFFBF0;
 	color : rgb(255, 251, 240);
-	margin-top: 23pt;
+	
 }
 
-.footer_option {
-	display: block;
-	border: 1px grey solid ;
-	width: 100pt;
-}
+
 
 
 div#account_form_in {
