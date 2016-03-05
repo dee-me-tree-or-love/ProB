@@ -83,25 +83,26 @@ div.navig{
   top : 611pt;
   width : 100%;
   height : 62pt;
-  overflow: hidden;
+  
 }
 
 #footer div{
-	display: inline-block;
-	clear: both;
+border: 1px red dashed;
 }
+
 
 div#contacts{
 	border-style : Solid;
   border-color : #FFFF00;
   border-color : rgba(255, 255, 0, 1);
   border-width : 1pt;
-  position : absolute;
+  position : relative;
+  display: inline-block;
   margin-top: 8pt;
   margin-left: 10pt;
   width : 92pt;
   height : 46pt;
-  
+  float: left;
 }
   .NormalCharacterStyle1
 {
@@ -119,39 +120,19 @@ div#contacts{
 }
   
 div.footermenu {
-  border-style : Solid;
-  border-color : #FFFF00;
-  border-color : rgba(255, 255, 0, 1);
-  border-width : 1pt;
-  position : absolute ;
-  float: left;
   
-  margin-left: 35%;
-  display: inline-block;
-  
-  margin-top: 0;
-  width : 460pt;
-  height : 62pt;	
-}	
-  
-.footermenu ul{
+}
+
+div.footermenu  ul{
 	list-style-type: none;
 	margin: 0pt;
 	padding: 0pt;
 }
-ul.footermenu li { 
+ul.footermenu li{
 	display: inline;
-	padding-right: 20pt;
+	border: 2px blue solid;
 }
 
-div.footermenu h5{
-	display: inline-block;
-	font-family : Copperplate Gothic Light;
-	font-size : 15pt;
-	color : #FFFBF0;
-	color : rgb(255, 251, 240);
-	margin-top: 23pt;
-}
 
 div#account_form_in {
 	display: none;
@@ -168,18 +149,17 @@ div#contact_us_form {
 
 
 div#social{
-  display: block;
+  display: inline-block;
   border-style : Solid;
   border-color : #FFFF00;
   border-color : rgba(255, 255, 0, 1);
   border-width : 1pt;
-  position : absolute;
+  position : relative;
   float: right;
-  right: 0pt;
-  margin-top: 0pt;
+  margin-top: 15pt;
 
-  width :130pt;
-  height : 60pt;
+  width : auto;
+  height : auto;
 }
 
 div#social ul{
@@ -189,12 +169,10 @@ div#social ul{
 }
 div#social ul li{
 	display: inline;
-	
+	padding-right: 20pt;
 }
 
 div#social img{
-	margin-right: 10pt;
-	margin-top: 20pt;
  width : 26pt;
   height : 26pt;
 }
