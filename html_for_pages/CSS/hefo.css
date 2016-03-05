@@ -68,8 +68,8 @@ div.navig{
 #content{
 	display: block;
 	color: red;
-	height: 500 pt;
-	margin-top: 50%;
+	height: auto;
+	margin-top: 25pt;
 	border: 3px dashed;
 	border-color: black;
 }
