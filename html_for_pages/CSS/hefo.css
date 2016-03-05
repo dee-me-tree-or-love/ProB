@@ -65,14 +65,7 @@ div.navig{
 	padding-right: 20pt;
 }
 
-#content{
-	display: block;
-	color: red;
-	height: auto;
-	margin-top: 25pt;
-	border: 3px dashed;
-	border-color: black;
-}
+
 
 #footer{
  background : #2B3600;
