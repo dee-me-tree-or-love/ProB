@@ -4,6 +4,11 @@
 }
 
 
+
+a:visited {
+	text-decoration: none;
+}
+
 #header{
 	
   background : #DBBB5F;
@@ -25,7 +30,7 @@
 	
 }
 
-#home{
+div#home{
 	position: relative;
 	float: left;
 	width:40pt;
@@ -34,7 +39,8 @@
 	margin-bottom: 5pt;
 }
 
-#menu{
+div#menu{
+	position : relative;
 	float:right;
 	margin-top: 5pt;
 	margin-bottom: 5pt;
@@ -64,24 +70,139 @@ div.navig{
 	display: block;
 	color: red;
 	height: 500 pt;
+	margin-top: 50%;
+	border: 3px dashed;
+	border-color: black;
 }
 
 #footer{
-	display: block;
-  background : #DBBB5F;
-  background : rgba(219, 187, 95, 0.7);
-  position: relative;
-    top:90%;
-    width: 100%;
-	
-  height : 25pt;
-  overflow : hidden;
+ background : #2B3600;
+  background : rgba(43, 54, 0, 1);
+  position : absolute;
+  left : 0;
+  top : 611pt;
+  width : 100%;
+  height : 62pt;
+  
 }
 
 
 
+div#contacts{
+	border-style : Solid;
+  border-color : #FFFF00;
+  border-color : rgba(255, 255, 0, 1);
+  border-width : 1pt;
+  position : relative;
+  display: inline-block;
+  margin-top: 8pt;
+  margin-left: 10pt;
+  width : 92pt;
+  height : 46pt;
+  float: left;
+}
+  .NormalCharacterStyle1
+{
+  font-family : Copperplate Gothic Light;
+  font-size : 10pt;
+  color : #DBBB5F;
+  color : rgb(219, 187, 95);
+}
+.NormalCharacterStyle
+{
+  font-family : Copperplate Gothic Light;
+  font-size : 7pt;
+  color : #DBBB5F;
+  color : rgb(219, 187, 95);
+}
+  
+div.footermenu {
+ 
+  border-style : Solid;
+  border-color : #FFFF00;
+  border-color : rgba(255, 255, 0, 1);
+  border-width : 1pt;
+  position : relative ;
+  left: 50%;
+  display: block;
+  margin-left: -240pt;
+  margin-top: 0;
+  width : 480pt;
+  height : 60pt;	
+}	
+  
+.footermenu ul{
+	list-style-type: none;
+	margin: 0pt;
+	padding: 0pt;
+}
+ul.footermenu li { 
+	
+	padding-right: 20pt;
+}
+
+div.footermenu h5{
+	
+	font-family : Copperplate Gothic Light;
+	font-size : 15pt;
+	color : #FFFBF0;
+	color : rgb(255, 251, 240);
+	margin-top: 23pt;
+}
+
+.footer_option {
+	display: block;
+	border: 1px grey solid ;
+	width: 100pt;
+}
+
+
+div#account_form_in {
+	display: none;
+}
+div#account_form_out {
+	display: none;
+}
+div#share_form {
+	display: none;
+}
+div#contact_us_form {
+	display: none;
+}
+
+
+div#social{
+  display: inline-block;
+  border-style : Solid;
+  border-color : #FFFF00;
+  border-color : rgba(255, 255, 0, 1);
+  border-width : 1pt;
+  position : relative;
+  float: right;
+  margin-top: 15pt;
+
+  width : auto;
+  height : auto;
+}
+
+div#social ul{
+  list-style-type: none;
+  margin: 0pt;
+  padding: 0pt;
+}
+div#social ul li{
+	display: inline;
+	padding-right: 20pt;
+}
+
+div#social img{
+ width : 26pt;
+  height : 26pt;
+}
 
 /*=================================================IMAGES=====================================================================================*/
+
+/*
 #bg {
   position: fixed; 
   top: -50%; 
@@ -99,3 +220,5 @@ div.navig{
   min-width: 50%;
   min-height: 50%;
 }
+
+*/
