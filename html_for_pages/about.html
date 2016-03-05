@@ -2,64 +2,86 @@
 
 <head>
 	<title>About</title>
+	<link rel="stylesheet" type="text/css" href="css\hefo.css">
+	<link rel="stylesheet" type="text/css" href="css\about.css">
 </head>
 <body>
 	<!-- Header -->
-	<div class="header">
-		<a href="index.html">
-			<h1>ProB</h1>
+	<div id="header">
+
+		<a href="index.html" >
+			<div id = "home">
+				ProB
+			</div>
 		</a>
-		<ul id="menu">
-			<li>
-				<a href="about.html">
-					About
-				</a>
-			</li>
-			<li>
-				<a href="foundations.html">
-					Foundations
-				</a>
-			</li>
-			<li>
-				<a href="learnMore.html">
-					Learn More
-				</a>
-			</li>
-			<li>
-				<a href="articles.html">
-					Articles
-				</a>
-			</li>
-			<li>
-				<a href="contribute.html">
-					Contribute
-				</a>
-			</li>
-		</ul>
+
+
+
+
+		<div id="menu">
+			<ul id="pages">
+				<li>
+					<a href="about.html" class="header">
+						<div class="navig">
+							About
+						</div>
+					</a>
+				</li >
+				<li>
+					<a href="foundations.html" class="header">
+						<div class="navig">
+							Foundations
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="learnMore.html" class="header">
+						<div class="navig">
+							Learn More
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="articles.html" class="header">
+						<div class="navig">
+							Articles
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="contribute.html" class="header">
+						<div class="navig">
+							Contribute
+						</div>
+					</a>
+				</li>
+			</ul>
+		</div>
 	</div>
-<hr/>
 
 <!-- Main -->
-
-<div id="About">
-						<h1>Who are we?</h1>
+<div id="Content">
+<div id="Button1">
+						<a href="#" class="AboutButtons">Who we are?</a>
+					</div>
+<div id="Button2">
+						<a href="#" class="AboutButtons">Our mission</a>
 						</div>
-						<div id = "info_body">
+						<div id = "info_bodywe">
+							<p style="clear:both">
 <p> Project Banana is a not-for-profit co-operative based in Eindhoven, which works for fair and sustainable banana trades. We raise awareness of the poor living and working conditions faced by plantation workers and small producers all over the world.
 </p>
 </ul>
-<p> Your support can help us to make some impact. Buying tropical fruit is often the closest relationship any of us have with the developing world. The consumer choices we make can – and do – have a direct impact on how people are employed and paid, and how their environment is treated.
+<p> Your support can help us to make some impact. Buying tropical fruit is often the closest relationship any of us have with the developing world. The consumer choices we make can - and do - have a direct impact on how people are employed and paid, and how their environment is treated.
 </p>
 </div>
-
-<hr/>
-
-<h1> Our mission</h1>
-<div id = "info_body">
-<p> Project Banana works for fair and equitable production and trade in bananas based on environmental, social and economic sustainability.  
+<div id = "info_bodymission">
+	<p style="clear:both">
+<p> Project Banana works for fair and equitable production and trade in bananas based on environmental, social and economic sustainability.
 </p>
 <h4>Our vision is a banana world where:</h4>
-<ul>
+
+<ul>
 <li>Every worker in the chain receives a living wage and is able to exercise all her/his individual and collective rights in the workplace. </li>
 <li>All economic stakeholders along the chain pay a decent wage and respect all relevant international labour standards.</li>
 <li>Small-scale and family farmers make a decent living from selling to international banana markets.</li>
@@ -74,27 +96,26 @@
 <li>Highest standards of ethical conduct: integrity, transparency and accountability.</li>
 </ul>
 </div>
+</div>
 
-
-
-
-<!-- Footer -->	
+<!-- Footer -->
 <hr/>
-	<div class = "footer">
-		<div id="Contacts">
-			<h5>Project Banana</h5>
-			<p>Rachelsmolen</p>
-			<p>5612 MA</p>
-			<p>Eindhoven</p>
-			<p>Nederland</p>
-		</div>
-		<div id="footermenu">
-			<ul>
-			<li>
+<div id = "footer">
+	<div id="Contacts">
+		<h5 class = "NormalCharacterStyle1">Project Banana</h5>
+		<p class = "NormalCharacterStyle">Rachelsmolen</p>
+		<p class = "NormalCharacterStyle">5612 MA</p>
+		<p class = "NormalCharacterStyle">Eindhoven</p>
+		<p class = "NormalCharacterStyle">Nederland</p>
+	</div>
+	<div class="footermenu">
+		<ul class="footermenu">
+		<li>
+			<div>
 				<h5>ACCOUNT</h5>
 				<!-- SHOWN WHEN THE USER HAS NOT LOGGED IN -->
 				<div id="account_form_in">
-				
+
 				<!-- THE ACTION LINK IS JUST FOR AN EXAMPLE... -->
 					<form action="http://www.example.com/login.php">
 						<p>E-Mail:
@@ -114,7 +135,7 @@
 							value="Sign Up" />
 						</form>
 				</div>
-				
+
 				<!-- SHOWN WHEN THE USER HAS LOGGED IN -->
 				<div id="account_form_out">
 						<p>Hello, XXXX</p>
@@ -122,9 +143,11 @@
 						<input type="submit" name="sign_out"
 							value="Sign Out" />
 				</div>
-			</li>
-			
-			<li>
+			</div>
+		</li>
+
+		<li>
+			<div>
 				<h5>SHARE WITH A FRIEND</h5>
 				<!-- A FORM SHOWN ON CLICK SENDER'S NAME IS OPTIONAL -->
 				<div id="share_form">
@@ -147,10 +170,12 @@
 						<input type="submit" name="send_to_friend"
 							value="Send" />
 				</div>
-			</li>
-			<li>
+			</div>
+		</li>
+		<li>
+			<div>
 				<h5>CONTACT US</h5>
-				
+
 				<div id="contact_us_form">
 				<!-- THE ACTION LINK IS JUST FOR AN EXAMPLE... -->
 					<form action="http://www.example.com/login.php">
@@ -169,38 +194,39 @@
 						<input type="submit" name="send_to_friend"
 							value="Send" />
 				</div>
-			</li>
-			</li>
-		</div>
-		<div id="social">
-			<ul>
-			<li>
-			<!-- FACEBOOK -->
-				<a href="default.html" >
-				<img 
-					src="Default\Facebook.png" 
-						alt="FACEBOOK LINK">
-				</a>
-			</li>
-			<li>
-			<!-- FACEBOOK -->
-				<a href="default.html" >
-				<img 
-					src="Default\Twitter.png" 
-						alt="Twitter LINK">
-				</a>
-			</li>
-			<li>
-			<!-- FACEBOOK -->
-				<a href="default.html" >
-				<img 
-					src="Default\Google.png" 
-						alt="GOOGLE LINK">
-				</a>
-			</li>
-			</li>
-		</div>
+			</div>
+		</li>
+		</li>
 	</div>
-		
+	<div id="social">
+		<ul>
+		<li>
+		<!-- FACEBOOK -->
+			<a href="default.html" >
+			<img
+				src="Default\Facebook.png"
+					alt="FACEBOOK LINK">
+			</a>
+		</li>
+		<li>
+		<!-- FACEBOOK -->
+			<a href="default.html" >
+			<img
+				src="Default\Twitter.png"
+					alt="Twitter LINK">
+			</a>
+		</li>
+		<li>
+		<!-- FACEBOOK -->
+			<a href="default.html" >
+			<img
+				src="Default\Google.png"
+					alt="GOOGLE LINK">
+			</a>
+		</li>
+		</li>
+	</div>
+</div>
+
 </body>
 </html>
