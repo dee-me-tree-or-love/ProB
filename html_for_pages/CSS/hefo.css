@@ -70,7 +70,7 @@ div.navig{
 #footer{
  background : #2B3600;
   background : rgba(43, 54, 0, 1);
-  position : absolute;
+  position : relative;
   left : 0;
   bottom: 0;
   width : 100%;

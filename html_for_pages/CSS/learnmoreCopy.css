@@ -1,0 +1,51 @@
+*{
+	margin: 0pt;
+	padding: 0pt;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0pt;
+	padding: 0pt;	
+}
+
+ul li{
+	display: inline;
+}
+div.cont{
+	width: 33%;
+	display: inline-block;
+}
+div.cont img{
+	width: 33%;
+	height: auto;
+}
+div{
+	border: 1px grey dashed;
+	
+}
+
+/*
+#left_cont{
+ border: 1px red solid;
+ display: inline-block;
+
+}
+#middle_cont{
+	top: 0pt;
+	width: 340pt;
+	height: 538pt;
+	float:left;
+	border: 1px red solid;
+}
+#right_cont{
+	top: 0pt;
+	width: 340pt;
+	height: 538pt;
+	float: right;
+}
+*/

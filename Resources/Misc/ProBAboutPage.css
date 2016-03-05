@@ -1,0 +1,224 @@
+@charset "utf-8";
+	.image1
+{
+	background-image : url(image1.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 897pt;
+	top : 551pt;
+	width : 26pt;
+	height : 27pt;
+}
+.image
+{
+	background-image : url(image.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 1079pt;
+	top : 13pt;
+	width : 484pt;
+	height : 728pt;
+}
+.st0
+{
+	background : #DBBB5F;
+	background : rgba(219, 187, 95, 0.5);
+	position : absolute ;
+	left : 0pt;
+	top : 0pt;
+	width : 1020pt;
+	height : 26pt;
+}
+.st1
+{
+	background : #FEEF78;
+	background : rgba(254, 239, 120, 0.5);
+	position : absolute ;
+	left : 270pt;
+	top : 26pt;
+	width : 80pt;
+	height : 20pt;
+}
+.image3
+{
+	background-image : url(image3.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 839pt;
+	top : 551pt;
+	width : 27pt;
+	height : 27pt;
+}
+.st2
+{
+	background : #DBBB5F;
+	background : rgba(219, 187, 95, 0.5);
+	position : absolute ;
+	left : 271pt;
+	top : 46pt;
+	width : 480pt;
+	height : 368pt;
+}
+.st3
+{
+	background : #2B3600;
+	background : rgba(43, 54, 0, 1);
+	position : absolute ;
+	left : 0pt;
+	top : 533pt;
+	width : 1020pt;
+	height : 62pt;
+}
+.st4
+{
+	background : #DBBB5F;
+	background : rgba(219, 187, 95, 0.5);
+	position : absolute ;
+	left : 350pt;
+	top : 26pt;
+	width : 80pt;
+	height : 20pt;
+}
+.image2
+{
+	background-image : url(image2.png);
+	background-repeat : no-repeat;
+	position : absolute ;
+	left : 953pt;
+	top : 551pt;
+	width : 27pt;
+	height : 27pt;
+}
+.st5
+{
+	background : #FF0000;
+	background : rgba(255, 0, 0, 1);
+	position : absolute ;
+	left : 40pt;
+	top : 0pt;
+	width : 60pt;
+	height : 1020pt;
+}
+.st6
+{
+	position : absolute ;
+	left : 294pt;
+	top : -7681pt;
+	width : 0pt;
+	height : 16383pt;
+}
+.st7
+{
+	background : #FFFBF0;
+	background : rgba(255, 251, 240, 1);
+	position : absolute ;
+	left : 0pt;
+	top : 0pt;
+	width : 1020pt;
+	height : 594pt;
+}
+.NormalCharacterStyle1
+{
+	font-family : Copperplate Gothic Light;
+	font-size : 11pt;
+	color : #0D0C0C;
+	color : rgb(13, 12, 12);
+}
+.NormalCharacterStyle
+{
+	font-family : Copperplate Gothic Bold;
+	font-size : 11pt;
+	color : #0D0C0C;
+	color : rgb(13, 12, 12);
+}
+.NormalCharacterStyle2
+{
+	font-family : Copperplate Gothic Bold;
+	font-size : 14pt;
+	color : #422920;
+	color : rgb(66, 41, 32);
+}
+.NormalCharacterStyle14
+{
+	font-family : Copperplate Gothic Light;
+	font-size : 9pt;
+	color : #DBBB5F;
+	color : rgb(219, 187, 95);
+}
+.NormalCharacterStyle13
+{
+	font-family : Copperplate Gothic Light;
+	font-size : 5pt;
+	color : #DBBB5F;
+	color : rgb(219, 187, 95);
+}
+.NormalCharacterStyle12
+{
+	font-family : Copperplate Gothic Light;
+	font-size : 10pt;
+	color : #FFFBF0;
+	color : rgb(255, 251, 240);
+}
+.NormalCharacterStyle11
+{
+	font-family : Copperplate Gothic Light;
+	font-size : 10pt;
+	color : #FFFBF0;
+	color : rgb(255, 251, 240);
+}
+.NormalCharacterStyle10
+{
+	font-family : Copperplate Gothic Light;
+	font-size : 10pt;
+	color : #FFFBF0;
+	color : rgb(255, 251, 240);
+}
+.NormalCharacterStyle9
+{
+	font-family : Copperplate Gothic Bold;
+	font-size : 9pt;
+	color : #FFFBF0;
+	color : rgb(255, 251, 240);
+}
+.NormalCharacterStyle8
+{
+	font-family : Copperplate Gothic Bold;
+	font-size : 9pt;
+	color : #FFFBF0;
+	color : rgb(255, 251, 240);
+}
+.NormalCharacterStyle7
+{
+	font-family : Copperplate Gothic Bold;
+	font-size : 9pt;
+	color : #FFFBF0;
+	color : rgb(255, 251, 240);
+}
+.NormalCharacterStyle5
+{
+	font-family : Copperplate Gothic Bold;
+	font-size : 9pt;
+	color : #FFFBF0;
+	color : rgb(255, 251, 240);
+}
+.NormalCharacterStyle4
+{
+	font-family : Copperplate Gothic Bold;
+	font-size : 9pt;
+	color : #FFFBF0;
+	color : rgb(255, 251, 240);
+}
+.NormalCharacterStyle6
+{
+	font-family : Copperplate Gothic Bold;
+	font-size : 9pt;
+	color : #FFFBF0;
+	color : rgb(255, 251, 240);
+}
+.NormalCharacterStyle3
+{
+	font-family : Copperplate Gothic Bold;
+	font-size : 12pt;
+	color : #828282;
+	color : rgb(130, 130, 130);
+}
