@@ -5,9 +5,9 @@ div#main{
 	display: block;
 	text-align: center;
 	position: relative;
-	border: 2px white dashed;
+
 	width: 100%;
-	height: 750pt;
+	height: 745pt;
 }
 
 div#caption{
@@ -16,10 +16,11 @@ div#caption{
 	position: relative;
 	width :auto;
 	height: auto;
-	border: 2px red dashed;
+
 }
+
 div#caption h1{
-  font-family : Copperplate Gothic Bold;
+  font-family : Copperplate Gothic Bold, Copperplate Gothic Light;
   font-size : 60pt;
   color : #FFFBF0;
   color : rgb(255, 251, 240);
@@ -31,10 +32,10 @@ div#scroll{
 	position: relative;
 	width :auto;
 	height: auto;
-	border: 2px red dashed;
+
 }
 div#scroll h1{
-    font-family : Copperplate Gothic Bold;
+    font-family : Copperplate Gothic Bold, Copperplate Gothic Light;
   font-size : 19pt;
   color : #FFFBF0;
   color : rgb(255, 251, 240);
@@ -48,13 +49,14 @@ div#morestuff{
 	display: block;
 	text-align: center;
 	position: relative;
-	border: 2px white dashed;
+	background: rgba(230,255,230,0.1);
 	width: 100%;
-	height: 650pt;
+	height: 700pt;
 }
 #morestuff div{
 	display: inline-block;
 }
+
 #morestuff ul{
 	 list-style-type: none;
   margin: 0pt;
@@ -67,11 +69,15 @@ div#morestuff ul li{
 }
 
 div#morestuff ul li div{
-	border: 1px black solid;
+
 	margin-right: 5%;
 	width: auto;
 	height: auto;
-	margin-top: 4%;
+	margin-top: 6%;
+	background : #F0C64F;
+	background : rgba(240, 198, 79, 0.7);
+	padding-bottom: 2%;
+	text-align: center;
 }
 div#morestuff ul li div img{
 	width: auto;
@@ -79,7 +85,13 @@ div#morestuff ul li div img{
 	
 }
 
-
+div#morestuff ul li div h5{
+	font-family : Copperplate Gothic Bold, Copperplate Gothic Light;
+	font-size :250%;
+	color : #FFFBF0;
+	color : rgb(255, 251, 240);
+	margin-top: 3%;
+}
 
 div#action{
 	display: inline;
@@ -89,28 +101,31 @@ div#action{
 	width:100%;
 	height: 20%;
 	text-align: center;
-	border: 2px yellow solid;
+	left:0;
 	background : #DBBB5F;
 	background : rgba(219, 187, 95, 0.7);
 }
 div#action div#take{
 	position: relative;
-	top: 30%;
+	margin-top: 3%;
 	width: 30%;
 	height:40%;
-	border: 1px red solid;
+	
 	background : #F0C64F;
 	background : rgb(240, 198, 79);
 
 }
 
+#footer{
+	width: 100%;
+}
 
 div#action div#take a{
 	text-decoration: none;
 }
 div#action div#take h2{
 	margin-top: 5pt;
-	font-family : Copperplate Gothic Bold;
+	font-family : Copperplate Gothic Bold, Copperplate Gothic Light;
 	font-size : 36pt;
 	color : #FFFBF0;
 	color : rgb(255, 251, 240);

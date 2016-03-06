@@ -85,6 +85,7 @@ ul#pages li:hover{
   height : 62pt;
   overflow: hidden;
   padding-bottom:1pt;
+  
 }
 
 #footer div{
@@ -92,19 +93,20 @@ ul#pages li:hover{
 	
 }
 
-div#contacts{
-
-  position : absolute;
-  margin-top: 8pt;
-  margin-left: 10pt;
-  width : 92pt;
-  height : 46pt;
+div#Contacts{
+	display: inline-block;
+  position: static;
+ 
+  margin-top: 6pt;
+  margin-left: 3pt;
+  width : auto;
+  height : auto;
 
 }
   .NormalCharacterStyle1
 {
   font-family : Copperplate Gothic Light;
-  font-size : 10pt;
+  font-size : 12pt;
   color : #DBBB5F;
   color : rgb(219, 187, 95);
 }
@@ -118,10 +120,10 @@ div#contacts{
 
 div.footermenu {
 
-  position : absolute ;
-  float: left;
+  position : static ;
+	
 
-  margin-left: 450pt;
+  margin-left: 28%;
   display: inline-block;
 
   margin-top: 0;
@@ -163,10 +165,10 @@ div#contact_us_form {
 
 
 div#social{
-  display: block;
-  position : absolute;
+  display:	inline-block;
+  position : relative;
   float: right;
-  left: 1300pt;
+  left: 80%pt;
   margin-top: 0pt;
 
   width :130pt;
