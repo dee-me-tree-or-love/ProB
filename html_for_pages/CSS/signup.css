@@ -1,0 +1,68 @@
+*{
+  margin: 0pt;
+  padding: 0pt;
+}
+
+a:visited{
+  text-decoration: none;
+}
+#bg {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+}
+#bg img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
+}
+div#Content{
+  border: 1px red solid;
+  margin-left: 40%;
+  margin-top: 10%;
+  width: 200pt;
+  text-align: center;
+  font-family: Copperplate Gothic Light;
+  position: relative;
+  display: block;
+  color: #FFFBF0;
+  font-weight: bolder;
+}
+div#Content h1{
+  background: #FDEE78;
+  color: #FFFBF0;
+}
+div#WithoutSignUp{
+  border: 1px red solid;
+  background: #FDEE78;
+  opacity: 0.7;
+}
+div#Box{
+  position:relative;
+  height: 68%;
+  display: block;
+
+}
+body{
+  overflow: hidden;
+}
+.btn{
+	font-family : Copperplate Gothic bold;
+	font-size : 11pt;
+	color : #828282;
+	color : rgb(130, 130, 130);
+	background : #F0C64F;
+	background : rgba(240, 198, 79, 0.3);
+	border: none;
+}
+.btn:hover{
+	background : #F0C64F;
+	background : rgba(240, 198, 79, 0.7);
+	border: none;

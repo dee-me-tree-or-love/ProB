@@ -31,3 +31,68 @@ div#BriefArticle p{
   font-family: Copperplate Gothic Light;
   font-size: 90%;
 }
+.main_desc{
+  float:right;
+  margin-top: 15pt;
+  margin-right: 50pt;
+  width: 390pt;
+  height: 120pt;
+  font-family: Copperplate Gothic Light;
+}
+.extra_desc{
+  border: 1px blue solid;
+  padding-top: 15pt;
+  margin-top: -10pt;
+  height: 15pt;
+  overflow: hidden;
+}
+.extra_desc:hover{
+  background: red;
+  height: 100%;
+  overflow: visible;
+}
+.extra_desc#extra_FAIRTRADE{
+  margin-top: 10pt;
+}
+.foundations li{
+  width: 800pt;
+  margin-top: 50pt;
+  margin-left: 100pt;
+  border-bottom: 1px black solid;
+  height: auto;
+}
+li#second{
+  height: 185pt;
+}
+.foundations ul{
+ list-style-type: none;
+}
+li#second{
+  padding-bottom: 20pt;
+  padding-top: 5pt;
+}
+div#Title{
+  background: #FDEE78;
+}
+/*Overview*/
+div#Title3{
+  margin-top: 10pt;
+  margin-bottom: 10pt;
+}
+div.More{
+  padding-bottom: 5pt;
+  width: 35pt;
+  margin-top: 10pt;
+}
+div#More1{
+ margin-top: 28pt;
+}
+div#More3{
+ margin-top: 15pt;
+}
+div#More4{
+ margin-top: 28pt;
+}
+div#More5{
+ margin-top: 15pt;
+}
