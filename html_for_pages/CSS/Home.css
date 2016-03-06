@@ -1,0 +1,119 @@
+
+
+
+div#main{
+	display: block;
+	text-align: center;
+	position: relative;
+	border: 2px white dashed;
+	width: 100%;
+	height: 750pt;
+}
+
+div#caption{
+	display: block;
+	top: 40%;
+	position: relative;
+	width :auto;
+	height: auto;
+	border: 2px red dashed;
+}
+div#caption h1{
+  font-family : Copperplate Gothic Bold;
+  font-size : 60pt;
+  color : #FFFBF0;
+  color : rgb(255, 251, 240);
+}
+
+div#scroll{
+	display: block;
+	top: 80%;
+	position: relative;
+	width :auto;
+	height: auto;
+	border: 2px red dashed;
+}
+div#scroll h1{
+    font-family : Copperplate Gothic Bold;
+  font-size : 19pt;
+  color : #FFFBF0;
+  color : rgb(255, 251, 240);
+  opacity : 0.58;
+  filter: alpha(opacity=58) progid:DXImageTransform.Microsoft.Alpha(opacity=58) ;
+}
+
+
+
+div#morestuff{
+	display: block;
+	text-align: center;
+	position: relative;
+	border: 2px white dashed;
+	width: 100%;
+	height: 650pt;
+}
+#morestuff div{
+	display: inline-block;
+}
+#morestuff ul{
+	 list-style-type: none;
+  margin: 0pt;
+  padding: 0pt;
+}
+
+div#morestuff ul li{
+	display: inline;
+
+}
+
+div#morestuff ul li div{
+	border: 1px black solid;
+	margin-right: 5%;
+	width: auto;
+	height: auto;
+	margin-top: 4%;
+}
+div#morestuff ul li div img{
+	width: auto;
+	height: 250pt;
+	
+}
+
+
+
+div#action{
+	display: inline;
+	position: absolute;
+	margin-top:100%;
+	bottom:0;
+	width:100%;
+	height: 20%;
+	text-align: center;
+	border: 2px yellow solid;
+	background : #DBBB5F;
+	background : rgba(219, 187, 95, 0.7);
+}
+div#action div#take{
+	position: relative;
+	top: 30%;
+	width: 30%;
+	height:40%;
+	border: 1px red solid;
+	background : #F0C64F;
+	background : rgb(240, 198, 79);
+
+}
+
+
+div#action div#take a{
+	text-decoration: none;
+}
+div#action div#take h2{
+	margin-top: 5pt;
+	font-family : Copperplate Gothic Bold;
+	font-size : 36pt;
+	color : #FFFBF0;
+	color : rgb(255, 251, 240);
+}	
+	
+	
