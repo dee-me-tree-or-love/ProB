@@ -2,6 +2,12 @@ div#header{
 position: absolute;
 }
 
+#footer{
+	width:100%;
+}
+#header{
+	width: 100%;
+}
 div#content{
 
 	height: auto;
@@ -30,9 +36,10 @@ div#page_subject h1{
 div#content_env{
 	display: inline-block;
 	position: relative;
-	width: 1000pt;
+	width: 80%;
 	float: left;
-	left: 200pt;
+	margin-left:10%;
+	margin-right:10%;
 
 }
 

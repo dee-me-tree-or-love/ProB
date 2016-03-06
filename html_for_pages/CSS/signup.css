@@ -27,7 +27,7 @@ div#Content{
 
   margin-left: 40%;
   margin-top: 10%;
-  width: 200pt;
+  width: 15%;
   text-align: center;
   font-family: Copperplate Gothic Light;
   position: relative;
@@ -62,9 +62,10 @@ div.form_group input{
 }
 
 div#Box{
+	width:100%;
   position:relative;
-  height: 68%;
-  display: block;
+  height: 100%;
+  display: inline-block;
 
 }
 body{
@@ -102,6 +103,7 @@ div#subscribe p{
 	color : rgb(130, 130, 130);
 }
 #footer{
-	margin-top:45px;
+	width:100%;
+	margin-top:-4.2%;
 	bottom:0;
 }

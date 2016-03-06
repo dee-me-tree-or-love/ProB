@@ -125,12 +125,12 @@ div.footermenu {
   position : static ;
 	
 
-  margin-left: 500px;
+  margin-left: 26%;
   display: inline-block;
 
   margin-top: 0;
-  width : 700px;
-  height : 90px;
+  width : 33%;
+  height : auto;
 }
 
 .footermenu ul{
@@ -149,7 +149,7 @@ div.footermenu h5{
 	font-size : 15pt;
 	color : #FFFBF0;
 	color : rgb(255, 251, 240);
-	margin-top: 23pt;
+
 }
 
 div#account_form_in {
@@ -170,11 +170,11 @@ div#social{
   display:	inline-block;
   position : relative;
   float: right;
-  left: 80%pt;
+
   margin-top: 0pt;
 
-  width :130pt;
-  height : 60pt;
+  width :auto;
+  height : auto;
 }
 
 div#social ul{

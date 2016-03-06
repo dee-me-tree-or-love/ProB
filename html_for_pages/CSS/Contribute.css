@@ -16,18 +16,19 @@ div#content{
 }
 
 div#together{
-	width: 950pt;
+	width: 70%;
 	position: absolute;
 	margin-top: 50pt;
-	margin-left:200pt;
+	margin-left:15%;
+	margin-right:15%;
 	height: auto;
 	text-align: center;
 }
 
 #donate_btn{
 	
-	width: 150pt;
-	height: 25pt;
+	width: 30%;
+	height: auto;
 	
 }
 hr{
@@ -36,12 +37,14 @@ hr{
 }
 .btn{
 	font-family : Copperplate Gothic bold;
-	font-size : 11pt;
+	font-size : 110%;
 	color : #828282;
 	color : rgb(130, 130, 130);
 	background : #F0C64F;
 	background : rgba(240, 198, 79, 0.3);
 	border: none;
+	padding-top:1%;
+	padding-bottom:1%;
 }
 .btn:hover{
 	background : #F0C64F;
@@ -49,15 +52,17 @@ hr{
 	border: none;
 }
 div.recblock{
-	width: 450pt;
+	width: 45%;
 	display: inline-block;
 	top: 0pt;
 	position: relative;
+	margin-left:2.5%;
+	margin-right:2.5%;
 }
 #content h1{
 	
 	border-bottom: 2px #0D0D0D solid;
-	margin-bottom:20pt;
+	margin-bottom:4%;
 }
 
 div#formamount div *{
@@ -77,13 +82,13 @@ div#support form{
 	
 }
 div#support form input{
-	width: 150pt;
-	height: 25pt;
-	margin-top:32%;
+	width: 30%;
+	height: auto;
+	margin-top:31%;
 }
 div#inputs input{
 	width:15%;
-	height: 30pt;
+	height: 15%;
 	margin-right:5%;
 }
 
@@ -92,7 +97,7 @@ div#donate{
 }
 
 div#donate div{
-	margin-bottom: 5pt;
+	margin-bottom: 1%;
 	text-align: center;
 }
 
