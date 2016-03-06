@@ -1,8 +1,106 @@
+body{
+	overflow: hidden
+}
 div#content{
 
-	height: 100%;
+	height:100%;
 	position: relative;
 	top: 25pt;
 	background: #FFFBF0;
 	font-family : Copperplate Gothic Light;
+}
+
+
+#footer{
+	margin-top:-62pt;
+}
+
+div#together{
+	width: 950pt;
+	position: absolute;
+	margin-top: 50pt;
+	margin-left:200pt;
+	height: auto;
+	text-align: center;
+}
+
+#donate_btn{
+	
+	width: 150pt;
+	height: 25pt;
+	
+}
+hr{
+	margin-top:3%;
+	margin-bottom: 3%;
+}
+.btn{
+	font-family : Copperplate Gothic bold;
+	font-size : 11pt;
+	color : #828282;
+	color : rgb(130, 130, 130);
+	background : #F0C64F;
+	background : rgba(240, 198, 79, 0.3);
+	border: none;
+}
+.btn:hover{
+	background : #F0C64F;
+	background : rgba(240, 198, 79, 0.7);
+	border: none;
+}
+div.recblock{
+	width: 450pt;
+	display: inline-block;
+	top: 0pt;
+	position: relative;
+}
+#content h1{
+	
+	border-bottom: 2px #0D0D0D solid;
+	margin-bottom:20pt;
+}
+
+div#formamount div *{
+	display: inline-block;
+}
+
+div#support{
+	float: left;
+	height:100%;
+}
+div#support div#info_body{
+	margin-top:22%;
+}
+
+div#support form{
+	margin-top:20pt;
+	
+}
+div#support form input{
+	width: 150pt;
+	height: 25pt;
+	margin-top:32%;
+}
+div#inputs input{
+	width:15%;
+	height: 30pt;
+	margin-right:5%;
+}
+
+div#donate{
+	float: right;
+}
+
+div#donate div{
+	margin-bottom: 5pt;
+	text-align: center;
+}
+
+.form_group input{
+	background : #F0C64F;
+	background : rgba(240, 198, 79, 1);
+}
+
+h4#tit{
+	margin-bottom:2%;
 }
