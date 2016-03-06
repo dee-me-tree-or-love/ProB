@@ -3,6 +3,7 @@ position: absolute;
 }
 
 div#content{
+
 	height: auto;
 	position: relative;
 	top: 25pt;
@@ -22,7 +23,7 @@ div#page_subject h1{
 	font-size : 20pt;
 	color : #FFFBF0;
 	color : rgb(255, 251, 240);
-
+	margin-left: -20pt;
 	padding-top: 2pt;
 }
 
@@ -52,6 +53,13 @@ div#subjLink div{
 	display: inline-block;
 	position: relative;
 
+	padding-bottom: 1%;
+}
+div#subjLink div:hover{
+	display: inline-block;
+	position: relative;
+	background: #EFC54D;
+	background : rgba(240, 198, 79, 0.5);
 	padding-bottom: 1%;
 }
 div#subjLink a{

@@ -1,0 +1,47 @@
+div#content_env h1{
+	text-align: center;
+	margin-bottom: 15pt;
+	margin-top: 20pt;
+}
+
+div#content_env p{
+	margin-top: 5pt;
+}
+
+div.section div{
+	display: inline-block;
+	width: 40%;
+
+	position: relative;
+}
+
+div#producing{
+	float: left;
+}
+div#imfi{
+	float: right;
+}
+
+div#imso{
+	float: left;
+}
+div#harv{
+	float: right;
+}
+
+div#map{
+	float: left;
+	height: 300pt;
+}
+div#loc{
+	float: right;
+}
+div#map iframe{
+	width: 100%;
+	height: 100%;
+}
+
+div#three{
+	margin-bottom: 30pt;
+	position: relative;
+}

@@ -62,4 +62,6 @@ div#facts ul{
 	padding: 0pt;
 }
 
-
+div#facts ul li{
+	margin-top: 5pt;
+}

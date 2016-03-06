@@ -5,44 +5,58 @@
 	<link rel="stylesheet" type="text/css" href="css\header_and_footer.css">
 </head>
 <body>
-	<!-- Header -->
+		<!-- Header -->
 	<div id="header">
+
 		<div id = "home">
 			<a href="index.html" >
 				ProB
 			</a>
 		</div>
-		<div id = "links">
-			<ul id="menu">
+
+
+
+
+		<div id="menu">
+			<ul id="pages">
 				<li>
 					<a href="about.html" class="header">
-						About
+						<div class="navig">
+							About
+						</div>
 					</a>
 				</li >
 				<li>
 					<a href="foundations.html" class="header">
-						Foundations
+						<div class="navig">
+							Foundations
+						</div>
 					</a>
 				</li>
 				<li>
 					<a href="learnMore.html" class="header">
-						Learn More
+						<div class="navig">
+							Learn More
+						</div>
 					</a>
 				</li>
 				<li>
 					<a href="articles.html" class="header">
-						Articles
+						<div class="navig">
+							Articles
+						</div>
 					</a>
 				</li>
 				<li>
 					<a href="contribute.html" class="header">
-						Contribute
+						<div class="navig">
+							Contribute
+						</div>
 					</a>
 				</li>
 			</ul>
 		</div>
 	</div>
-<hr/>
 
 <!-- Main -->
 
@@ -211,18 +225,18 @@
 
 
 <!-- Footer -->
-<hr/>
-	<div class = "footer">
-		<div id="Contacts">
-			<h5>Project Banana</h5>
-			<p>Rachelsmolen</p>
-			<p>5612 MA</p>
-			<p>Eindhoven</p>
-			<p>Nederland</p>
-		</div>
-		<div id="footermenu">
-			<ul>
-			<li>
+<div id = "footer">
+	<div id="Contacts">
+		<h5 class = "NormalCharacterStyle1">Project Banana</h5>
+		<p class = "NormalCharacterStyle">Rachelsmolen</p>
+		<p class = "NormalCharacterStyle">5612 MA</p>
+		<p class = "NormalCharacterStyle">Eindhoven</p>
+		<p class = "NormalCharacterStyle">Nederland</p>
+	</div>
+	<div class="footermenu">
+		<ul class="footermenu">
+		<li>
+			<div>
 				<h5>ACCOUNT</h5>
 				<!-- SHOWN WHEN THE USER HAS NOT LOGGED IN -->
 				<div id="account_form_in">
@@ -254,9 +268,11 @@
 						<input type="submit" name="sign_out"
 							value="Sign Out" />
 				</div>
-			</li>
+			</div>
+		</li>
 
-			<li>
+		<li>
+			<div>
 				<h5>SHARE WITH A FRIEND</h5>
 				<!-- A FORM SHOWN ON CLICK SENDER'S NAME IS OPTIONAL -->
 				<div id="share_form">
@@ -279,8 +295,10 @@
 						<input type="submit" name="send_to_friend"
 							value="Send" />
 				</div>
-			</li>
-			<li>
+			</div>
+		</li>
+		<li>
+			<div>
 				<h5>CONTACT US</h5>
 
 				<div id="contact_us_form">
@@ -301,38 +319,39 @@
 						<input type="submit" name="send_to_friend"
 							value="Send" />
 				</div>
-			</li>
-			</li>
-		</div>
-		<div id="social">
-			<ul>
-			<li>
-			<!-- FACEBOOK -->
-				<a href="default.html" >
-				<img
-					src="Default\Facebook.png"
-						alt="FACEBOOK LINK">
-				</a>
-			</li>
-			<li>
-			<!-- FACEBOOK -->
-				<a href="default.html" >
-				<img
-					src="Default\Twitter.png"
-						alt="Twitter LINK">
-				</a>
-			</li>
-			<li>
-			<!-- FACEBOOK -->
-				<a href="default.html" >
-				<img
-					src="Default\Google.png"
-						alt="GOOGLE LINK">
-				</a>
-			</li>
-			</li>
-		</div>
+			</div>
+		</li>
+		</li>
 	</div>
+	<div id="social">
+		<ul>
+		<li>
+		<!-- FACEBOOK -->
+			<a href="default.html" >
+			<img
+				src="Default\Facebook.png"
+					alt="FACEBOOK LINK">
+			</a>
+		</li>
+		<li>
+		<!-- FACEBOOK -->
+			<a href="default.html" >
+			<img
+				src="Default\Twitter.png"
+					alt="Twitter LINK">
+			</a>
+		</li>
+		<li>
+		<!-- FACEBOOK -->
+			<a href="default.html" >
+			<img
+				src="Default\Google.png"
+					alt="GOOGLE LINK">
+			</a>
+		</li>
+		</li>
+	</div>
+</div>
 
 </body>
 </html>

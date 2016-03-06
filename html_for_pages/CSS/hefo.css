@@ -5,8 +5,10 @@
 
 
 
-a:visited {
-	text-decoration: none;
+#header a:hover {
+	padding-bottom: 100%;
+	padding-top: 100%;
+	background: #DABA5D;
 }
 
 #header{
@@ -39,6 +41,7 @@ div#home{
 	margin-bottom: 5pt;
 }
 
+
 div#menu{
 	position : relative;
 	float:right;
@@ -63,9 +66,13 @@ div.navig{
 
  ul#pages li {
 	display: inline;
-	padding-right: 20pt;
+	margin-right: 20pt;
 }
-
+ul#pages li:hover{
+	padding-bottom: 100%;
+	padding-top: 100%;
+	background: #DABA5D;
+}
 
 
 #footer{
