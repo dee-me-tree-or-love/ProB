@@ -27,7 +27,7 @@ a:visited {
     font-family : Copperplate Gothic Bold;
 	font-size : 15pt;
 	color : #FFFBF0;
-	
+
 }
 
 div#home{
@@ -52,16 +52,16 @@ ul#pages{
 	list-style-type: none;
 	margin: 0pt;
 	padding: 0pt;
-	
+
 }
 
 div.navig{
 	display: inline-block;
-	
-	
+
+
 }
 
- ul#pages li { 
+ ul#pages li {
 	display: inline;
 	padding-right: 20pt;
 }
@@ -81,7 +81,7 @@ div.navig{
 
 #footer div{
 	display: inline-block;
-	
+
 }
 
 div#contacts{
@@ -91,7 +91,7 @@ div#contacts{
   margin-left: 10pt;
   width : 92pt;
   height : 46pt;
-  
+
 }
   .NormalCharacterStyle1
 {
@@ -107,26 +107,26 @@ div#contacts{
   color : #DBBB5F;
   color : rgb(219, 187, 95);
 }
-  
+
 div.footermenu {
- 
+
   position : absolute ;
   float: left;
-  
+
   margin-left: 35%;
   display: inline-block;
-  
+
   margin-top: 0;
   width : 460pt;
-  height : 62pt;	
-}	
-  
+  height : 62pt;
+}
+
 .footermenu ul{
 	list-style-type: none;
 	margin: 0pt;
 	padding: 0pt;
 }
-ul.footermenu li { 
+ul.footermenu li {
 	display: inline;
 	padding-right: 20pt;
 }
@@ -172,7 +172,7 @@ div#social ul{
 }
 div#social ul li{
 	display: inline;
-	
+
 }
 
 div#social img{
@@ -186,19 +186,19 @@ div#social img{
 
 /*
 #bg {
-  position: fixed; 
-  top: -50%; 
-  left: -50%; 
-  width: 200%; 
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
   height: 200%;
 }
 #bg img {
-  position: absolute; 
-  top: 0; 
-  left: 0; 
-  right: 0; 
-  bottom: 0; 
-  margin: auto; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
   min-width: 50%;
   min-height: 50%;
 }
