@@ -1,4 +1,6 @@
-
+div#page_subject{
+	margin-bottom: 15pt;
+}
 
 
 div#bana{
@@ -19,6 +21,10 @@ div#growingBanana{
 }
 
 
+div#content_env h1{
+	text-align: center;
+	margin-bottom: 10pt;
+}
 
 div#secPart{
 	width: 100%;
@@ -55,4 +61,5 @@ div#facts ul{
 	margin: 0pt;
 	padding: 0pt;
 }
+
 

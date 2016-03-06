@@ -1,7 +1,3 @@
-div{
-	border: 1px green solid;
-}
-
 div#content ul{
 	list-style-type: none;
 	margin: 0pt;
@@ -13,4 +9,49 @@ div#pesticides{
 	float: right;
 	position: relative;
 	width: 40%;
+	height: auto;
 }
+
+div#pesticides p{
+	margin-top: 5pt;
+}
+div#pesticides ul{
+	margin-top: 15pt;
+}
+
+div#content_env h1{
+	text-align: center;
+	margin-bottom: 10pt;
+	margin-top: 10pt;
+}
+
+div#secPart div{
+	width: 40%;
+	display: inline-block;
+}
+
+div#lef{
+	float: left;
+}
+
+div#lef p{
+	margin-bottom: 6pt;
+}
+div#rig{
+	float: right;
+}
+div#secPart h4{
+	margin-bottom: 15pt;
+}
+
+div#rig img{
+	margin-top: 15pt;
+	position: relative;
+	float: right;
+	width: 100%;
+
+}
+div#subjlink{
+	margin-top: 20pt;
+}
+
