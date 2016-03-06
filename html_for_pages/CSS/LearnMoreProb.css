@@ -1,0 +1,16 @@
+div{
+	border: 1px green solid;
+}
+
+div#content ul{
+	list-style-type: none;
+	margin: 0pt;
+	padding: 0pt;
+}
+
+div#pesticides{
+	display: inline-block;
+	float: right;
+	position: relative;
+	width: 40%;
+}

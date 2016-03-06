@@ -1,0 +1,58 @@
+
+
+
+div#bana{
+	float: left;
+	position: relative;
+	left: 10pt;
+	margin-top: 10pt;
+	margin-bottom: 10pt;
+}
+
+div#growingBanana{
+	float: right;
+	position: relative;
+	width: 400pt;
+	height: auto;
+	right: 10pt;
+	margin-top: 50pt;
+}
+
+
+
+div#secPart{
+	width: 100%;
+	position: relative; 
+	clear: both;
+}
+div#origin{
+	float: left;
+	left: 10pt;
+	margin-top: 40pt;
+	margin-bottom: 2ot;
+	position: relative;
+	width: 400pt;
+	height: auto;
+}
+div#map{
+	
+	position: relative;
+	float: right;
+	right: 5pt;
+}
+div#facts{
+	position: relative;
+	width:50%;
+	margin-top: 2%;
+	right: 25%;
+	float: right;
+	text-align: center;
+	margin-bottom: 2%;
+
+}
+div#facts ul{
+	list-style-type: none;
+	margin: 0pt;
+	padding: 0pt;
+}
+
