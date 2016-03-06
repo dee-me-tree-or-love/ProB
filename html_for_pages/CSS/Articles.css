@@ -18,7 +18,7 @@ div#content h1{
 
 div#find_more li{
 	width: 100%;
-	border: 1px black solid;
+	height: auto;
 	margin-bottom: 22pt;
 }
 div#find_more img{
@@ -43,7 +43,10 @@ div#vidtit{
 }
 
 td.rtd{
+
+	text-align: right;
 	float: right;
+	position: relative;
 	font-family : Copperplate Gothic Light;
 	font-size : 11pt;
 	color : #422920;
@@ -118,10 +121,12 @@ div#video_desc{
 }
 
 p#video_anotation{
+
   font-family : Copperplate Gothic Light;
   font-size : 11pt;
   color : #828282;
   color : rgb(130, 130, 130);
+ 
 }
 
 div#section1{
@@ -130,8 +135,11 @@ div#section1{
 	position: relative;
 	margin-left: 300pt;
 	margin-top: 100pt;
+	border-bottom: 1px #0D0D0D solid;
 }
-
+h1.part{
+	border-bottom: 1px #0D0D0D solid;
+}
 
 div#find_more{
 	width: 230pt;
@@ -184,9 +192,9 @@ div.news_overlap div{
 	height:	25pt;
 	overflow: hidden;
 	position:absolute;
-	top: 68%;
+	top: 69%;
 	margin-top: 0pt;
-	padding-bottom: 19pt;
+	padding-bottom: 18pt;
 	background: #EFC54D;
 	background: rgba(239,197,77,0.8)
 }
@@ -195,19 +203,21 @@ div.news_overlap div:hover{
 	top: 15%;
 	height: 120pt;
 	
-	padding-bottom: 0pt;
-	padding-top: -10pt;
+	padding-bottom: 1pt;
+	padding-top: -9pt;
 }
 div.news_overlap p{
 	top: 5%;
 	position: relative;
-	margin-bottom: 30pt;
-	font-size: 80%;
-	font-family : Copperplate Gothic Bold;
+	margin-bottom: 31pt;
+	font-size: 9pt;
+	font-family : Copperplate Gothic Light;
 	text-align: center;
 	color : #FFFBF0;
 	color : rgb(255, 251, 240);
 	opacity: 1;
+	width:95%;
+	left: 2%;
 }
 
 
