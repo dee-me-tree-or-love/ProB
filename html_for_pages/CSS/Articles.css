@@ -1,0 +1,95 @@
+div#content{
+	height: 100%;
+	position: relative;
+	top: 25pt;
+	background: #FFFBF0;
+	font-family : Copperplate Gothic Light;
+}
+
+div{
+	border: 1px green dashed;
+}
+
+div.video{
+	float:left;
+	position: relative;
+	height: auto;
+}
+div.video *{
+	margin-top:20pt;
+	margin-left:0pt;
+}
+div.video img{
+	float: left;
+	position: absolute;
+	z-index:5;
+}
+div.video img:active{
+	display:none;
+	float: left;
+	position: absolute;
+	z-index:3;
+}
+
+div.video iframe{
+	float: left;
+	position: absolute;
+	z-index:4;
+}
+div.video iframe: focus{
+	float: left;
+	position: absolute;
+	z-index:7;
+}
+div#video_desc{
+	float: right;
+	position: relative;
+	width:50%;
+}
+div#section1{
+	width: 800pt;
+}
+
+
+div#find_more{
+	width: 230pt;
+	display: inline-block;
+	float: right;
+	position: relative;
+}
+
+
+div#section1 div{
+	display: inline-block;
+}	
+
+div#menu{
+	clear: both;
+	width:1000pt;
+	height:auto;
+}
+div#menu div{
+	display: inline-block;
+	width:300pt;
+	height:auto;
+}
+
+
+div#content ul{
+	list-style-type: none;
+	margin: 0pt;
+	padding: 0pt;
+}
+ul#news_tiles li{
+	display: inline;
+}
+div#featured {
+	width: 550pt;
+}
+	
+div#featured div{
+	position: relative;
+}
+
+
+
