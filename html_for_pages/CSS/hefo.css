@@ -89,7 +89,7 @@ ul#pages li:hover{
 
 #footer div{
 	display: inline-block;
-
+	
 }
 
 div#contacts{
@@ -121,7 +121,7 @@ div.footermenu {
   position : absolute ;
   float: left;
 
-  margin-left: 35%;
+  margin-left: 450pt;
   display: inline-block;
 
   margin-top: 0;
@@ -166,7 +166,7 @@ div#social{
   display: block;
   position : absolute;
   float: right;
-  right: 0pt;
+  left: 1300pt;
   margin-top: 0pt;
 
   width :130pt;

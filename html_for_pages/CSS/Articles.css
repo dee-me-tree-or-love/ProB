@@ -1,13 +1,79 @@
+#footer{
+	width: 100%;
+}
 div#content{
 	height: 100%;
 	position: relative;
 	top: 25pt;
 	background: #FFFBF0;
 	font-family : Copperplate Gothic Light;
+
+}
+div#content h1{
+	font-family : Copperplate Gothic Bold;
+	font-size : 24pt;
+	color : #422920;
+	color : rgb(66, 41, 32);
 }
 
-div{
-	border: 1px green dashed;
+div#find_more li{
+	width: 100%;
+	border: 1px black solid;
+	margin-bottom: 22pt;
+}
+div#find_more img{
+	width: 100%;
+	height: auto;
+}
+table#video_info{
+	width: 100%;
+	
+	height: auto;
+	margin-bottom: 5pt;
+}
+div#viddet{
+	width: 100%;
+}
+div#vidtext{
+	margin-bottom: 10pt;
+}
+div#vidtit{
+	border-bottom: 2px #0D0D0D dashed;
+	padding-bottom:2pt;
+}
+
+td.rtd{
+	float: right;
+	font-family : Copperplate Gothic Light;
+	font-size : 11pt;
+	color : #422920;
+	color : rgb(66, 41, 32);
+}
+td.rtd div:hover{
+	background : rgba(130, 130, 130,0.4);
+}
+div#youtube_ref{
+	font-family : Copperplate Gothic Light;
+	font-size : 11pt;
+	color : #828282;
+	color : rgb(130, 130, 130);
+	border : 1pt #828282 solid;
+	padding: 2pt;
+	margin-top: -6pt;
+}
+td.ltd{
+	float: left;
+	font-family : Copperplate Gothic Light;
+	font-size : 11pt;
+	color : #422920;
+	color : rgb(66, 41, 32);
+}
+div#featured {
+	width: 550pt;
+}
+	
+div#featured div{
+	position: relative;
 }
 
 div.video{
@@ -16,10 +82,13 @@ div.video{
 	height: auto;
 }
 div.video *{
+	width: 260pt;
+	height: auto;
 	margin-top:20pt;
 	margin-left:0pt;
 }
 div.video img{
+
 	float: left;
 	position: absolute;
 	z-index:5;
@@ -33,6 +102,7 @@ div.video img:active{
 
 div.video iframe{
 	float: left;
+	height: 174pt;
 	position: absolute;
 	z-index:4;
 }
@@ -46,8 +116,20 @@ div#video_desc{
 	position: relative;
 	width:50%;
 }
+
+p#video_anotation{
+  font-family : Copperplate Gothic Light;
+  font-size : 11pt;
+  color : #828282;
+  color : rgb(130, 130, 130);
+}
+
 div#section1{
 	width: 800pt;
+	float: left;
+	position: relative;
+	margin-left: 300pt;
+	margin-top: 100pt;
 }
 
 
@@ -63,16 +145,71 @@ div#section1 div{
 	display: inline-block;
 }	
 
-div#menu{
+div#content hr{
+	
+	margin-bottom:20pt;
+}	
+
+div#morenews{
 	clear: both;
-	width:1000pt;
+	width:800pt;
 	height:auto;
+	clear: both;
+	float: left;
+	position: relative;
+	margin-left: 300pt;
 }
-div#menu div{
+div#morenews div{
 	display: inline-block;
-	width:300pt;
-	height:auto;
+
 }
+
+div.article_tile{
+	width:120pt;
+	height: 120pt;
+}
+div.article_tile img{
+	width:120pt;
+	height: 120pt;
+}
+
+div.news_overlap{
+	
+	overflow: hidden;
+}
+
+div.news_overlap div{
+	display: block;
+	width: 120pt;
+	height:	25pt;
+	overflow: hidden;
+	position:absolute;
+	top: 67%;
+	margin-top: 0pt;
+	padding-bottom: 20pt;
+	background: #EFC54D;
+	background: rgba(239,197,77,0.8)
+}
+
+div.news_overlap div:hover{
+	top: 15%;
+	height: 120pt;
+	
+	padding-bottom: 0pt;
+	padding-top: -10pt;
+}
+div.news_overlap p{
+	top: 5%;
+	position: relative;
+	margin-bottom: 30pt;
+	font-size: 80%;
+	font-family : Copperplate Gothic Bold;
+	text-align: center;
+	color : #FFFBF0;
+	color : rgb(255, 251, 240);
+	opacity: 1;
+}
+
 
 
 div#content ul{
@@ -80,16 +217,23 @@ div#content ul{
 	margin: 0pt;
 	padding: 0pt;
 }
-ul#news_tiles li{
+div#morenews  ul li{
 	display: inline;
+	height: 120pt;
+	margin-right: 15pt;
 }
-div#featured {
-	width: 550pt;
-}
-	
-div#featured div{
+
+div.arrow{
+
+	width: 60pt;
+	height: 120pt;
 	position: relative;
+	top: 0pt;
 }
-
-
+div.arrow img{
+	height: 120pt;
+}
+div#selector{
+	margin-left:7%;
+}
 
