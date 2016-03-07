@@ -94,6 +94,7 @@ div.video *{
 	height: auto;
 	margin-top:20pt;
 	margin-left:0pt;
+	margin-right: 5%;
 	
 }
 div.video img{
@@ -167,12 +168,13 @@ div#content hr{
 
 div#morenews{
 	clear: both;
-	width: 60%;
+	width: 50%;
 	height:auto;
 	clear: both;
 	float: left;
 	position: relative;
-	margin-left: 20%;
+	margin-left: 23%;
+
 }
 div#morenews div{
 	display: inline-block;
@@ -180,35 +182,38 @@ div#morenews div{
 }
 
 div.article_tile{
-	width:120pt;
-	height: 120pt;
+	width:auto;
+	height: auto;
 }
 div.article_tile img{
-	width:120pt;
-	height: 120pt;
+	width:140px;
+	height: auto;
 }
 
 div.news_overlap{
 	
 	overflow: hidden;
+	size: auto;
 }
 
 div.news_overlap div{
-	display: block;
-	width: 120pt;
-	height:	25pt;
+	display: inline-block;
+	width: 140px;
+	height:	30px;
 	overflow: hidden;
 	position:absolute;
-	top: 69%;
+	top: 115px;
 	margin-top: 0pt;
-	padding-bottom: 18pt;
+	margin-left: -144px;
+	padding-bottom: 24px;
 	background: #EFC54D;
 	background: rgba(239,197,77,0.8)
+	
 }
 
 div.news_overlap div:hover{
-	top: 15%;
-	height: 120pt;
+	top: 16%;
+	height: 140px;
 	
 	padding-bottom: 1pt;
 	padding-top: -9pt;
@@ -236,19 +241,20 @@ div#content ul{
 }
 div#morenews  ul li{
 	display: inline;
-	height: 120pt;
-	margin-right: 15pt;
+	height: auto;
+	margin-right: 15px;
 }
 
 div.arrow{
-
-	width: 60pt;
-	height: 120pt;
+	margin-left:0;
+	margin-right:0pt;
+	width: 70px;
+	height: 140px;
 	position: relative;
 	top: 0pt;
 }
 div.arrow img{
-	height: 120pt;
+	height: 140px;
 }
 div#selector{
 	margin-left:7%;

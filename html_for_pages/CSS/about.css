@@ -8,7 +8,7 @@ a:visited{
 }
 .AboutButtons {
 	background-color:#dbbc5f;
-	border:1px solid ;
+
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
@@ -25,12 +25,13 @@ a:visited{
 }
 div#Content{
   background : #FFFBF0;
-  border: 1px red solid;
+
   margin-top: 25pt;
   height: 100%;
 }
 #footer{
-  margin-top: -8%;
+	position: absolute;
+  margin-top:90%;
   width: 100%;
 }
 body{
