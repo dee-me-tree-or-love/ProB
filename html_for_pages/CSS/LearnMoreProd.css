@@ -11,7 +11,7 @@ div#content_env p{
 div.section div{
 	display: inline-block;
 	width: 40%;
-
+	border: 1px green solid;
 	position: relative;
 }
 
@@ -20,10 +20,17 @@ div#producing{
 }
 div#imfi{
 	float: right;
+	width: 40%;
 }
-
+div#imfi img{
+	width:100%;
+}
 div#imso{
 	float: left;
+	width: 40%;
+}
+div#imso img{
+	width:100%;
 }
 div#harv{
 	float: right;
