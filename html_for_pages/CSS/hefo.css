@@ -122,15 +122,15 @@ div#Contacts{
 
 div.footermenu {
 
-  position : static ;
-	
+  position: absolute ;
+  text-align: center;
 
-  margin-left: 26%;
+  left: 33%;
   display: inline-block;
 
-  margin-top: 0;
+  top: 30%;
   width : 33%;
-  height : auto;
+  height : 40%;
 }
 
 .footermenu ul{
@@ -140,16 +140,18 @@ div.footermenu {
 }
 ul.footermenu li {
 	display: inline;
-	padding-right: 20pt;
+	padding-right: 1%;
+	padding-left: 1%;
 }
 
 div.footermenu h5{
-	display: inline-block;
+	position: relative;
+	display: block;
 	font-family : Copperplate Gothic Light;
-	font-size : 15pt;
+	font-size : 130%;
 	color : #FFFBF0;
 	color : rgb(255, 251, 240);
-
+	
 }
 
 div#account_form_in {
