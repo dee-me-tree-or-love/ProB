@@ -113,6 +113,7 @@ div.More{
   width: 100%;
   margin-top: 10pt;
 	  width:4vw;
+  cursor: hand;
 }
 div.More h5{
   background: rgba(240, 198, 79, 0.7);
@@ -163,6 +164,7 @@ div#More5{
 	text-align: center;
 	padding-bottom:1%;
 	font-weight: bold;
+	cursor: hand;
 }
 
 

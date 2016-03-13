@@ -147,6 +147,7 @@ ul.footermenu li {
 	display: inline;
 	padding-right: 1%;
 	padding-left: 1%;
+	cursor: hand;
 }
 
 div.footermenu h5{
