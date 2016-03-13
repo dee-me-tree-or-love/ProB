@@ -25,3 +25,21 @@ function ShowAccountInfo(){
 	document.getElementById("contact_us_form").style.display = "none"
 }
 */
+function HideAccountEnter(){
+	document.getElementById("account_form_in").style.display = "none"
+	document.getElementById("account_form_out").style.display = "none"
+	document.getElementById("share_form").style.display = "none"
+	document.getElementById("contact_us_form").style.display = "none"
+}
+function HideShare(){
+	document.getElementById("account_form_in").style.display = "none"
+	document.getElementById("account_form_out").style.display = "none"
+	document.getElementById("share_form").style.display = "none"
+	document.getElementById("contact_us_form").style.display = "none"
+}
+function HideContactUs(){
+	document.getElementById("account_form_in").style.display = "none"
+	document.getElementById("account_form_out").style.display = "none"
+	document.getElementById("share_form").style.display = "none"
+	document.getElementById("contact_us_form").style.display = "none"
+}

@@ -188,7 +188,9 @@
 
 					<!-- THE ACTION LINK IS JUST FOR AN EXAMPLE... -->
 									<!-- SHOWN WHEN THE USER HAS NOT LOGGED IN -->
-					
+					<div class="closeform" onclick="HideAccountEnter()">
+								<p>X</p>
+							</div>
 				<form action="http://www.example.com/login.php">
 							<p>E-Mail:
 								<input type="text" name="e-mail" size="15"
@@ -206,9 +208,11 @@
 							<input class="bttn" type="submit" name="sign_up"
 								value="Sign Up" />
 							</form>
+							
 					</div>
 		
 		<!-- SHOWN WHEN THE USER HAS LOGGED IN -->
+					
 					<div id="account_form_out">
 							<p>Hello, XXXX</p>
 							<!-- WHERE XXXX IS THE USER'S NAME  -->
@@ -218,8 +222,11 @@
 					
 					
 		<!-- A FORM SHOWN ON CLICK SENDER'S NAME IS OPTIONAL -->
-					<div id="share_form">
+					<div id="share_form" onclick="HideShare()">
 					<!-- THE ACTION LINK IS JUST FOR AN EXAMPLE... -->
+						<div class="closeform">
+								<p>X</p>
+							</div>
 						<form action="http://www.example.com/login.php">
 							<p>Recipient*:
 								<input type="text" name="rec_name" size="15"
@@ -237,6 +244,7 @@
 							</form>
 							<input class="bttn" type="submit" name="send_to_friend"
 								value="Send" />
+							
 					</div>			
 					
 					
@@ -244,6 +252,9 @@
 		<!-- to send us messages -->
 		<div id="contact_us_form">
 				<!-- THE ACTION LINK IS JUST FOR AN EXAMPLE... -->
+					<div class="closeform" onclick="HideContactUs()">
+							<p>X</p>
+						</div>
 					<form action="http://www.example.com/login.php">
 						<p>Sender*:
 							<input type="text" name="rec_name" size="15"
@@ -256,14 +267,14 @@
 						<hr/>
 							<textarea name="comments" cols="20" rows="4"></textarea>
 						</p>
-						</form>
+					</form>
 						<input class="bttn" type="submit" name="send_to_friend"
 							value="Send" />
+						
 				</div>
 
 
 <!--					DIVISION							-->			
-
 		<div class="footermenu">
 			<ul class="footermenu">
 			<li>
@@ -325,6 +336,5 @@
 		</div>
 		</div>
 	</div>
-
 </body>
 </html>

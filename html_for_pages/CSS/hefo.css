@@ -195,11 +195,24 @@ div#account_form_in form{
 	
 
 }
+
 .bttn:hover{
 	background : #F0C64F;
 	background : rgba(240, 198, 79, 0.7);
 	border: none;
 }
+.closeform {
+	width: auto;
+	float: right;
+	font-size: 90%;
+	margin-bottom:1pt;
+	background: rgba(65,41,31, 0.2);
+	color: rgb(230, 230, 230);
+	font-weight: bold;
+	margin-left:2pt;
+	cursor: hand;
+}
+
 div#account_form_in form p{
 	margin-top:3%;
 }
@@ -228,7 +241,7 @@ div#share_form {
 }
 div#share_form p{
 	margin-bottom: 3%;
-	margin-top:3%;
+	margin-top:7%;
 }
 div#contact_us_form {
 		display: none;

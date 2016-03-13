@@ -11,7 +11,7 @@ div#content_env p{
 div.section div{
 	display: inline-block;
 	width: 40%;
-	border: 1px green solid;
+
 	position: relative;
 }
 
