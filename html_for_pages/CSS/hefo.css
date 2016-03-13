@@ -84,12 +84,17 @@ ul#pages li:hover{
   left : 0;
   bottom: 0;
   width : 100%;
-  height : 80px;
-  overflow: hidden;
+  height : 90px;
   padding-bottom:1pt;
+  margin-bottom:-1pt;
   
 }
-
+#noover{
+	position : relative;
+	width : 100%;
+    height : 80px;
+	overflow: hidden;
+}
 #footer div{
 	display: inline-block;
 	
@@ -124,7 +129,7 @@ div.footermenu {
 
   position: absolute ;
   text-align: center;
-
+	z-index: 999998;
   left: 33%;
   display: inline-block;
 
@@ -153,20 +158,92 @@ div.footermenu h5{
 	color : rgb(255, 251, 240);
 	
 }
-
+/* for the account realated popup*/
 div#account_form_in {
 	display: none;
+	margin-top:-150px;
+	background: rgba(240, 198, 79, 0.9);
+	padding-bottom:10px;
+	border:1px #828282 solid;
+	position: absolute;
+	z-index: 999;
+	text-align:center;
+	left:45%;
+}
+div#account_form_in form{
+	margin-bottom:6%;
+	margin-top:3%;
+	width: 90%;
+	margin-left: 5%;
+}
+/* button styling*/
+.bttn{
+
+	font-family : Copperplate Gothic bold;
+	font-size : 85%;
+	color : #828282;
+	color : rgb(130, 130, 130);
+	background : #F0C64F;
+	background :  rgba(255, 251, 240,1);
+	border: none;
+	padding-left:1pt;
+	padding-right:1pt;
+	width:auto;
+	height: 5%;
+	margin-bottom:2%;
+	
+
+}
+.bttn:hover{
+	background : #F0C64F;
+	background : rgba(240, 198, 79, 0.7);
+	border: none;
+}
+div#account_form_in form p{
+	margin-top:3%;
 }
 div#account_form_out {
-	display: none;
-}
-div#share_form {
-	display: none;
-}
-div#contact_us_form {
-	display: none;
+		display: none;
+	margin-top:-150px;
+	background: rgba(240, 198, 79, 0.9);
+	padding-bottom:10px;
+	border:1px #828282 solid;
+	position: absolute;
+	z-index: 997;
+	text-align:center;
+	left:45%;
 }
 
+div#share_form {
+		display: none;
+	margin-top:-110px;
+	background: rgba(240, 198, 79, 0.9);
+	padding-bottom:10px;
+	border:1px #828282 solid;
+	position: absolute;
+	z-index: 996;
+	text-align:center;
+	left:45%;
+}
+div#share_form p{
+	margin-bottom: 3%;
+	margin-top:3%;
+}
+div#contact_us_form {
+		display: none;
+	margin-top:-145px;
+	background: rgba(240, 198, 79, 0.9);
+	padding-bottom:10px;
+	border:1px #828282 solid;
+	position: absolute;
+	z-index: 995;
+	text-align:center;
+	left:45%;
+}
+div#contact_us_form p{
+	margin-bottom: 3%;
+	margin-top:3%;
+}
 
 div#social{
   display:	inline-block;

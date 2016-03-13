@@ -3,6 +3,7 @@ body{
 }
 #footer{
 	width: 100%;
+	
 	position: relative;
 }
 div#content{
@@ -48,7 +49,7 @@ div#vidtit{
 }
 
 td.rtd{
-
+	
 	text-align: right;
 	float: right;
 	position: relative;
@@ -82,49 +83,46 @@ div#featured {
 	
 div#featured div{
 	position: relative;
+	
 }
 
 div.video{
-	float:left;
-	position: relative;
-	height: auto;
-}
-div.video *{
-	width: 260pt;
-	height: auto;
-	margin-top:20pt;
+		margin-top:20pt;
 	margin-left:0pt;
 	margin-right: 5%;
+	display: block;
+	height: auto;
+	position: static;
+}
+div.video *{
+	
+	width: 260pt;
+	height: auto;
+
 	
 }
 div.video img{
+	display:block;
+	
 
-	float: left;
-	position: absolute;
 	z-index:5;
 }
-div.video img:active{
-	display:none;
-	float: left;
-	position: absolute;
-	z-index:3;
-}
+
 
 div.video iframe{
-	float: left;
+	display:none;
 	height: 174pt;
-	position: absolute;
+
 	z-index:4;
 }
-div.video iframe: focus{
-	float: left;
-	position: absolute;
-	z-index:7;
-}
+
 div#video_desc{
+	margin-top: -30%;
+	margin-left:50%;
+	position: static;
+	width:45%;
+	display:block;
 	float: right;
-	position: relative;
-	width:50%;
 }
 
 p#video_anotation{
@@ -169,12 +167,12 @@ div#content hr{
 div#morenews{
 	clear: both;
 	width: 50%;
-	height:auto;
+	height:20%;
 	clear: both;
 	float: left;
 	position: relative;
 	margin-left: 23%;
-
+	
 }
 div#morenews div{
 	display: inline-block;

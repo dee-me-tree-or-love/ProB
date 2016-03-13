@@ -5,7 +5,8 @@
 	<link rel="stylesheet" type="text/css" href="css\hefo.css">
 	<link rel="stylesheet" type="text/css" href="css\foundations.css">
 	<script src="Javascript\foundations.js"></script>
-	
+	<script src="Javascript\hefo.js"></script>
+
 </head>
 <body>
 	<!-- Header -->
@@ -135,7 +136,7 @@
 							organizations.
 						</p>
 						</div>
-						<h5 class = "less">Less</h5>
+						<h5 class = "less" onclick="HideMore1()" >Less</h5>
 						</div>
 					</div>
 				</li>
@@ -164,7 +165,7 @@
 								fair trade system.
 							</p>
 							<!-- How to do this clickable thing? -->
-							<div class="More" id="More2" onclick="Alerted()">
+							<div class="More" id="More2" onclick="DisplayMore2()">
 							<h5>More...</h5>
 							</div>
 						</div>
@@ -200,7 +201,7 @@
 						</div>
 						</div>
 						
-						<h5 class = "less">Less</h5>
+						<h5 class = "less" onclick="HideMore2()">Less</h5>
 						</div>
 					</div>
 				</li>
@@ -228,13 +229,13 @@
 								and to serve the banana producers.
 							</p>
 							<!-- How to do this clickable thing? -->
-							<div class="More" id="More3">
+							<div class="More" id="More3" onclick="DisplayMore3()">
 							<h5>More...</h5>
 						</div>
 					</div>
 					</div>
 				</div>	
-					<div class="extra_desc">
+					<div class="extra_desc" id="ed3">
 						<div class="extracontent" id="CorbExtraDes">
 						<div id="map_embed">
 							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.1219703859338!2d-84.05741968467741!3d9.923798777063285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0e39c42b1e70d%3A0x67b14605fe052b1b!2sCorbana!5e0!3m2!1sen!2snl!4v1456582373097" 
@@ -253,7 +254,7 @@
 						</div>
 
 						
-						<h5 class = "less">Less</h5>
+						<h5 class = "less" onclick="HideMore3()">Less</h5>
 
 					</div>
 				</li>
@@ -279,13 +280,13 @@
 								nourishes people and sustains the planet.
 							</p>
 							<!-- How to do this clickable thing? -->
-							<div class="More" id="More4">
+							<div class="More" id="More4" onclick="DisplayMore4()">
 							<h5>More...</h5>
 						</div>
 					</div>
 					</div>
 				</div>	
-					<div class="extra_desc">
+					<div class="extra_desc" id="ed4">
 					<div class="extracontent" id="BIcontent">
 						<div class="intro" id="BIintrotext">
 						<p>Bioversity International delivers scientific evidence,
@@ -326,7 +327,7 @@
 							</a>
 						</ul>
 						</div>
-						<h5 class = "less">Less</h5>
+						<h5 class = "less" onclick="HideMore4()">Less</h5>
 					</div>
 					</div>
 				</li>
@@ -354,14 +355,14 @@
 								enviromentally sound tropical fruit industries.
 							</p>
 							<!-- How to do this clickable thing? -->
-							<div class="More" id="More5">
+							<div class="More" id="More5" onclick="DisplayMore5()">
 							<h5>More...</h5>
 
 						</div>
 					</div>
 					</div>
 				</div>	
-					<div class="extra_desc">
+					<div class="extra_desc" id="ed5">
 					<div class="extracontent">
 						<div class="intro" id="EBvision">
 						<p>The vision of Euroban is to work towards:
@@ -377,7 +378,7 @@
 							<li>The elimination of enviromental damage caused by tropical fruit industries;</li>
 							<li>Synergy with organizations that share our objectives, whether or not their core activities are in the same or other social, economic or geographical areas as EUROBAN.</li>
 						</ul>
-						<h5 class = "less">Less</h5>
+						<h5 class = "less" onclick="HideMore5()">Less</h5>
 						</div>
 					</div>
 					</div>
@@ -393,23 +394,14 @@
 
 	<!-- Footer -->
 	<div id = "footer">
-		<div id="Contacts">
-			<h5 class = "NormalCharacterStyle1">Project Banana</h5>
-			<p class = "NormalCharacterStyle">Rachelsmolen</p>
-			<p class = "NormalCharacterStyle">5612 MA</p>
-			<p class = "NormalCharacterStyle">Eindhoven</p>
-			<p class = "NormalCharacterStyle">Nederland</p>
-		</div>
-		<div class="footermenu">
-			<ul class="footermenu">
-			<li>
-				<div>
-					<h5>ACCOUNT</h5>
-					<!-- SHOWN WHEN THE USER HAS NOT LOGGED IN -->
-					<div id="account_form_in">
+		
+		<!-- to enter -->
+		<div id="account_form_in">
 
 					<!-- THE ACTION LINK IS JUST FOR AN EXAMPLE... -->
-						<form action="http://www.example.com/login.php">
+									<!-- SHOWN WHEN THE USER HAS NOT LOGGED IN -->
+					
+				<form action="http://www.example.com/login.php">
 							<p>E-Mail:
 								<input type="text" name="e-mail" size="15"
 								maxlength="30" />
@@ -419,29 +411,25 @@
 								maxlength="30" />
 							</p>
 							</form>
-							<input type="submit" name="sign_in"
+							<input class="bttn" type="submit" name="sign_in"
 								value="Sign In" />
 							<!-- A way to make the button act like a link-->
 							<form action="signup.html" method="get">
-							<input type="submit" name="sign_up"
+							<input class="bttn" type="submit" name="sign_up"
 								value="Sign Up" />
 							</form>
 					</div>
-
-					<!-- SHOWN WHEN THE USER HAS LOGGED IN -->
+		
+		<!-- SHOWN WHEN THE USER HAS LOGGED IN -->
 					<div id="account_form_out">
 							<p>Hello, XXXX</p>
 							<!-- WHERE XXXX IS THE USER'S NAME  -->
-							<input type="submit" name="sign_out"
+							<input class="bttn" type="submit" name="sign_out"
 								value="Sign Out" />
 					</div>
-				</div>
-			</li>
-
-			<li>
-				<div>
-					<h5>SHARE WITH A FRIEND</h5>
-					<!-- A FORM SHOWN ON CLICK SENDER'S NAME IS OPTIONAL -->
+					
+					
+		<!-- A FORM SHOWN ON CLICK SENDER'S NAME IS OPTIONAL -->
 					<div id="share_form">
 					<!-- THE ACTION LINK IS JUST FOR AN EXAMPLE... -->
 						<form action="http://www.example.com/login.php">
@@ -459,36 +447,64 @@
 								maxlength="30" />
 							</p>
 							</form>
-							<input type="submit" name="send_to_friend"
+							<input class="bttn" type="submit" name="send_to_friend"
 								value="Send" />
-					</div>
+					</div>			
+					
+					
+					
+		<!-- to send us messages -->
+		<div id="contact_us_form">
+				<!-- THE ACTION LINK IS JUST FOR AN EXAMPLE... -->
+					<form action="http://www.example.com/login.php">
+						<p>Sender*:
+							<input type="text" name="rec_name" size="15"
+							maxlength="30" />
+						</p>
+						<p>E-Mail*:
+							<input type="text" name="e-mail" size="15"
+							maxlength="30" />
+						</p>
+						<hr/>
+							<textarea name="comments" cols="20" rows="4"></textarea>
+						</p>
+						</form>
+						<input class="bttn" type="submit" name="send_to_friend"
+							value="Send" />
+				</div>
+
+
+<!--					DIVISION							-->			
+		<div class="footermenu">
+			<ul class="footermenu">
+			<li>
+				<div>
+					<h5 onclick="ShowAccountEnter()">ACCOUNT</h5>					
+				</div>
+			</li>
+
+			<li>
+				<div>
+					<h5 onclick="ShowShare()">SHARE WITH A FRIEND</h5>
+					
 				</div>
 			</li>
 			<li>
 				<div>
-					<h5>CONTACT US</h5>
+					<h5 onclick="ShowContactUs()">CONTACT US</h5>
 
-					<div id="contact_us_form">
-					<!-- THE ACTION LINK IS JUST FOR AN EXAMPLE... -->
-						<form action="http://www.example.com/login.php">
-							<p>Sender*:
-								<input type="text" name="rec_name" size="15"
-								maxlength="30" />
-							</p>
-							<p>E-Mail*:
-								<input type="text" name="e-mail" size="15"
-								maxlength="30" />
-							</p>
-							<hr/>
-								<textarea name="comments" cols="20" rows="4"></textarea>
-							</p>
-							</form>
-							<input type="submit" name="send_to_friend"
-								value="Send" />
-					</div>
+				
 				</div>
 			</li>
 			</li>
+		</div>
+		<div id="noover">
+		<div id="Contacts">
+			<h5 class = "NormalCharacterStyle1">Project Banana</h5>
+			<p class = "NormalCharacterStyle">Rachelsmolen</p>
+			<p class = "NormalCharacterStyle">5612 MA</p>
+			<p class = "NormalCharacterStyle">Eindhoven</p>
+			<p class = "NormalCharacterStyle">Nederland</p>
 		</div>
 		<div id="social">
 			<ul>
@@ -517,6 +533,7 @@
 				</a>
 			</li>
 			</li>
+		</div>
 		</div>
 	</div>
 

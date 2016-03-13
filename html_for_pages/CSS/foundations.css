@@ -73,29 +73,35 @@ div#BriefArticle p{
   display: block;
   position: static;
 }
+.main_desc p{
+	font-size: 90%;
+}
 .main_desc h5{
-	font-size: 0.8vw;
+	font-size: 80%;
 }
 .main_desc h3{
-	font-size: 1vw;
+	font-size: 100%;
 }
 .extra_desc{
-	background: rgb(240, 198, 79);
-	opacity: 0;
-  height: auto;
+	background: rgba(240, 198, 79,0);
+	
+  height: 0.2%;
   position:static;
   padding-top: 2%;
   margin-top:2%;
   height: 0.2%;
   overflow: hidden;
 }
+/* Replaced by js function
 .extra_desc:hover{
   background: rgba(240, 198, 79, 0.7);
   height: auto;
   overflow: visible;
 }
+*/
 div#Title{
   background: #FDEE78;
+  font-size: 100%;
 }
 /*Overview*/
 div#Title3{
@@ -155,7 +161,10 @@ div#More5{
 	width: 100%;
 	margin-top: 4vh;
 	text-align: center;
+	padding-bottom:1%;
+	font-weight: bold;
 }
+
 
 /*For the fair trade section*/
 #FTtext{
