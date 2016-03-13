@@ -21,12 +21,17 @@ div#Buttons {
 }
 div#Buttons {
 	background-color:#dbbc5f;
+  margin-left: 315pt;
 }
 div#Content{
   background : #FFFBF0;
-
+  border: 1px black solid;
   margin-top: 25pt;
   height: 100%;
+  margin-left: 250pt;
+  margin-right: 250pt;
+  text-align: center;
+  margin-top: 70pt;
 }
 #footer{
 	position: absolute;
