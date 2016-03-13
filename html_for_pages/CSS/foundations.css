@@ -67,7 +67,7 @@ div#BriefArticle p{
 }
 /*top part*/
 .picPlusDesc{
-  border: 1px green dashed;
+
   width: 100%;
   height: auto;
   display: block;
@@ -80,13 +80,16 @@ div#BriefArticle p{
 	font-size: 1vw;
 }
 .extra_desc{
+	background: rgb(240, 198, 79);
+	opacity: 0;
+  height: auto;
   position:static;
   padding-top: 2%;
-
+  margin-top:2%;
   height: 0.2%;
   overflow: hidden;
 }
-.extra_desc/*:hover*/{
+.extra_desc:hover{
   background: rgba(240, 198, 79, 0.7);
   height: auto;
   overflow: visible;
@@ -101,8 +104,13 @@ div#Title3{
 }
 div.More{
   padding-bottom: 5pt;
-  width: 35pt;
+  width: 100%;
   margin-top: 10pt;
+	  width:4vw;
+}
+div.More h5{
+  background: rgba(240, 198, 79, 0.7);
+  width:4vw;
 }
 div#More1{
  margin-top: 28pt;
@@ -186,14 +194,66 @@ div#More5{
 }
 
 
-#CorbExtraDes{
-	
+.extracontent{
+	width:80%;
+	margin-left:10%;
+}
+
+#map_embed{
+	margin-top:4%;
+	width: 40%;
+	height: 20%;
+	display: inline-block;
+	position: relative;
+}
+#map_embed iframe{
+	height:100%;
+	width: 100%;
+}
+
+#corbextratext{
+	width: 50%;
+	position:inline-block;
+	float: right;
+	left: 50%;
+	margin-top: 10%;
 }
 
 
+.intro{
+	margin-bottom: 2vh;
+	text-align: center;
+}
 
+#publications_heading{
+	text-align: center;
+	color: #828282;
+}
+#publications li{
+	margin-top: 1vh;
+	border: none;
+}
+.publ{
+	margin-top: 1px;
+	color: #828282;
+}
 
+#EBvision{
+	font-size: 100%;
+}
+#EBmislist{
+	text-align: center;
+}
+#EBmission{
+	 list-style-type: circle;
 
+}
+#EBmission li{
+	border: none;
+	font-size: 105%;
+	font-style: italic;
+	margin-top: 3%;
+}
 
 
 

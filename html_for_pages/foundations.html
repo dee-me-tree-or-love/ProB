@@ -4,6 +4,8 @@
 	<title>Foundations</title>
 	<link rel="stylesheet" type="text/css" href="css\hefo.css">
 	<link rel="stylesheet" type="text/css" href="css\foundations.css">
+	<script src="Javascript\foundations.js"></script>
+	
 </head>
 <body>
 	<!-- Header -->
@@ -104,14 +106,14 @@
 								facing the banana industry.
 							</p>
 							<!-- How to do this? -->
-							<div class="More" id="More1">
-							<h5>More</h5>
-						</div>
+							<div  class="More" id="More1" >
+							<h5 onclick="DisplayMore1()">More...</h5>	
+					</div>
 
 						</div>
 					</div>
 				</div>
-					<div class="extra_desc">
+					<div class="extra_desc" id="ed1">
 						<div id="WBFmore">
 						<div>
 						<p>The mission of the World Banana Forum is to:</p>
@@ -162,9 +164,8 @@
 								fair trade system.
 							</p>
 							<!-- How to do this clickable thing? -->
-							<div class="More" id="More2">
-							<h5>More</h5>
-
+							<div class="More" id="More2" onclick="Alerted()">
+							<h5>More...</h5>
 							</div>
 						</div>
 					</div>
@@ -228,17 +229,18 @@
 							</p>
 							<!-- How to do this clickable thing? -->
 							<div class="More" id="More3">
-							<h5>More</h5>
-
+							<h5>More...</h5>
 						</div>
 					</div>
 					</div>
 				</div>	
 					<div class="extra_desc">
-						<div id="CorbExtraDes">
+						<div class="extracontent" id="CorbExtraDes">
 						<div id="map_embed">
-							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.1219703859338!2d-84.05741968467741!3d9.923798777063285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0e39c42b1e70d%3A0x67b14605fe052b1b!2sCorbana!5e0!3m2!1sen!2snl!4v1456582373097" width="300" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.1219703859338!2d-84.05741968467741!3d9.923798777063285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0e39c42b1e70d%3A0x67b14605fe052b1b!2sCorbana!5e0!3m2!1sen!2snl!4v1456582373097" 
+							 frameborder="0" style="border:0" allowfullscreen></iframe>
 						</div>
+						<div id="corbextratext">
 						<p>This institution develops research programs
 						aimed at strengthening the quality of banana farming,
 						provides state-of-the-art technology to producers,
@@ -247,7 +249,7 @@
 						Costa Rican Caribbean,
 						among other commitments to improve the industry.
 						</p>
-
+						</div>
 						</div>
 
 						
@@ -278,14 +280,14 @@
 							</p>
 							<!-- How to do this clickable thing? -->
 							<div class="More" id="More4">
-							<h5>More</h5>
-
+							<h5>More...</h5>
 						</div>
 					</div>
 					</div>
 				</div>	
 					<div class="extra_desc">
-						<div>
+					<div class="extracontent" id="BIcontent">
+						<div class="intro" id="BIintrotext">
 						<p>Bioversity International delivers scientific evidence,
 						management practices and policy options to use and safeguard
 						agricultural and tree biodiversity to attain sustainable global
@@ -298,6 +300,7 @@
 						</p>
 
 						</div>
+						<div id = "BIlist">
 						<p id ="publications_heading">Recent Publications:</p>
 						<ul id = "publications">
 							<li>
@@ -308,7 +311,7 @@
 								</a>
 							</p>
 
-								<p>Publication Year: 2015</p>
+								<p class="publ">Publication Year: 2015</p>
 							</li>
 
 							<li>
@@ -318,12 +321,13 @@
 								</a>
 							</p>
 
-								<p>Publication Year: 2015</p>
+								<p class="publ">Publication Year: 2015</p>
 							</li>
 							</a>
 						</ul>
+						</div>
 						<h5 class = "less">Less</h5>
-
+					</div>
 					</div>
 				</li>
 
@@ -351,28 +355,31 @@
 							</p>
 							<!-- How to do this clickable thing? -->
 							<div class="More" id="More5">
-							<h5>More</h5>
+							<h5>More...</h5>
 
 						</div>
 					</div>
 					</div>
 				</div>	
 					<div class="extra_desc">
-						<div>
-						<p>: The vision of Euroban is to work towards:
+					<div class="extracontent">
+						<div class="intro" id="EBvision">
+						<p>The vision of Euroban is to work towards:
 						</p>
-						<hr/>
+						
 						</div>
-						<ul id = "mission">
+						<div id="EBmislist">
+						<ul id = "EBmission">
 							<li>Full respect for social, human and labour rights throughout tropical fruit supply chains;</li>
-							<li>Full respect for women‘s rights throughout tropical fruit supply chains;</li>
+							<li>Full respect for women's rights throughout tropical fruit supply chains;</li>
 							<li>Secure livelihoods for and female and male workers and female and male small- scale producers;</li>
 							<li>Fair commercial conditions for producers in tropical fruit industries with an overall sustainable distribution of income along value chains;</li>
 							<li>The elimination of enviromental damage caused by tropical fruit industries;</li>
 							<li>Synergy with organizations that share our objectives, whether or not their core activities are in the same or other social, economic or geographical areas as EUROBAN.</li>
 						</ul>
 						<h5 class = "less">Less</h5>
-
+						</div>
+					</div>
 					</div>
 				</li>
 
