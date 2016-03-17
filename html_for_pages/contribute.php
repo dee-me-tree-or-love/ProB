@@ -5,7 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="css\hefo.css">
 	<link rel="stylesheet" type="text/css" href="css\contribute.css">
 		<script src="Javascript\hefo.js"></script>
-
+		<script src="Javascript\contribute.js"></script>
 </head>
 <body>
 		<!-- Header -->
@@ -79,10 +79,10 @@
 		<h1>Donate</h1>
 		<div id="keke">
 		<div id="inputs">
-			<input type="button" name="contribute_amount" value="5"  class="btn"/>
-			<input type="button" name="contribute_amount" value="25" class="btn"/>
-			<input type="button" name="contribute_amount" value="50" class="btn"/>
-			<input type="button" name="contribute_amount" value="Other" class="btn"/>
+			<input type="button" name="contribute_amount" value="5"  class="btn amount" onclick="SetAmount()"/>
+			<input type="button" name="contribute_amount" value="25" class="btn amount" onclick="SetAmount()"/>
+			<input type="button" name="contribute_amount" value="50" class="btn amount" onclick="SetAmount()"/>
+			<input type="button" name="contribute_amount" value="Other" class="btn other"/>
 		</div>
 		<div id="formamount">
 					<h4 id="tit">Amount:</h4>
