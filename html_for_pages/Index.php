@@ -8,13 +8,14 @@
 	<link rel="stylesheet" type="text/css" href="css\Home.css">
 	<link rel="stylesheet" type="text/css" href="css\hefo.css">
 		<script src="Javascript\hefo.js"></script>
+	<link rel="icon" href="ImgContent\Default\favicon.ico">	
 </head>
 <body>
 <!-- Background -->
 
 	<div id = "bg">
 		<img id="background" 
-				src="home\Background.jpg" 
+				src="ImgContent\home\Background.jpg" 
 						alt="">
 	
 	</div>
@@ -79,7 +80,7 @@
 		<div id="caption">
 			<!--
 			<img id="background" 
-				src="home\Background.jpg" 
+				src="ImgContent\home\Background.jpg" 
 						alt="Background picture">
 			-->
 			<h1>Let's make it fair.</h1>			
@@ -87,7 +88,7 @@
 		<div id="scroll">
 			<!--
 			<img id="background" 
-				src="home\Background.jpg" 
+				src="ImgContent\home\Background.jpg" 
 						alt="Background picture">
 			-->
 			<h1>Scroll down to find more</h1>			
@@ -100,7 +101,7 @@
 			<a href="foundations.html" >	
 			<div class="optlink">
 				<img 
-					src="home\WBF.jpg" 
+					src="ImgContent\home\WBF.jpg" 
 						alt="WBF Pic">
 				<h5>WBF</h5>
 			</div>
@@ -110,7 +111,7 @@
 			<a href="learnMoreProduction.html" >	
 			<div class="optlink">
 				<img 
-					src="home\
+					src="ImgContent\home\
 						FairBananaFarmer.jpg" 
 						alt="Production Pic">
 				<h5>Production</h5>
@@ -125,7 +126,7 @@
 				about.html" >	
 			<div class="optlink">
 				<img 
-					src="home\
+					src="ImgContent\home\
 						girl1.jpg" 
 						alt="WBF Pic">
 				<h5>Our Mission</h5>
@@ -277,7 +278,7 @@
 			<!-- FACEBOOK -->
 				<a href="default.html" >
 				<img
-					src="Default\Facebook.png"
+					src="ImgContent\Default\Facebook.png"
 						alt="FACEBOOK LINK">
 				</a>
 			</li>
@@ -285,7 +286,7 @@
 			<!-- FACEBOOK -->
 				<a href="default.html" >
 				<img
-					src="Default\Twitter.png"
+					src="ImgContent\Default\Twitter.png"
 						alt="Twitter LINK">
 				</a>
 			</li>
@@ -293,7 +294,7 @@
 			<!-- FACEBOOK -->
 				<a href="default.html" >
 				<img
-					src="Default\Google.png"
+					src="ImgContent\Default\Google.png"
 						alt="GOOGLE LINK">
 				</a>
 			</li>
