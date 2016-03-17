@@ -65,7 +65,7 @@
 <!-- Main -->
 
 	<div class="main">
-	<img src="foundations\womanblur.png"
+	<img src="ImgContent\foundations\womanblur.png"
 						alt="Background"
 						id="banner">
 		<div id="BriefArticle">
@@ -89,7 +89,7 @@
 					<!-- Link to the WBF website -->
 
 					<a href="http://www.fao.org/economic/worldbananaforum/wbf-aboutus/en/#.VtGfZPkrKHs">
-					<img src="foundations\WBF.png"
+					<img src="ImgContent\foundations\WBF.png"
 						alt="WBF" style="width:220px;height:220px;">
 					<a/>
 
@@ -145,7 +145,7 @@
 				<div class="picPlusDesc">
 					<!-- Link to the WBF website -->
 					<a href="http://www.fairtrade.net/">
-					<img src="foundations\FairTrade.png"
+					<img src="ImgContent\foundations\FairTrade.png"
 						alt="FairTradeLogo" style="width:220px;height:220px;">
 					<a/>
 					<div class="main_desc">
@@ -210,7 +210,7 @@
 				<div class="picPlusDesc">
 					<!-- Link to the WBF website -->
 					<a href="https://www.corbana.co.cr/">
-					<img src="foundations\Corbana2.jpg"
+					<img src="ImgContent\foundations\Corbana2.jpg"
 						alt="CORBANA" style="width:220px;height:220px;">
 					<a/>
 					<div class="main_desc">
@@ -263,7 +263,7 @@
 				<div class="picPlusDesc">
 					<!-- Link to the WBF website -->
 					<a href="http://www.bioversityinternational.org/">
-					<img src="foundations\Bioversity.png"
+					<img src="ImgContent\foundations\Bioversity.png"
 						alt="BIOVERSITY INTERNATIONAL" style="width:220px;height:220px;">
 					<a/>
 					<div class="main_desc">
@@ -337,7 +337,7 @@
 				<div class="picPlusDesc">
 					<!-- Link to the WBF website -->
 					<a href="http://www.bananalink.org.uk/sites/default/files/EUROBAN%20mission%20statement%202014.pdf">
-					<img src="foundations\Euroban.jpg"
+					<img src="ImgContent\foundations\Euroban.jpg"
 						alt="EUROBAN" style="width:220px;height:220px;">
 					<a/>
 					<div class="main_desc">
