@@ -5,7 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="css\hefo.css">
 	<link rel="stylesheet" type="text/css" href="css\contribute.css">
 		<script src="Javascript\hefo.js"></script>
-		
+
 </head>
 <body>
 		<!-- Header -->
@@ -66,14 +66,14 @@
 	<div id="together">
 	<div class="recblock" id="Support">
 		<h1>Support Project Banana</h1>
-		
-		<div id = "info_body">	
+
+		<div id = "info_body">
 		<p>Your contribution will help the Project Banana spread the knowledge about the fair and sustainable banana trades and the importance of implementing solutions together. Your donation is an act of solidarity that will make a real impact on the ground. </p>
 							<form action="signup.html" method="get">
 							<input type="submit" name="Register"
 								value="Register" class="btn"/>
 							</form>		</div>
-	</div>				
+	</div>
 
 	<div class="recblock" id="Donate">
 		<h1>Donate</h1>
@@ -92,9 +92,9 @@
 					<h4>EUR</h4>
 					</div>
 		</div>
-		
+
 		<hr/>
-		
+
 		<div class="form-group">
 					<label for="first_name">First Name</label>
 					<input autofocus="autofocus" class="form-control" required="required" type="text" name="first_name" id="first_name" />
@@ -129,16 +129,16 @@
 					<input autofocus="autofocus" class="form-control" required="required" type="month" name="month" id="month" />
 				</div>
 		<hr>
-		
-		<input type="submit" name="DONATE" value="DONATE" class="btn" id="donate_btn"/>		
-		
+
+		<input type="submit" name="DONATE" value="DONATE" class="btn" id="donate_btn"/>
+
 		</div>
-	</div>	
+	</div>
 	</div>
 </div>
 <!-- Footer -->
 	<div id = "footer">
-		
+
 		<!-- to enter -->
 		<div id="account_form_in">
 
@@ -164,19 +164,19 @@
 							<input class="bttn" type="submit" name="sign_up"
 								value="Sign Up" />
 							</form>
-							
+
 					</div>
-		
+
 		<!-- SHOWN WHEN THE USER HAS LOGGED IN -->
-					
+
 					<div id="account_form_out">
 							<p>Hello, XXXX</p>
 							<!-- WHERE XXXX IS THE USER'S NAME  -->
 							<input class="bttn" type="submit" name="sign_out"
 								value="Sign Out" />
 					</div>
-					
-					
+
+
 		<!-- A FORM SHOWN ON CLICK SENDER'S NAME IS OPTIONAL -->
 					<div id="share_form" >
 					<!-- THE ACTION LINK IS JUST FOR AN EXAMPLE... -->
@@ -200,11 +200,11 @@
 							</form>
 							<input class="bttn" type="submit" name="send_to_friend"
 								value="Send" />
-							
-					</div>			
-					
-					
-					
+
+					</div>
+
+
+
 		<!-- to send us messages -->
 		<div id="contact_us_form">
 				<!-- THE ACTION LINK IS JUST FOR AN EXAMPLE... -->
@@ -226,30 +226,30 @@
 					</form>
 						<input class="bttn" type="submit" name="send_to_friend"
 							value="Send" />
-						
+
 				</div>
 
 
-<!--					DIVISION							-->			
+<!--					DIVISION							-->
 		<div class="footermenu">
 			<ul class="footermenu">
 			<li>
 				<div>
-					<h5 onclick="ShowAccountEnter()">ACCOUNT</h5>					
+					<h5 onclick="ShowAccountEnter()">ACCOUNT</h5>
 				</div>
 			</li>
 
 			<li>
 				<div>
 					<h5 onclick="ShowShare()">SHARE WITH A FRIEND</h5>
-					
+
 				</div>
 			</li>
 			<li>
 				<div>
 					<h5 onclick="ShowContactUs()">CONTACT US</h5>
 
-				
+
 				</div>
 			</li>
 			</li>
@@ -268,7 +268,7 @@
 			<!-- FACEBOOK -->
 				<a href="default.html" >
 				<img
-					src="Default\Facebook.png"
+					src="ImgContent\Default\Facebook.png"
 						alt="FACEBOOK LINK">
 				</a>
 			</li>
@@ -276,7 +276,7 @@
 			<!-- FACEBOOK -->
 				<a href="default.html" >
 				<img
-					src="Default\Twitter.png"
+					src="ImgContent\Default\Twitter.png"
 						alt="Twitter LINK">
 				</a>
 			</li>
@@ -284,7 +284,7 @@
 			<!-- FACEBOOK -->
 				<a href="default.html" >
 				<img
-					src="Default\Google.png"
+					src="ImgContent\Default\Google.png"
 						alt="GOOGLE LINK">
 				</a>
 			</li>

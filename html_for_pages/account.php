@@ -129,11 +129,11 @@
             <input autofocus="autofocus" class="form-control" required="required" type="month" name="month" id="month" />
           </div>
 <p>
-<input type="submit" name="DONATE" value="DONATE" />   
+<input type="submit" name="DONATE" value="DONATE" />
 </p>
 <!-- Footer -->
 	<div id = "footer">
-		
+
 		<!-- to enter -->
 		<div id="account_form_in">
 
@@ -159,19 +159,19 @@
 							<input class="bttn" type="submit" name="sign_up"
 								value="Sign Up" />
 							</form>
-							
+
 					</div>
-		
+
 		<!-- SHOWN WHEN THE USER HAS LOGGED IN -->
-					
+
 					<div id="account_form_out">
 							<p>Hello, XXXX</p>
 							<!-- WHERE XXXX IS THE USER'S NAME  -->
 							<input class="bttn" type="submit" name="sign_out"
 								value="Sign Out" />
 					</div>
-					
-					
+
+
 		<!-- A FORM SHOWN ON CLICK SENDER'S NAME IS OPTIONAL -->
 					<div id="share_form" onclick="HideShare()">
 					<!-- THE ACTION LINK IS JUST FOR AN EXAMPLE... -->
@@ -195,11 +195,11 @@
 							</form>
 							<input class="bttn" type="submit" name="send_to_friend"
 								value="Send" />
-							
-					</div>			
-					
-					
-					
+
+					</div>
+
+
+
 		<!-- to send us messages -->
 		<div id="contact_us_form">
 				<!-- THE ACTION LINK IS JUST FOR AN EXAMPLE... -->
@@ -221,30 +221,30 @@
 					</form>
 						<input class="bttn" type="submit" name="send_to_friend"
 							value="Send" />
-						
+
 				</div>
 
 
-<!--					DIVISION							-->			
+<!--					DIVISION							-->
 		<div class="footermenu">
 			<ul class="footermenu">
 			<li>
 				<div>
-					<h5 onclick="ShowAccountEnter()">ACCOUNT</h5>					
+					<h5 onclick="ShowAccountEnter()">ACCOUNT</h5>
 				</div>
 			</li>
 
 			<li>
 				<div>
 					<h5 onclick="ShowShare()">SHARE WITH A FRIEND</h5>
-					
+
 				</div>
 			</li>
 			<li>
 				<div>
 					<h5 onclick="ShowContactUs()">CONTACT US</h5>
 
-				
+
 				</div>
 			</li>
 			</li>
@@ -263,7 +263,7 @@
 			<!-- FACEBOOK -->
 				<a href="default.html" >
 				<img
-					src="Default\Facebook.png"
+					src="ImgContent\Default\Facebook.png"
 						alt="FACEBOOK LINK">
 				</a>
 			</li>
@@ -271,7 +271,7 @@
 			<!-- FACEBOOK -->
 				<a href="default.html" >
 				<img
-					src="Default\Twitter.png"
+					src="ImgContent\Default\Twitter.png"
 						alt="Twitter LINK">
 				</a>
 			</li>
@@ -279,7 +279,7 @@
 			<!-- FACEBOOK -->
 				<a href="default.html" >
 				<img
-					src="Default\Google.png"
+					src="ImgContent\Default\Google.png"
 						alt="GOOGLE LINK">
 				</a>
 			</li>

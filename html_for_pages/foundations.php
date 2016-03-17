@@ -87,12 +87,12 @@
 				<li id = "first">
 				<div class="picPlusDesc">
 					<!-- Link to the WBF website -->
-					
+
 					<a href="http://www.fao.org/economic/worldbananaforum/wbf-aboutus/en/#.VtGfZPkrKHs">
 					<img src="foundations\WBF.png"
 						alt="WBF" style="width:220px;height:220px;">
 					<a/>
-					
+
 					<div class="main_desc">
 						<div id="Title">
 						<h1>WORLD BANANA FORUM</h1>
@@ -108,7 +108,7 @@
 							</p>
 							<!-- How to do this? -->
 							<div  class="More" id="More1" >
-							<h5 onclick="DisplayMore1()">More...</h5>	
+							<h5 onclick="DisplayMore1()">More...</h5>
 					</div>
 
 						</div>
@@ -118,7 +118,7 @@
 						<div id="WBFmore">
 						<div>
 						<p>The mission of the World Banana Forum is to:</p>
-						
+
 						<ul id = "mission">
 							<li>Inspire collaboration between stakeholders
 							that produces pragmatic outcomes for the betterment
@@ -170,7 +170,7 @@
 							</div>
 						</div>
 					</div>
-				</div>	
+				</div>
 					<div class="extra_desc" id="extra_FAIRTRADE">
 						<div id="FTmore">
 						<div id="FTtext">
@@ -190,7 +190,7 @@
 							<li id="FTvidTit">"A visit with Fairtrade banana farmers in Peru"
 								<br>Wednesday, April 15, 2015
 								<br>from <a href="https://vimeo.com/fairtradeinternational">Fairtrade International</a> on <a href="https://vimeo.com">Vimeo</a>.
-								
+
 							</li>
 							<li>
 								Fairtrade Deutschland visits the banana farmers of ACPROBOQUEA, a Fairtrade
@@ -200,7 +200,7 @@
 						</ul>
 						</div>
 						</div>
-						
+
 						<h5 class = "less" onclick="HideMore2()">Less</h5>
 						</div>
 					</div>
@@ -234,11 +234,11 @@
 						</div>
 					</div>
 					</div>
-				</div>	
+				</div>
 					<div class="extra_desc" id="ed3">
 						<div class="extracontent" id="CorbExtraDes">
 						<div id="map_embed">
-							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.1219703859338!2d-84.05741968467741!3d9.923798777063285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0e39c42b1e70d%3A0x67b14605fe052b1b!2sCorbana!5e0!3m2!1sen!2snl!4v1456582373097" 
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.1219703859338!2d-84.05741968467741!3d9.923798777063285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0e39c42b1e70d%3A0x67b14605fe052b1b!2sCorbana!5e0!3m2!1sen!2snl!4v1456582373097"
 							 frameborder="0" style="border:0" allowfullscreen></iframe>
 						</div>
 						<div id="corbextratext">
@@ -253,7 +253,7 @@
 						</div>
 						</div>
 
-						
+
 						<h5 class = "less" onclick="HideMore3()">Less</h5>
 
 					</div>
@@ -285,7 +285,7 @@
 						</div>
 					</div>
 					</div>
-				</div>	
+				</div>
 					<div class="extra_desc" id="ed4">
 					<div class="extracontent" id="BIcontent">
 						<div class="intro" id="BIintrotext">
@@ -361,13 +361,13 @@
 						</div>
 					</div>
 					</div>
-				</div>	
+				</div>
 					<div class="extra_desc" id="ed5">
 					<div class="extracontent">
 						<div class="intro" id="EBvision">
 						<p>The vision of Euroban is to work towards:
 						</p>
-						
+
 						</div>
 						<div id="EBmislist">
 						<ul id = "EBmission">
@@ -394,7 +394,7 @@
 
 	<!-- Footer -->
 	<div id = "footer">
-		
+
 		<!-- to enter -->
 		<div id="account_form_in">
 
@@ -420,19 +420,19 @@
 							<input class="bttn" type="submit" name="sign_up"
 								value="Sign Up" />
 							</form>
-							
+
 					</div>
-		
+
 		<!-- SHOWN WHEN THE USER HAS LOGGED IN -->
-					
+
 					<div id="account_form_out">
 							<p>Hello, XXXX</p>
 							<!-- WHERE XXXX IS THE USER'S NAME  -->
 							<input class="bttn" type="submit" name="sign_out"
 								value="Sign Out" />
 					</div>
-					
-					
+
+
 		<!-- A FORM SHOWN ON CLICK SENDER'S NAME IS OPTIONAL -->
 					<div id="share_form">
 					<!-- THE ACTION LINK IS JUST FOR AN EXAMPLE... -->
@@ -456,11 +456,11 @@
 							</form>
 							<input class="bttn" type="submit" name="send_to_friend"
 								value="Send" />
-							
-					</div>			
-					
-					
-					
+
+					</div>
+
+
+
 		<!-- to send us messages -->
 		<div id="contact_us_form">
 				<!-- THE ACTION LINK IS JUST FOR AN EXAMPLE... -->
@@ -482,30 +482,30 @@
 					</form>
 						<input class="bttn" type="submit" name="send_to_friend"
 							value="Send" />
-						
+
 				</div>
 
 
-<!--					DIVISION							-->			
+<!--					DIVISION							-->
 		<div class="footermenu">
 			<ul class="footermenu">
 			<li>
 				<div>
-					<h5 onclick="ShowAccountEnter()">ACCOUNT</h5>					
+					<h5 onclick="ShowAccountEnter()">ACCOUNT</h5>
 				</div>
 			</li>
 
 			<li>
 				<div>
 					<h5 onclick="ShowShare()">SHARE WITH A FRIEND</h5>
-					
+
 				</div>
 			</li>
 			<li>
 				<div>
 					<h5 onclick="ShowContactUs()">CONTACT US</h5>
 
-				
+
 				</div>
 			</li>
 			</li>
@@ -524,7 +524,7 @@
 			<!-- FACEBOOK -->
 				<a href="default.html" >
 				<img
-					src="Default\Facebook.png"
+					src="ImgContent\Default\Facebook.png"
 						alt="FACEBOOK LINK">
 				</a>
 			</li>
@@ -532,7 +532,7 @@
 			<!-- FACEBOOK -->
 				<a href="default.html" >
 				<img
-					src="Default\Twitter.png"
+					src="ImgContent\Default\Twitter.png"
 						alt="Twitter LINK">
 				</a>
 			</li>
@@ -540,7 +540,7 @@
 			<!-- FACEBOOK -->
 				<a href="default.html" >
 				<img
-					src="Default\Google.png"
+					src="ImgContent\Default\Google.png"
 						alt="GOOGLE LINK">
 				</a>
 			</li>

@@ -6,9 +6,9 @@
 	<link rel="stylesheet" type="text/css" href="css\articles.css">
 		<script src="Javascript\articles.js"></script>
 		<script src="Javascript\hefo.js"></script>
-	
-	
-	
+
+
+
 </head>
 <body>
 		<!-- Header -->
@@ -72,7 +72,7 @@
 			<hr/>
 			<div class="video" id = "video_wrapper" onclick="CloseImage()">
 				<img id="thumb" src="articles\TheRealPrice.png" width="300" height="200">
-			
+
 				<iframe id="yv" width="300" height="200" src="https://www.youtube.com/embed/o9-KQepO3t8"
 					frameborder="0" allowfullscreen></iframe>
 			</div>
@@ -115,7 +115,7 @@
 				</div>
 			</div>
 		</div>
-	
+
 		<div id = "find_more">
 			<h1 class="part">Find More</h1>
 			<hr/>
@@ -168,7 +168,7 @@
 								<p>Fyffes accused of disrespecting
 									plantation workers' rights
 								</p>
-							
+
 								<p>
 									http://www.theguardian.com/business/2016/feb/11/fyffes-accused-disrespecting-workers-rights
 								</p>
@@ -187,7 +187,7 @@
 							<div id="Two">
 								<p>Peeling Back the Truth on Bananas
 								</p>
-							
+
 								<p>
 									http://www.foodispower.org/bananas/
 								</p>
@@ -206,7 +206,7 @@
 							<div id="Three">
 								<p>Watching the Fruit Fall
 								</p>
-							
+
 								<p>
 									https://nacla.org/photo-essay/watching-fruit-fall
 								</p>
@@ -225,7 +225,7 @@
 							<div id="Four">
 								<p>Bye, bye, bananas
 								</p>
-							
+
 								<p>
 									https://www.washingtonpost.com/news/wonk/wp/2015/12/04/the-worlds-most-popular-banana-could-go-extinct/
 								</p>
@@ -246,7 +246,7 @@
 
 <!-- Footer -->
 	<div id = "footer">
-		
+
 		<!-- to enter -->
 		<div id="account_form_in">
 
@@ -272,19 +272,19 @@
 							<input class="bttn" type="submit" name="sign_up"
 								value="Sign Up" />
 							</form>
-							
+
 					</div>
-		
+
 		<!-- SHOWN WHEN THE USER HAS LOGGED IN -->
-					
+
 					<div id="account_form_out">
 							<p>Hello, XXXX</p>
 							<!-- WHERE XXXX IS THE USER'S NAME  -->
 							<input class="bttn" type="submit" name="sign_out"
 								value="Sign Out" />
 					</div>
-					
-					
+
+
 		<!-- A FORM SHOWN ON CLICK SENDER'S NAME IS OPTIONAL -->
 					<div id="share_form">
 					<!-- THE ACTION LINK IS JUST FOR AN EXAMPLE... -->
@@ -308,11 +308,11 @@
 							</form>
 							<input class="bttn" type="submit" name="send_to_friend"
 								value="Send" />
-							
-					</div>			
-					
-					
-					
+
+					</div>
+
+
+
 		<!-- to send us messages -->
 		<div id="contact_us_form">
 				<!-- THE ACTION LINK IS JUST FOR AN EXAMPLE... -->
@@ -334,30 +334,30 @@
 					</form>
 						<input class="bttn" type="submit" name="send_to_friend"
 							value="Send" />
-						
+
 				</div>
 
 
-<!--					DIVISION							-->			
+<!--					DIVISION							-->
 		<div class="footermenu">
 			<ul class="footermenu">
 			<li>
 				<div>
-					<h5 onclick="ShowAccountEnter()">ACCOUNT</h5>					
+					<h5 onclick="ShowAccountEnter()">ACCOUNT</h5>
 				</div>
 			</li>
 
 			<li>
 				<div>
 					<h5 onclick="ShowShare()">SHARE WITH A FRIEND</h5>
-					
+
 				</div>
 			</li>
 			<li>
 				<div>
 					<h5 onclick="ShowContactUs()">CONTACT US</h5>
 
-				
+
 				</div>
 			</li>
 			</li>
@@ -376,7 +376,7 @@
 			<!-- FACEBOOK -->
 				<a href="default.html" >
 				<img
-					src="Default\Facebook.png"
+					src="ImgContent\Default\Facebook.png"
 						alt="FACEBOOK LINK">
 				</a>
 			</li>
@@ -384,7 +384,7 @@
 			<!-- FACEBOOK -->
 				<a href="default.html" >
 				<img
-					src="Default\Twitter.png"
+					src="ImgContent\Default\Twitter.png"
 						alt="Twitter LINK">
 				</a>
 			</li>
@@ -392,7 +392,7 @@
 			<!-- FACEBOOK -->
 				<a href="default.html" >
 				<img
-					src="Default\Google.png"
+					src="ImgContent\Default\Google.png"
 						alt="GOOGLE LINK">
 				</a>
 			</li>
