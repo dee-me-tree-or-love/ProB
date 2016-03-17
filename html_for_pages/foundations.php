@@ -13,7 +13,7 @@
 	<div id="header">
 
 		<div id = "home">
-			<a href="index.html" >
+			<a href="index.php" >
 				ProB
 			</a>
 		</div>
@@ -24,35 +24,35 @@
 		<div id="menu">
 			<ul id="pages">
 				<li>
-					<a href="about.html" class="header">
+					<a href="about.php" class="header">
 						<div class="navig">
 							About
 						</div>
 					</a>
 				</li >
 				<li>
-					<a href="foundations.html" class="header">
+					<a href="foundations.php" class="header">
 						<div class="navig">
 							Foundations
 						</div>
 					</a>
 				</li>
 				<li>
-					<a href="learnMore.html" class="header">
+					<a href="learnMore.php" class="header">
 						<div class="navig">
 							Learn More
 						</div>
 					</a>
 				</li>
 				<li>
-					<a href="articles.html" class="header">
+					<a href="articles.php" class="header">
 						<div class="navig">
 							Articles
 						</div>
 					</a>
 				</li>
 				<li>
-					<a href="contribute.html" class="header">
+					<a href="contribute.php" class="header">
 						<div class="navig">
 							Contribute
 						</div>
@@ -416,7 +416,7 @@
 							<input class="bttn" type="submit" name="sign_in"
 								value="Sign In" />
 							<!-- A way to make the button act like a link-->
-							<form action="signup.html" method="get">
+							<form action="signup.php" method="get">
 							<input class="bttn" type="submit" name="sign_up"
 								value="Sign Up" />
 							</form>
@@ -522,7 +522,7 @@
 			<ul>
 			<li>
 			<!-- FACEBOOK -->
-				<a href="default.html" >
+				<a href="default.php" >
 				<img
 					src="ImgContent\Default\Facebook.png"
 						alt="FACEBOOK LINK">
@@ -530,7 +530,7 @@
 			</li>
 			<li>
 			<!-- FACEBOOK -->
-				<a href="default.html" >
+				<a href="default.php" >
 				<img
 					src="ImgContent\Default\Twitter.png"
 						alt="Twitter LINK">
@@ -538,7 +538,7 @@
 			</li>
 			<li>
 			<!-- FACEBOOK -->
-				<a href="default.html" >
+				<a href="default.php" >
 				<img
 					src="ImgContent\Default\Google.png"
 						alt="GOOGLE LINK">
