@@ -1,56 +1,54 @@
 <DOCTYPE! html>
 
 <head>
-	<title>Problems</title>
+	<title>Production</title>
 	<link rel="stylesheet" type="text/css" href="css\hefo.css">
 		<link rel="stylesheet" type="text/css" href="css\learnMoreTempl.css">
-		<link rel="stylesheet" type="text/css" href="css\learnMoreProb.css">
+		<link rel="stylesheet" type="text/css" href="css\learnMoreProd.css">
 			<script src="Javascript\hefo.js"></script>
 <body>
 	<!-- Header -->
 	<div id="header">
-
 		<div id = "home">
-			<a href="index.html" >
+			<a href="index.php" >
 				ProB
 			</a>
 		</div>
 
 
 
-
 		<div id="menu">
 			<ul id="pages">
 				<li>
-					<a href="about.html" class="header">
+					<a href="about.php" class="header">
 						<div class="navig">
 							About
 						</div>
 					</a>
 				</li >
 				<li>
-					<a href="foundations.html" class="header">
+					<a href="foundations.php" class="header">
 						<div class="navig">
 							Foundations
 						</div>
 					</a>
 				</li>
 				<li>
-					<a href="learnMore.html" class="header">
+					<a href="learnMore.php" class="header">
 						<div class="navig">
 							Learn More
 						</div>
 					</a>
 				</li>
 				<li>
-					<a href="articles.html" class="header">
+					<a href="articles.php" class="header">
 						<div class="navig">
 							Articles
 						</div>
 					</a>
 				</li>
 				<li>
-					<a href="contribute.html" class="header">
+					<a href="contribute.php" class="header">
 						<div class="navig">
 							Contribute
 						</div>
@@ -65,102 +63,121 @@
 <!-- Main -->
 <div id="content">
 <div id= "page_subject">
-	<h1>Problems</h1>
+	<h1>Production</h1>
 </div>
 
 	<div id="content_env">
-		<h1>Enviromental problems:</h1>
-		<img src="learnmore\pests.jpg" alt="pesticides">
-		<div id="pesticides">
+		<div class="section">
+			<h1>Growth</h1>
+			<div id="imfi">
+				<img src="ImgContent\learnmore\fieldwork.jpg" alt="working in the field" width="500">
+			</div>
+			<div id="producing">
+				<p>
+				The banana is a perennial plant that replaces itself. 
+				Bananas do not grow from a seed but from a bulb or rhizome. 
+				The time between planting a banana plant and the harvest of the banana bunch 
+				is from 9 to 12 months. The flower appears in the sixth or 
+				seventh month. Bananas are available throughout the year - 
+				they do not have a growing 'season'.
+				</p>
+				<p>
+				Bananas are grown in tropical regions. They require moist soil with 
+				good drainage. In fact, most bananas exported are grown within 30 
+				degrees either side of the equator
+				</p>
+				<p>
+				Plantations are predominant in Latin America and they require huge investment in 
+				infrastructure and technology for transport, 
+				irrigation, drainage and packing facilities.
+				</p>
+			</div>
+		</div>
+		<div class="section">
+		<h1>Harvesting and ripening</h1>
+			<div id="imso">
+				<img src="ImgContent\learnmore\sorting.jpg" alt="sorting" width="500">
+			</div>
+			<div id="harv">
+				<p>
+				After nine months, the bananas are harvested while still green.
+				At the packhouse they are inspected and sorted for export. 
+				Buyers of fruit in the UK want unbruised bananas and so very high 
+				standards are set. If 
+				the bananas do not meet these standards they are usually sold locally 
+				at a much lower price.
+				</p>
+				<p>
+				They are then transported to ports to be packed in refrigerated 
+				ships called reefers (bananas take between six and twelve days to 
+				get to the UK/Europe).
+				</p>
+				<p>
+				Humidity, ventilation and temperature conditions are carefully 
+				monitored in order to maintain quality. <br/>When the bananas arrive 
+				at their destination port they are first sent to ripening rooms 
+				(aprocess involving ethylene gas) and then sent to the shops. 
+				</p>
+				<p>
+				Dessert banana production for export (around 15 million tonnes per year) 
+				is of huge economic importance for many countries in the South. It relies on 
+				intensive monocultures, which are sustained by using massive quantities of 
+				toxic chemicals which are hazardous to both workers and the environment. This 
+				industrial-scale production also results in problematic waste management issues.
+				</p>
+			</div>
+		</div>
 		
-		<p>Most bananas exported to Europe are grown on large-scale 
-		plantations in Latin America, and increasingly, in Africa. 
-		Banana plantations are monocultures - where only one type of 
-		crop is grown. 97% of internationally traded bananas come from 
-		one single variety, the Cavendish. This lack of genetic variety
-		makes plants highly susceptible to pests, fungi and diseases and 
-		therefore large quantities of insecticides and other pesticides are 
-		applied to the crops.
+		<div class="section" id="three">
+			<h1>Where Bananas are grown</h1>
+		<div id="loc">
+		<p>
+		Bananas are grown in countries of the tropics - Africa, 
+		Latin America, Caribbean, Pacific etc. Many countries produce 
+		bananas as a staple food and only around 20% of all bananas that 
+		are produced are actually exported. 
 		</p>
 		<p>
-		As the pests and diseases adapt, ever stronger, more harmful 
-		pesticides need to be applied. In several countries plantation 
-		owners spend more money on agrochemicals than on their workforce. 
-		Fertilisers and pesticides pollute water channels resulting in fish 
-		kills and the destruction of other aquatic life including coral reefs. 
-		Carelessly stored chemicals seep into the soil and water courses.
+		Most bananas sold on the British market are exported from Latin 
+		America, and increasingly West Africa, as companies relocate in 
+		search of ever 'cheaper' fruit, pursuing a 'Race to the Bottom' 
+		in terms of social and environmental standards
 		</p>
-		<ul>
-			<h3>Key environmental problems include:</h3> 
-			<li>contamination of water courses </li>
-			<li>massive levels of waste </li>
-			<li>soil erosion</li>
-			<li>increased risk of flooding</li>
-			<li>deforestation and destruction of habitats</li>
-			<li>destruction of soil fertility resulting in high fertiliser use.</li>
-		</ul>
+		<p>
+		Humidity, ventilation and temperature conditions are carefully 
+		monitored in order to maintain quality. <br/>When the bananas arrive 
+		at their destination port they are first sent to ripening rooms 
+		(aprocess involving ethylene gas) and then sent to the shops. 
+		</p>
+		<p>
+		Dessert banana production for export (around 15 million tonnes per year) 
+		is of huge economic importance for many countries in the South. It relies on 
+		intensive monocultures, which are sustained by using massive quantities of 
+		toxic chemicals which are hazardous to both workers and the environment. This 
+		industrial-scale production also results in problematic waste management issues.
+		</p>
 		</div>
-	
-		<div id="secPart">
-			<h1>Social problems:</h1>
-			<div id="lef">
-			<ul>
-				<li><h4>Working conditions:</h4></li>
-				<p>
-				Pressure along the supply chain to keep prices low is primarily 
-				felt by the hundreds of thousands of workers who toil long hours 
-				in tropical conditions to look after and harvest the bananas we 
-				consume. They often fail to earn enough to feed their families properly. 
-				</p>
-				<p>
-				As has happened throughout our global economy, a significant proportion 
-				of plantation labour has been outsourced to sub-contractors with companies 
-				keen to distance themselves from any responsibility for employment 
-				conditions and reduce costs. It is also much harder for sub-contracted 
-				workers to organise into trade unions.
-				</p>
-				<li><h4>Health and Safety:</h4></li>			
-				<p>
-				The health and safety of workers is compromised by routine exposure to toxic agrochemicals and a lack of appropriate safety equipment. Field work is very physically demanding, especially in tropical conditions. In packhouses repetitive actions cause strains and injuries. Robust independent trade unions are vital to educate workers about health and safety at work and ensure that national legislation as well as private standards are observed.
-				</p>
-				<li><h4>Trade union freedom:</h4></li>
-				<p>Trade union membership is low in some exporting countries due to the 
-				widespread use of a range of anti-union tactics by national and 
-				multinational banana companies. 
-				</p>
-				<p>
-				In Guatemala banana workers face 
-				some of the worst conditions and trade union activists face violence 
-				and even assassination. In Costa Rica the banana companies use non-union 
-				committees and the 'Solidarismo' movement to prevent independent trade unions from forming or from gaining members. These committees sign so-called 'settlements' covering wages and conditons that the industry presents to the outside world as collective bargaining, but in which the workers have had no real say. 
-				</p>
-				
-			</ul>
-			</div>
-				<div id="rig">
-				<h4>Who earns what from field to supermarket?</h4></li>
-				<p>
-				These diagrams illustrate how the value from the sale of bananas can be distributed along the supply chain.
-				</p>
-				<img src ="learnMore\bananachart.jpg" alt="banana chart">
-				</div>
+		<div id="map">
+			<iframe src="https://www.google.com/maps/d/embed?mid=zzIhm6B1xmxU.kjCzjGFLWklQ" width="640" height="480"></iframe>
+		</div>
 		</div>
 	</div>
+	
 	<div id="subjlink">
 	<div id = "left">
-	<a href = "learnmoreYellowFruit.html">
+		<a href = "learnmoreYellowFruit.php">
 		<h1>Yellow Fruit</h1>
-	</a>
+		</a>
 	</div>
 	<div id ="right">
-	<a href = "learnmoreProduction.html">
-		<h1>Production</h1>
-	</a>
+		<a href = "learnmoreProblems.php">
+		<h1>Problems</h1>
+		</a>
 	</div>
 	</div>
+	
+
 </div>
-
-
 
 
 <!-- Footer -->
@@ -187,7 +204,7 @@
 							<input class="bttn" type="submit" name="sign_in"
 								value="Sign In" />
 							<!-- A way to make the button act like a link-->
-							<form action="signup.html" method="get">
+							<form action="signup.php" method="get">
 							<input class="bttn" type="submit" name="sign_up"
 								value="Sign Up" />
 							</form>
@@ -293,25 +310,25 @@
 			<ul>
 			<li>
 			<!-- FACEBOOK -->
-				<a href="default.html" >
+				<a href="default.php" >
 				<img
-					src="Default\Facebook.png"
+					src="ImgContent\Default\Facebook.png"
 						alt="FACEBOOK LINK">
 				</a>
 			</li>
 			<li>
 			<!-- FACEBOOK -->
-				<a href="default.html" >
+				<a href="default.php" >
 				<img
-					src="Default\Twitter.png"
+					src="ImgContent\Default\Twitter.png"
 						alt="Twitter LINK">
 				</a>
 			</li>
 			<li>
 			<!-- FACEBOOK -->
-				<a href="default.html" >
+				<a href="default.php" >
 				<img
-					src="Default\Google.png"
+					src="ImgContent\Default\Google.png"
 						alt="GOOGLE LINK">
 				</a>
 			</li>
@@ -319,6 +336,5 @@
 		</div>
 		</div>
 	</div>
-
 </body>
 </html>

@@ -11,7 +11,7 @@
 	<div id="header">
 
 		<div id = "home">
-			<a href="index.html" >
+			<a href="index.php" >
 				ProB
 			</a>
 		</div>
@@ -22,35 +22,35 @@
 		<div id="menu">
 			<ul id="pages">
 				<li>
-					<a href="about.html" class="header">
+					<a href="about.php" class="header">
 						<div class="navig">
 							About
 						</div>
 					</a>
 				</li >
 				<li>
-					<a href="foundations.html" class="header">
+					<a href="foundations.php" class="header">
 						<div class="navig">
 							Foundations
 						</div>
 					</a>
 				</li>
 				<li>
-					<a href="learnMore.html" class="header">
+					<a href="learnMore.php" class="header">
 						<div class="navig">
 							Learn More
 						</div>
 					</a>
 				</li>
 				<li>
-					<a href="articles.html" class="header">
+					<a href="articles.php" class="header">
 						<div class="navig">
 							Articles
 						</div>
 					</a>
 				</li>
 				<li>
-					<a href="contribute.html" class="header">
+					<a href="contribute.php" class="header">
 						<div class="navig">
 							Contribute
 						</div>
@@ -65,8 +65,8 @@
 	
 		
 			<div class = "cont" id="left">
-				<img src = "learnmore\yellow.jpg" width= "340pt", height= "538pt" >
-				<a href = "learnmoreYellowFruit.html">
+				<img src = "ImgContent\learnmore\yellow.jpg" width= "340pt", height= "538pt" >
+				<a href = "learnmoreYellowFruit.php">
 					<div class ="text">
 						<h1 class="caption">YELLOW FRUIT</h1>
 					</div>
@@ -75,8 +75,8 @@
 	
 		
 			<div class = "cont" id="mid">
-				<img src = "learnmore\production.jpg">
-				<a href = "learnmoreProduction.html">
+				<img src = "ImgContent\learnmore\production.jpg">
+				<a href = "learnmoreProduction.php">
 					<div class ="text"  id = "middle">
 						<h1 class="caption">PRODUCTION</h1>
 					</div>
@@ -85,8 +85,8 @@
 	
 		
 			<div class = "cont" id="right">
-				<img src = "learnmore\problems.jpg"width= "340pt", height= "538pt">
-				<a href = "learnmoreProblems.html">
+				<img src = "ImgContent\learnmore\problems.jpg"width= "340pt", height= "538pt">
+				<a href = "learnmoreProblems.php">
 					<div class ="text">
 						<h1 class="caption">PROBLEMS</h1>
 					</div>
@@ -124,7 +124,7 @@
 							<input class="bttn" type="submit" name="sign_in"
 								value="Sign In" />
 							<!-- A way to make the button act like a link-->
-							<form action="signup.html" method="get">
+							<form action="signup.php" method="get">
 							<input class="bttn" type="submit" name="sign_up"
 								value="Sign Up" />
 							</form>
@@ -230,25 +230,25 @@
 			<ul>
 			<li>
 			<!-- FACEBOOK -->
-				<a href="default.html" >
+				<a href="default.php" >
 				<img
-					src="Default\Facebook.png"
+					src="ImgContent\default\Facebook.png"
 						alt="FACEBOOK LINK">
 				</a>
 			</li>
 			<li>
 			<!-- FACEBOOK -->
-				<a href="default.html" >
+				<a href="default.php" >
 				<img
-					src="Default\Twitter.png"
+					src="ImgContent\default\Twitter.png"
 						alt="Twitter LINK">
 				</a>
 			</li>
 			<li>
 			<!-- FACEBOOK -->
-				<a href="default.html" >
+				<a href="default.php" >
 				<img
-					src="Default\Google.png"
+					src="ImgContent\default\Google.png"
 						alt="GOOGLE LINK">
 				</a>
 			</li>

@@ -1,54 +1,56 @@
 <DOCTYPE! html>
 
 <head>
-	<title>Production</title>
+	<title>Yellow Fruit</title>
 	<link rel="stylesheet" type="text/css" href="css\hefo.css">
 		<link rel="stylesheet" type="text/css" href="css\learnMoreTempl.css">
-		<link rel="stylesheet" type="text/css" href="css\learnMoreProd.css">
-			<script src="Javascript\hefo.js"></script>
+	<link rel="stylesheet" type="text/css" href="css\learnMoreYel.css">
+		<script src="Javascript\hefo.js"></script>
 <body>
 	<!-- Header -->
 	<div id="header">
+
 		<div id = "home">
-			<a href="index.html" >
+			<a href="index.php" >
 				ProB
 			</a>
 		</div>
 
 
 
+
 		<div id="menu">
 			<ul id="pages">
 				<li>
-					<a href="about.html" class="header">
+					<a href="about.php" class="header">
 						<div class="navig">
 							About
 						</div>
 					</a>
 				</li >
 				<li>
-					<a href="foundations.html" class="header">
+					<a href="foundations.php" class="header">
 						<div class="navig">
 							Foundations
 						</div>
 					</a>
 				</li>
 				<li>
-					<a href="learnMore.html" class="header">
+					<a href="learnMore.php" class="header">
 						<div class="navig">
 							Learn More
 						</div>
 					</a>
 				</li>
 				<li>
-					<a href="articles.html" class="header">
+					<a href="articles.php" class="header">
 						<div class="navig">
 							Articles
 						</div>
 					</a>
 				</li>
 				<li>
-					<a href="contribute.html" class="header">
+					<a href="contribute.php" class="header">
 						<div class="navig">
 							Contribute
 						</div>
@@ -58,126 +60,84 @@
 		</div>
 	</div>
 
-
-
 <!-- Main -->
 <div id="content">
 <div id= "page_subject">
-	<h1>Production</h1>
+	<h1>Yellow Fruit</h1>
 </div>
 
 	<div id="content_env">
-		<div class="section">
-			<h1>Growth</h1>
-			<div id="imfi">
-				<img src="learnmore\fieldwork.jpg" alt="working in the field" width="500">
-			</div>
-			<div id="producing">
-				<p>
-				The banana is a perennial plant that replaces itself. 
-				Bananas do not grow from a seed but from a bulb or rhizome. 
-				The time between planting a banana plant and the harvest of the banana bunch 
-				is from 9 to 12 months. The flower appears in the sixth or 
-				seventh month. Bananas are available throughout the year - 
-				they do not have a growing 'season'.
-				</p>
-				<p>
-				Bananas are grown in tropical regions. They require moist soil with 
-				good drainage. In fact, most bananas exported are grown within 30 
-				degrees either side of the equator
-				</p>
-				<p>
-				Plantations are predominant in Latin America and they require huge investment in 
-				infrastructure and technology for transport, 
-				irrigation, drainage and packing facilities.
-				</p>
-			</div>
+		<h1>Banana</h1>
+		<div id="bana">
+		<img src="ImgContent\learnmore\bananagrowing.jpg" alt="pesticides" width="500">
 		</div>
-		<div class="section">
-		<h1>Harvesting and ripening</h1>
-			<div id="imso">
-				<img src="learnmore\sorting.jpg" alt="sorting" width="500">
-			</div>
-			<div id="harv">
-				<p>
-				After nine months, the bananas are harvested while still green.
-				At the packhouse they are inspected and sorted for export. 
-				Buyers of fruit in the UK want unbruised bananas and so very high 
-				standards are set. If 
-				the bananas do not meet these standards they are usually sold locally 
-				at a much lower price.
-				</p>
-				<p>
-				They are then transported to ports to be packed in refrigerated 
-				ships called reefers (bananas take between six and twelve days to 
-				get to the UK/Europe).
-				</p>
-				<p>
-				Humidity, ventilation and temperature conditions are carefully 
-				monitored in order to maintain quality. <br/>When the bananas arrive 
-				at their destination port they are first sent to ripening rooms 
-				(aprocess involving ethylene gas) and then sent to the shops. 
-				</p>
-				<p>
-				Dessert banana production for export (around 15 million tonnes per year) 
-				is of huge economic importance for many countries in the South. It relies on 
-				intensive monocultures, which are sustained by using massive quantities of 
-				toxic chemicals which are hazardous to both workers and the environment. This 
-				industrial-scale production also results in problematic waste management issues.
-				</p>
-			</div>
-		</div>
+		<div id="growingBanana">
 		
-		<div class="section" id="three">
-			<h1>Where Bananas are grown</h1>
-		<div id="loc">
-		<p>
-		Bananas are grown in countries of the tropics - Africa, 
-		Latin America, Caribbean, Pacific etc. Many countries produce 
-		bananas as a staple food and only around 20% of all bananas that 
-		are produced are actually exported. 
-		</p>
-		<p>
-		Most bananas sold on the British market are exported from Latin 
-		America, and increasingly West Africa, as companies relocate in 
-		search of ever 'cheaper' fruit, pursuing a 'Race to the Bottom' 
-		in terms of social and environmental standards
-		</p>
-		<p>
-		Humidity, ventilation and temperature conditions are carefully 
-		monitored in order to maintain quality. <br/>When the bananas arrive 
-		at their destination port they are first sent to ripening rooms 
-		(aprocess involving ethylene gas) and then sent to the shops. 
-		</p>
-		<p>
-		Dessert banana production for export (around 15 million tonnes per year) 
-		is of huge economic importance for many countries in the South. It relies on 
-		intensive monocultures, which are sustained by using massive quantities of 
-		toxic chemicals which are hazardous to both workers and the environment. This 
-		industrial-scale production also results in problematic waste management issues.
-		</p>
+			<p>
+			Bananas are the most popular fruit in the world. The banana is, 
+			in fact, not a tree but a high herb that grows up to 15 metres. 
+			It is believed that there are almost 1000 varieties of bananas in 
+			the world, subdivided in 50 groups. The most commonly known banana 
+			is the Cavendish variety, which is the one produced for export markets.
+			</p>
+		
+			<p>
+			Bananas are grown in more than 150 countries, 
+			producing 105 million tonnes of fruit per year. 
+			Dessert bananas account for 43 million tonnes per year and are of 
+			huge economic importance for many countries in the South. 
+			</p>
 		</div>
+		<div id="secPart">
+		<h1>Origin</h1>
 		<div id="map">
-			<iframe src="https://www.google.com/maps/d/embed?mid=zzIhm6B1xmxU.kjCzjGFLWklQ" width="640" height="480"></iframe>
+			<img src="ImgContent\learnmore\bananaanc.png" alt="Original Regions" width="500">
 		</div>
+		<div id="origin">
+			<p>
+			It is believed that the earliest written reference to banana 
+			is in Sanskrit and dates back to around 500 BC. Their origin is 
+			placed in Southeast Asia, in the jungles of Malaysia, Indonesia or 
+			Philippines, where many varieties of wild bananas still grow today. 
+			They started to be traded internationally by the end of fourteenth century. 
+			The development of railroads and technological advances in refrigerated 
+			maritime transport subsequently enabled bananas to become the most important 
+			world traded fruit.
+			</p>
+		</div>
+		</div>
+		<div id="facts">
+			<ul>
+				<h1>Some Banana Facts:</h1> 
+				<li>On average each person in the UK eats 10kg bananas a year – about 100 bananas!</li>
+				<li>The word banana comes from the Arabic word "banan", meaning finger</li>
+				<li>The banana plant is not a tree, it is the world's largest herb</li>
+				<li>Bananas could help you to feel happier as they contain tryptophan, a type of protein that the body converts into serotonin, known to promote relaxation and improve mood</li>
+				<li>The inside of a banana skin can be used to polish shoes!</li>
+				<li>The inside of a banana skin can be used to calm an itchy mosquito bite - many people find that rubbing the bite with the skin helps to reduce irritation.</li>
+			</ul>
 		</div>
 	</div>
-	
 	<div id="subjlink">
 	<div id = "left">
-		<a href = "learnmoreYellowFruit.html">
-		<h1>Yellow Fruit</h1>
+		<a href = "learnmoreProduction.php">
+		<h1>Production</h1>
 		</a>
 	</div>
 	<div id ="right">
-		<a href = "learnmoreProblems.html">
+		<a href = "learnmoreProblems.php">
 		<h1>Problems</h1>
 		</a>
 	</div>
 	</div>
 	
-
+	
+	
+	
+	
 </div>
+
+
 
 
 <!-- Footer -->
@@ -204,7 +164,7 @@
 							<input class="bttn" type="submit" name="sign_in"
 								value="Sign In" />
 							<!-- A way to make the button act like a link-->
-							<form action="signup.html" method="get">
+							<form action="signup.php" method="get">
 							<input class="bttn" type="submit" name="sign_up"
 								value="Sign Up" />
 							</form>
@@ -310,25 +270,25 @@
 			<ul>
 			<li>
 			<!-- FACEBOOK -->
-				<a href="default.html" >
+				<a href="default.php" >
 				<img
-					src="Default\Facebook.png"
+					src="ImgContent\Default\Facebook.png"
 						alt="FACEBOOK LINK">
 				</a>
 			</li>
 			<li>
 			<!-- FACEBOOK -->
-				<a href="default.html" >
+				<a href="default.php" >
 				<img
-					src="Default\Twitter.png"
+					src="ImgContent\Default\Twitter.png"
 						alt="Twitter LINK">
 				</a>
 			</li>
 			<li>
 			<!-- FACEBOOK -->
-				<a href="default.html" >
+				<a href="default.php" >
 				<img
-					src="Default\Google.png"
+					src="ImgContent\Default\Google.png"
 						alt="GOOGLE LINK">
 				</a>
 			</li>

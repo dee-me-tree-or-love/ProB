@@ -25,7 +25,7 @@
 	<div id="header">
 
 		<div id = "home">
-			<a href="index.html" >
+			<a href="index.php" >
 				ProB
 			</a>
 		</div>
@@ -36,35 +36,35 @@
 		<div id="menu">
 			<ul id="pages">
 				<li>
-					<a href="about.html" class="header">
+					<a href="about.php" class="header">
 						<div class="navig">
 							About
 						</div>
 					</a>
 				</li >
 				<li>
-					<a href="foundations.html" class="header">
+					<a href="foundations.php" class="header">
 						<div class="navig">
 							Foundations
 						</div>
 					</a>
 				</li>
 				<li>
-					<a href="learnMore.html" class="header">
+					<a href="learnMore.php" class="header">
 						<div class="navig">
 							Learn More
 						</div>
 					</a>
 				</li>
 				<li>
-					<a href="articles.html" class="header">
+					<a href="articles.php" class="header">
 						<div class="navig">
 							Articles
 						</div>
 					</a>
 				</li>
 				<li>
-					<a href="contribute.html" class="header">
+					<a href="contribute.php" class="header">
 						<div class="navig">
 							Contribute
 						</div>
@@ -98,7 +98,7 @@
 		
 		<ul id = "mainoptions">
 		<li id="wbf">
-			<a href="foundations.html" >	
+			<a href="foundations.php" >	
 			<div class="optlink">
 				<img 
 					src="ImgContent\home\WBF.jpg" 
@@ -108,7 +108,7 @@
 		</li>
 		
 		<li id="fairtrade">
-			<a href="learnMoreProduction.html" >	
+			<a href="learnMoreProduction.php" >	
 			<div class="optlink">
 				<img 
 					src="ImgContent\home\
@@ -123,7 +123,7 @@
 			
 
 			<a href="
-				about.html" >	
+				about.php" >	
 			<div class="optlink">
 				<img 
 					src="ImgContent\home\
@@ -139,7 +139,7 @@
 		<div id="action">
 		
 			<div id="take">
-				<a href="contribute.html">
+				<a href="contribute.php">
 					<h2>Take Action</h2>
 				</a>
 			</div>
@@ -170,7 +170,7 @@
 							<input class="bttn" type="submit" name="sign_in"
 								value="Sign In" />
 							<!-- A way to make the button act like a link-->
-							<form action="signup.html" method="get">
+							<form action="signup.php" method="get">
 							<input class="bttn" type="submit" name="sign_up"
 								value="Sign Up" />
 							</form>
@@ -276,7 +276,7 @@
 			<ul>
 			<li>
 			<!-- FACEBOOK -->
-				<a href="default.html" >
+				<a href="default.php" >
 				<img
 					src="ImgContent\Default\Facebook.png"
 						alt="FACEBOOK LINK">
@@ -284,7 +284,7 @@
 			</li>
 			<li>
 			<!-- FACEBOOK -->
-				<a href="default.html" >
+				<a href="default.php" >
 				<img
 					src="ImgContent\Default\Twitter.png"
 						alt="Twitter LINK">
@@ -292,7 +292,7 @@
 			</li>
 			<li>
 			<!-- FACEBOOK -->
-				<a href="default.html" >
+				<a href="default.php" >
 				<img
 					src="ImgContent\Default\Google.png"
 						alt="GOOGLE LINK">

@@ -1,17 +1,17 @@
 <DOCTYPE! html>
 
 <head>
-	<title>Yellow Fruit</title>
+	<title>Problems</title>
 	<link rel="stylesheet" type="text/css" href="css\hefo.css">
 		<link rel="stylesheet" type="text/css" href="css\learnMoreTempl.css">
-	<link rel="stylesheet" type="text/css" href="css\learnMoreYel.css">
-		<script src="Javascript\hefo.js"></script>
+		<link rel="stylesheet" type="text/css" href="css\learnMoreProb.css">
+			<script src="Javascript\hefo.js"></script>
 <body>
 	<!-- Header -->
 	<div id="header">
 
 		<div id = "home">
-			<a href="index.html" >
+			<a href="index.php" >
 				ProB
 			</a>
 		</div>
@@ -22,35 +22,35 @@
 		<div id="menu">
 			<ul id="pages">
 				<li>
-					<a href="about.html" class="header">
+					<a href="about.php" class="header">
 						<div class="navig">
 							About
 						</div>
 					</a>
 				</li >
 				<li>
-					<a href="foundations.html" class="header">
+					<a href="foundations.php" class="header">
 						<div class="navig">
 							Foundations
 						</div>
 					</a>
 				</li>
 				<li>
-					<a href="learnMore.html" class="header">
+					<a href="learnMore.php" class="header">
 						<div class="navig">
 							Learn More
 						</div>
 					</a>
 				</li>
 				<li>
-					<a href="articles.html" class="header">
+					<a href="articles.php" class="header">
 						<div class="navig">
 							Articles
 						</div>
 					</a>
 				</li>
 				<li>
-					<a href="contribute.html" class="header">
+					<a href="contribute.php" class="header">
 						<div class="navig">
 							Contribute
 						</div>
@@ -60,81 +60,104 @@
 		</div>
 	</div>
 
+
+
 <!-- Main -->
 <div id="content">
 <div id= "page_subject">
-	<h1>Yellow Fruit</h1>
+	<h1>Problems</h1>
 </div>
 
 	<div id="content_env">
-		<h1>Banana</h1>
-		<div id="bana">
-		<img src="learnmore\bananagrowing.jpg" alt="pesticides" width="500">
-		</div>
-		<div id="growingBanana">
+		<h1>Enviromental problems:</h1>
+		<img src="ImgContent\learnmore\pests.jpg" alt="pesticides">
+		<div id="pesticides">
 		
-			<p>
-			Bananas are the most popular fruit in the world. The banana is, 
-			in fact, not a tree but a high herb that grows up to 15 metres. 
-			It is believed that there are almost 1000 varieties of bananas in 
-			the world, subdivided in 50 groups. The most commonly known banana 
-			is the Cavendish variety, which is the one produced for export markets.
-			</p>
-		
-			<p>
-			Bananas are grown in more than 150 countries, 
-			producing 105 million tonnes of fruit per year. 
-			Dessert bananas account for 43 million tonnes per year and are of 
-			huge economic importance for many countries in the South. 
-			</p>
+		<p>Most bananas exported to Europe are grown on large-scale 
+		plantations in Latin America, and increasingly, in Africa. 
+		Banana plantations are monocultures - where only one type of 
+		crop is grown. 97% of internationally traded bananas come from 
+		one single variety, the Cavendish. This lack of genetic variety
+		makes plants highly susceptible to pests, fungi and diseases and 
+		therefore large quantities of insecticides and other pesticides are 
+		applied to the crops.
+		</p>
+		<p>
+		As the pests and diseases adapt, ever stronger, more harmful 
+		pesticides need to be applied. In several countries plantation 
+		owners spend more money on agrochemicals than on their workforce. 
+		Fertilisers and pesticides pollute water channels resulting in fish 
+		kills and the destruction of other aquatic life including coral reefs. 
+		Carelessly stored chemicals seep into the soil and water courses.
+		</p>
+		<ul>
+			<h3>Key environmental problems include:</h3> 
+			<li>contamination of water courses </li>
+			<li>massive levels of waste </li>
+			<li>soil erosion</li>
+			<li>increased risk of flooding</li>
+			<li>deforestation and destruction of habitats</li>
+			<li>destruction of soil fertility resulting in high fertiliser use.</li>
+		</ul>
 		</div>
+	
 		<div id="secPart">
-		<h1>Origin</h1>
-		<div id="map">
-			<img src="learnMore\bananaanc.png" alt="Original Regions" width="500">
-		</div>
-		<div id="origin">
-			<p>
-			It is believed that the earliest written reference to banana 
-			is in Sanskrit and dates back to around 500 BC. Their origin is 
-			placed in Southeast Asia, in the jungles of Malaysia, Indonesia or 
-			Philippines, where many varieties of wild bananas still grow today. 
-			They started to be traded internationally by the end of fourteenth century. 
-			The development of railroads and technological advances in refrigerated 
-			maritime transport subsequently enabled bananas to become the most important 
-			world traded fruit.
-			</p>
-		</div>
-		</div>
-		<div id="facts">
+			<h1>Social problems:</h1>
+			<div id="lef">
 			<ul>
-				<h1>Some Banana Facts:</h1> 
-				<li>On average each person in the UK eats 10kg bananas a year – about 100 bananas!</li>
-				<li>The word banana comes from the Arabic word "banan", meaning finger</li>
-				<li>The banana plant is not a tree, it is the world's largest herb</li>
-				<li>Bananas could help you to feel happier as they contain tryptophan, a type of protein that the body converts into serotonin, known to promote relaxation and improve mood</li>
-				<li>The inside of a banana skin can be used to polish shoes!</li>
-				<li>The inside of a banana skin can be used to calm an itchy mosquito bite - many people find that rubbing the bite with the skin helps to reduce irritation.</li>
+				<li><h4>Working conditions:</h4></li>
+				<p>
+				Pressure along the supply chain to keep prices low is primarily 
+				felt by the hundreds of thousands of workers who toil long hours 
+				in tropical conditions to look after and harvest the bananas we 
+				consume. They often fail to earn enough to feed their families properly. 
+				</p>
+				<p>
+				As has happened throughout our global economy, a significant proportion 
+				of plantation labour has been outsourced to sub-contractors with companies 
+				keen to distance themselves from any responsibility for employment 
+				conditions and reduce costs. It is also much harder for sub-contracted 
+				workers to organise into trade unions.
+				</p>
+				<li><h4>Health and Safety:</h4></li>			
+				<p>
+				The health and safety of workers is compromised by routine exposure to toxic agrochemicals and a lack of appropriate safety equipment. Field work is very physically demanding, especially in tropical conditions. In packhouses repetitive actions cause strains and injuries. Robust independent trade unions are vital to educate workers about health and safety at work and ensure that national legislation as well as private standards are observed.
+				</p>
+				<li><h4>Trade union freedom:</h4></li>
+				<p>Trade union membership is low in some exporting countries due to the 
+				widespread use of a range of anti-union tactics by national and 
+				multinational banana companies. 
+				</p>
+				<p>
+				In Guatemala banana workers face 
+				some of the worst conditions and trade union activists face violence 
+				and even assassination. In Costa Rica the banana companies use non-union 
+				committees and the 'Solidarismo' movement to prevent independent trade unions from forming or from gaining members. These committees sign so-called 'settlements' covering wages and conditons that the industry presents to the outside world as collective bargaining, but in which the workers have had no real say. 
+				</p>
+				
 			</ul>
+			</div>
+				<div id="rig">
+				<h4>Who earns what from field to supermarket?</h4></li>
+				<p>
+				These diagrams illustrate how the value from the sale of bananas can be distributed along the supply chain.
+				</p>
+				<img src ="ImgContent\learnmore\bananachart.jpg" alt="banana chart">
+				</div>
 		</div>
 	</div>
 	<div id="subjlink">
 	<div id = "left">
-		<a href = "learnmoreProduction.html">
-		<h1>Production</h1>
-		</a>
+	<a href = "learnmoreYellowFruit.php">
+		<h1>Yellow Fruit</h1>
+	</a>
 	</div>
 	<div id ="right">
-		<a href = "learnmoreProblems.html">
-		<h1>Problems</h1>
-		</a>
+	<a href = "learnmoreProduction.php">
+		<h1>Production</h1>
+	</a>
 	</div>
 	</div>
-	
-	
-	
-	
-	
 </div>
 
 
@@ -164,7 +187,7 @@
 							<input class="bttn" type="submit" name="sign_in"
 								value="Sign In" />
 							<!-- A way to make the button act like a link-->
-							<form action="signup.html" method="get">
+							<form action="signup.php" method="get">
 							<input class="bttn" type="submit" name="sign_up"
 								value="Sign Up" />
 							</form>
@@ -270,25 +293,25 @@
 			<ul>
 			<li>
 			<!-- FACEBOOK -->
-				<a href="default.html" >
+				<a href="default.php" >
 				<img
-					src="Default\Facebook.png"
+					src="ImgContent\default\Facebook.png"
 						alt="FACEBOOK LINK">
 				</a>
 			</li>
 			<li>
 			<!-- FACEBOOK -->
-				<a href="default.html" >
+				<a href="default.php" >
 				<img
-					src="Default\Twitter.png"
+					src="ImgContent\default\Twitter.png"
 						alt="Twitter LINK">
 				</a>
 			</li>
 			<li>
 			<!-- FACEBOOK -->
-				<a href="default.html" >
+				<a href="default.php" >
 				<img
-					src="Default\Google.png"
+					src="ImgContent\default\Google.png"
 						alt="GOOGLE LINK">
 				</a>
 			</li>
@@ -296,5 +319,6 @@
 		</div>
 		</div>
 	</div>
+
 </body>
 </html>
