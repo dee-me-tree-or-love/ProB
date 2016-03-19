@@ -71,7 +71,7 @@
 			<h1 class="part">Featured</h1>
 			<hr/>
 			<div class="video" id = "video_wrapper" onclick="CloseImage()">
-				<img id="thumb" src="articles\TheRealPrice.png" width="300" height="200">
+				<img id="thumb" src="ImgContent\articles\TheRealPrice.png" width="300" height="200">
 
 				<iframe id="yv" width="300" height="200" src="https://www.youtube.com/embed/o9-KQepO3t8"
 					frameborder="0" allowfullscreen></iframe>
@@ -122,27 +122,27 @@
 			<ul id = "portals">
 				<li>
 					<a href="http://www.agra.org/">
-					<img src="articles\agra.png">
+					<img src="ImgContent\articles\agra.png">
 					</a>
 				</li>
 				<li>
 					<a href="http://qz.com/">
-					<img src="articles\quartz.png" >
+					<img src="ImgContent\articles\quartz.png" >
 					</a>
 				</li>
 				<li>
 					<a href="http://www.theguardian.com/uk/environment">
-					<img src="articles\theguardian.png" >
+					<img src="ImgContent\articles\theguardian.png" >
 					</a>
 				</li>
 				<li>
 					<a href="http://www.freshfruitportal.com/">
-					<img src="articles\freshfruit.png" >
+					<img src="ImgContent\articles\freshfruit.png" >
 					</a>
 				</li>
 				<li>
 					<a href="https://nacla.org/">
-					<img src="articles\naclarep.png" >
+					<img src="ImgContent\articles\naclarep.png" >
 					</a>
 				</li>
 			</ul>
@@ -154,13 +154,13 @@
 		<ul id = "news_tiles">
 			<li>
 			<div class= "arrow">
-				<img src="articles\arrowleft.png" height="140">
+				<img src="ImgContent\articles\arrowleft.png" height="140">
 			</div>
 			</li>
 			<li>
 				<div class="article_tile">
 					<div class="newim">
-					<img src="articles\tote.jpg" width="140" height="140">
+					<img src="ImgContent\articles\tote.jpg" width="140" height="140">
 					</div>
 					<div class = "news_overlap">
 						<a href ="http://www.theguardian.com/business/2016/feb/11/fyffes-accused-disrespecting-workers-rights">
@@ -180,7 +180,7 @@
 			<li>
 				<div class="article_tile">
 					<div class="newim">
-					<img src="articles\woman.jpg" width="140" height="140">
+					<img src="ImgContent\articles\woman.jpg" width="140" height="140">
 					</div>
 					<div class = "news_overlap">
 						<a href ="http://www.foodispower.org/bananas/">
@@ -199,7 +199,7 @@
 			<li>
 				<div class="article_tile">
 					<div class="newim">
-					<img src="articles\plant.jpg" width="140" height="140">
+					<img src="ImgContent\articles\plant.jpg" width="140" height="140">
 					</div>
 					<div class = "news_overlap">
 						<a href ="https://nacla.org/photo-essay/watching-fruit-fall/">
@@ -218,7 +218,7 @@
 			<li>
 				<div class="article_tile">
 					<div class="newim">
-					<img src="articles\tour.jpg" width="140" height="140">
+					<img src="ImgContent\articles\tour.jpg" width="140" height="140">
 					</div>
 					<div class = "news_overlap">
 						<a href ="https://www.washingtonpost.com/news/wonk/wp/2015/12/04/the-worlds-most-popular-banana-could-go-extinct/">
@@ -236,7 +236,7 @@
 			</li>
 			<li>
 			<div class= "arrow">
-				<img src="articles\arrowright.png" height="140">
+				<img src="ImgContent\articles\arrowright.png" height="140">
 			</div>
 			</li>
 		</ul>
