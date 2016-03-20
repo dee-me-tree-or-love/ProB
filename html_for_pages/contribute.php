@@ -77,7 +77,7 @@
 
 	<div class="recblock" id="Donate">
 		<h1>Donate</h1>
-		<div id="keke">
+		<form id="keke" onsubmit="alert('Your donation was successful. We really appreciate it!')">
 		<div id="inputs">
 			<input type="button" name="contribute_amount" value="5"  class="btn amount" onclick="SetAmount()"/>
 			<input type="button" name="contribute_amount" value="25" class="btn amount" onclick="SetAmount()"/>
@@ -109,7 +109,7 @@
 				</div>
 		<div class="form-group">
 					<label for="phone">Phone</label>
-					<input autofocus="autofocus" class="form-control" required="required" type="number" name="phone" id="phone" />
+					<input autofocus="autofocus" class="form-control" required="required" type="tel" name="phone" id="phone" />
 				</div>
 		<hr>
 		<div class="form-group">
@@ -130,7 +130,10 @@
 				</div>
 		<hr>
 
-		<input type="submit" name="DONATE" value="DONATE" class="btn" id="donate_btn"/>
+		<input type="submit" name="DONATE" value="DONATE" class="btn" id="donate_btn"/></form>
+
+
+
 
 		</div>
 	</div>
