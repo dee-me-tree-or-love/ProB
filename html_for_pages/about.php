@@ -56,7 +56,8 @@
 		</div>
 	</div>
 
-<!-- Main -->
+<!-- Main -->
+
 <div id="Content">
 	<div id="Buttons">
 			<a class="section" href="about.php">Who are we?</a>
