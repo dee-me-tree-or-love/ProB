@@ -6,14 +6,15 @@ body{
 	
 	position: relative;
 }
+
 div#content{
 	height: 100%;
 	width: 100%;
-	position: relative;
+	position: static;
 	top: 25pt;
 	background: #FFFBF0;
 	font-family : Copperplate Gothic Light;
-
+        overflow: hidden;
 }
 div#content h1{
 	font-family : Copperplate Gothic Bold;
@@ -92,18 +93,19 @@ div.video{
 	margin-right: 5%;
 	display: block;
 	height: auto;
-	position: static;
+        width: 45%;
+	position: relative !important;
 }
 div.video *{
 	
-	width: 260pt;
+	
 	height: auto;
 
 	
 }
 div.video img{
 	display:block;
-	
+	width: 100%;
 
 	z-index:5;
 }
@@ -112,16 +114,15 @@ div.video img{
 div.video iframe{
 	display:none;
 	height: 174pt;
-
-	z-index:4;
+        width: 100%;
+	z-index: 4;
 }
 
 div#video_desc{
-	margin-top: -30%;
-	margin-left:50%;
-	position: static;
+	
+	position: relative !important;
 	width:45%;
-	display:block;
+	display: inline-block !important;
 	float: right;
 }
 
@@ -166,17 +167,18 @@ div#content hr{
 
 div#morenews{
 	clear: both;
-	width: 50%;
+	width: 50vw;
 	height:20%;
 	clear: both;
-	float: left;
+
 	position: relative;
-	margin-left: 23%;
+	margin: auto;
+        overflow: hidden;
 	
 }
 div#morenews div{
 	display: inline-block;
-
+        
 }
 
 div.article_tile{
@@ -184,24 +186,26 @@ div.article_tile{
 	height: auto;
 }
 div.article_tile img{
-	width:140px;
-	height: auto;
+	width:auto;
+	height: 100%;
+        position: relative;
 }
 
 div.news_overlap{
 	
-	overflow: hidden;
+	
 	size: auto;
 }
 
 div.news_overlap div{
+       
 	display: inline-block;
 	width: 140px;
 	height:	30px;
 	overflow: hidden;
 	position:absolute;
 	top: 115px;
-	margin-top: 0pt;
+	margin-top: 0;
 	margin-left: -144px;
 	padding-bottom: 24px;
 	background: #EFC54D;
@@ -212,7 +216,7 @@ div.news_overlap div{
 div.news_overlap div:hover{
 	top: 16%;
 	height: 140px;
-	
+	margin-top: -4pt;
 	padding-bottom: 1pt;
 	padding-top: -9pt;
 }
@@ -256,5 +260,11 @@ div.arrow img{
 }
 div#selector{
 	margin-left:7%;
+        height: 140px;
+        overflow:hidden;
+     
 }
 
+div#morenews a{
+ overflow: hidden;
+}

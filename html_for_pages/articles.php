@@ -1,8 +1,13 @@
 <?php
 $headercont = '';
 $footercont = '';
+$featcont='';
+$findmorecont='';
 require_once 'Integral/header.php';
 require_once 'Integral/footer.php';
+
+require_once 'articles/featured.php';
+require_once 'articles/findMore.php';
 ?>
 
 <DOCTYPE! html>
@@ -29,82 +34,14 @@ require_once 'Integral/footer.php';
 		<div id = "featured">
 			<h1 class="part">Featured</h1>
 			<hr/>
-			<div class="video" id = "video_wrapper" onclick="CloseImage()">
-				<img id="thumb" src="ImgContent\articles\TheRealPrice.png" width="300" height="200">
-
-				<iframe id="yv" width="300" height="200" src="https://www.youtube.com/embed/o9-KQepO3t8"
-					frameborder="0" allowfullscreen></iframe>
-			</div>
-			<div id = "video_desc">
-				<div id="vidtit">
-				<h1>The Real Price Of Bananas</h1>
-				</div>
-				<hr/>
-				<div id="viddet">
-				<table id="video_info">
-					<tr>
-						<td class = "ltd">Short Documentary</td>
-						<td class = "rtd">Sep 6, 2014</td>
-					</tr>
-					<tr>
-						<td>By</td>
-					</tr>
-					<tr>
-						<td class = "ltd">Jose Daniel Lopez</td>
-						<td class = "rtd">
-						<a href="https://www.youtube.com/watch?v=o9-KQepO3t8">
-							<div id = "youtube_ref">
-								<p><b>YouTube</b></p>
-							</div>
-						</a>
-						</td>
-					</tr>
-				</table>
-				</div>
-				<div id="vidtext">
-				<p id="video_anotation">
-					"The banana production in Ecuador
-					represents a big business for local
-					corporations and a big headache for small
-					local producers. This documentary
-					investigates the economic and social
-					problems caused by agrochemical companies
-					in the banana plantations of Ecuador."
-				</p>
-				</div>
-			</div>
+			<!-- php -->
+                        <?php echo $featcont; ?>
 		</div>
 
 		<div id = "find_more">
 			<h1 class="part">Find More</h1>
 			<hr/>
-			<ul id = "portals">
-				<li>
-					<a href="http://www.agra.org/">
-					<img src="ImgContent\articles\agra.png">
-					</a>
-				</li>
-				<li>
-					<a href="http://qz.com/">
-					<img src="ImgContent\articles\quartz.png" >
-					</a>
-				</li>
-				<li>
-					<a href="http://www.theguardian.com/uk/environment">
-					<img src="ImgContent\articles\theguardian.png" >
-					</a>
-				</li>
-				<li>
-					<a href="http://www.freshfruitportal.com/">
-					<img src="ImgContent\articles\freshfruit.png" >
-					</a>
-				</li>
-				<li>
-					<a href="https://nacla.org/">
-					<img src="ImgContent\articles\naclarep.png" >
-					</a>
-				</li>
-			</ul>
+			<?php echo $findmorecont; ?>
 		</div>
 	</div>
 	<div id = "morenews">

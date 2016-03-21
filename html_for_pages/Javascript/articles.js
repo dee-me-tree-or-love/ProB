@@ -1,5 +1,5 @@
 function CloseImage()
 {
-	document.getElementById("thumb").style.display = "none"
-	document.getElementById("yv").style.display = "block"
+	document.getElementById("thumb").style.display = "none";
+	document.getElementById("yv").style.display = "block";
 }

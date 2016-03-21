@@ -25,9 +25,9 @@ a:visited{
 }
 div#Content{
 
-  margin-left: 40%;
+  margin:auto;
   margin-top: 10%;
-  width: 15%;
+  width: 15vw;
   text-align: center;
   font-family: Copperplate Gothic Light;
   position: relative;
@@ -43,7 +43,7 @@ div#WithoutSignUp{
 
   background: rgba(253,238,120, 0.6);
 
-
+  
   color: #FFFBF0;
 }
 
