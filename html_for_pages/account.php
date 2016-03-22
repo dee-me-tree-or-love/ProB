@@ -1,19 +1,16 @@
 <DOCTYPE! html>
-<?php
-$headercont = '';
-$footercont = '';
-require_once 'Integral/header.php';
-require_once 'Integral/footer.php';
-?>
+
     
 <head>
 	<title>Account</title>
+      	<link rel="stylesheet" type="text/css" href="css\hefo.css">
+	<script src="Javascript\hefo.js"></script>
 </head>
 <body>
 	<!-- Header -->
 	<div id="header">
 <!-- Place for PHP-->
-                <?php echo $headercont;?>
+                <?php require_once 'Integral/header.php';?>
 	</div>
 
 
@@ -99,7 +96,7 @@ require_once 'Integral/footer.php';
 <!-- Footer -->
 	<div id = "footer">
 		<!-- Place for PHP-->
-                <?php echo $footercont;?>
+                <?php require_once 'Integral/footer.php';?>
 	</div>
 
 </body>

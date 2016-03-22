@@ -1,6 +1,5 @@
-<?php
 
-$headercont = '<div id = "home">
+    <div id = "home">
 			<a href="index.php" >
 				ProB
 			</a>
@@ -44,4 +43,4 @@ $headercont = '<div id = "home">
 				</li>
 			</ul>
 		</div>'
-?>
+

@@ -1,33 +1,12 @@
 <?php
-
-$footercont='
+$footercont = '';
+require_once 'Integral/header.php';
+?>
+<!--                         FOOTER GENERAL TEMPLATE                                        -->
 		<!-- to enter -->
 		<div id="account_form_in">
-
-					<!-- THE ACTION LINK IS JUST FOR AN EXAMPLE... -->
-									<!-- SHOWN WHEN THE USER HAS NOT LOGGED IN -->
-					<div class="closeform" onclick="HideAccountEnter()">
-								<p>X</p>
-							</div>
-				<form action="http://www.example.com/login.php">
-							<p>E-Mail:
-								<input type="text" name="e-mail" size="15"
-								maxlength="30" />
-							</p>
-							<p>Password:
-								<input type="password" name="password" size="15"
-								maxlength="30" />
-							</p>
-							</form>
-							<input class="bttn" type="submit" name="sign_in"
-								value="Sign In" />
-							<!-- A way to make the button act like a link-->
-							<form action="signup.php" method="get">
-							<input class="bttn" type="submit" name="sign_up"
-								value="Sign Up" />
-							</form>
-							
-					</div>
+                        <!-- PHP HERE-->
+		</div>
 		
 		<!-- SHOWN WHEN THE USER HAS LOGGED IN -->
 					
@@ -153,5 +132,4 @@ $footercont='
 			</li>
 		</div>
 		</div>
-        '
-?>
+
