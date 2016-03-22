@@ -10,9 +10,9 @@ require_once 'Integral/header.php';
 		
 		<!-- SHOWN WHEN THE USER HAS LOGGED IN -->
 					
-					<div id="account_form_out">
-                                            <?php require_once 'PopUpDet/LOGOUT.php'?>
-					</div>
+		<div id="account_form_out">
+                    <?php require_once 'PopUpDet/LOGOUT.php'?>
+		</div>
 					
 					
 		<!-- A FORM SHOWN ON CLICK SENDERS NAME IS OPTIONAL -->

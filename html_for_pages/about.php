@@ -43,7 +43,7 @@ require_once 'about/WhoWeAre.php';
 <!-- Footer -->
 	<div id = "footer">
 		<!-- Place for PHP-->
-                <?php echo $footercont;?>
+                <?php require_once 'Integral/footer.php';?>
 	</div>
 </body>
 </html>

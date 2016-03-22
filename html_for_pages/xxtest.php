@@ -7,7 +7,8 @@ require_once 'Integral/footer.php';
 
 <head>
 	<title>TEST</title>
-	<link rel="stylesheet" type="text/css" href="css\hefo.css">
+	<link rel="stylesheet" type="text/css" href="css\hefo_1.css">
+        <script src="Javascript\hefo.js"></script>
 </head>
 <body>
 	<!-- Background -->
@@ -90,7 +91,7 @@ require_once 'Integral/footer.php';
 	<!-- Footer -->
 <hr/>
 	<div id = "footer">
-		<?php echo $footercont; ?>
+		<?php require_once 'Integral/footer_1.php';?>
 	</div>
 
 	
