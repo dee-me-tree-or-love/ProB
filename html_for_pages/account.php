@@ -1,9 +1,10 @@
 <DOCTYPE! html>
 
-    
+
 <head>
 	<title>Account</title>
       	<link rel="stylesheet" type="text/css" href="css\hefo.css">
+        <link rel="stylesheet" type="text/css" href="css\account.css">
 	<script src="Javascript\hefo.js"></script>
 </head>
 <body>
@@ -15,9 +16,10 @@
 
 
 <!-- Main -->
+<div id="Content">
+<div id="PersonalStatistics">
 <div id="Personal_Details">
 <h1>Personal Details</h1>
-</div>
 <div class="form-group">
             <label for="first_name">First Name</label>
             <input autofocus="autofocus" class="form-control" required="required" type="text" name="first_name" id="first_name" />
@@ -37,11 +39,12 @@
 <form action="">
 <input type="checkbox" name="Newsletter ProB" value="Newsletter ProB">I want to receive the Project Banana newsletter and emails about other Project Banana campaigns<br>
 </form>
-
 <form action="">
-<input type="submit" value="Save Changes">
+<input type="submit" value="Save Changes" class="btn" id="save_btn"/>
 </form>
+</div>
 <hr>
+<div id="Statistics">
 <h1>Statistics</h1>
 <div class="Statistics">
             <label for="your_donations">Your Donations</label>
@@ -59,7 +62,10 @@
             <label for="your_donations">Total Shares</label>
             <input autofocus="autofocus" class="form-control" required="required" type="number" name="total_shares" id="total_shares" readonly/>
           </div>
+        </div>
+      </div>
 <hr>
+<div id="ActionDonate">
 <h1>Take Action</h1>
 <img src="" alt="" style="width:400px;height:35px;"><h4>Support</h4><br>
 <img src="" alt="" style="width:400px;height:35px;"><h4>Support</h4><br>
@@ -87,10 +93,10 @@
             <input autofocus="autofocus" class="form-control" required="required" type="month" name="month" id="month" />
           </div>
 <p>
-<input type="submit" name="DONATE" value="DONATE" />
+<input type="submit" name="DONATE" value="DONATE" class="btn" id="donate_btn"/>
 
 </p>
-
+</div>
 
 
 <!-- Footer -->
