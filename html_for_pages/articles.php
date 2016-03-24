@@ -1,10 +1,7 @@
 <?php
-$headercont = '';
-$footercont = '';
+
 $featcont='';
 $findmorecont='';
-require_once 'Integral/header.php';
-require_once 'Integral/footer.php';
 
 require_once 'articles/featured.php';
 require_once 'articles/findMore.php';
@@ -23,12 +20,12 @@ require_once 'articles/findMore.php';
 
 </head>
 <body>
-	<!-- Header -->
+<!-- Header -->
 	<div id="header">
 <!-- Place for PHP-->
-                <?php echo $headercont;?>
+                <?php require_once 'Integral/header.php';?>
+                
 	</div>
-<!-- Main -->
 <div id="content">
 	<div id="section1">
 		<div id = "featured">
@@ -144,9 +141,7 @@ require_once 'articles/findMore.php';
 <!-- Footer -->
 	<div id = "footer">
 		<!-- Place for PHP-->
-                <?php echo $footercont;?>
+                <?php require_once 'Integral/footer.php';?>
 	</div>
-
-
 </body>
 </html>

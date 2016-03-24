@@ -1,11 +1,9 @@
 <DOCTYPE! html>
 <?php
-$headercont = '';
-$footercont = '';
+
 $wearecont = '';
 $misscont = '';
-require_once 'Integral/header.php';
-require_once 'Integral/footer.php';
+
 require_once 'about/Mission.php';
 require_once 'about/WhoWeAre.php';
 ?>
@@ -18,7 +16,7 @@ require_once 'about/WhoWeAre.php';
                 <script src="Javascript\about.js"></script>
 </head>
 <body>
-		<!-- Header -->
+	<!-- Header -->
 	<div id="header">
 <!-- Place for PHP-->
                 <?php require_once 'Integral/header.php';?>

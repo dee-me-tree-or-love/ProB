@@ -27,32 +27,32 @@
 		<h1>Sign up</h1>
 
 
-	<div id="WithoutSignUp">
-        <form role="form" method="post" action="PHPFUNC/REGSITER.php">
-          <div class="form_group">
-            <label for="user_email">Email</label>
-            <input autofocus="autofocus" class="form-control" required="required" type="email" name="user[email]" id="user_email" />
-          </div>
-          <div class="form_group">
-            <label for="user_password">Password</label>
-            <input class="form-control" required="required" type="password" name="user[password]" id="user_password" />
-          </div>
-          <div class="form_group">
-            <label for="user_password_confirmation">Password confirmation</label>
-            <input class="form-control" required="required" type="password" name="user[password_confirmation]" id="user_password_confirmation" />
-          </div>
-			<div id="subscribe">
-			<p>I
-            <input type="radio" value="true" checked="checked" name="user[subscribe]" id="user_subscribe_true" />            <label class="radio-inline" for="user_subscribe_true">want</label>
-            <input type="radio" value="false" name="user[subscribe]" id="user_subscribe_false" />            <label class="radio-inline" for="user_subscribe_false">do not want</label>
-            to receive the Project Banana newsletter and emails about other Project Banana campaigns.
-			</p>
-			</div>
-				<div id="SignUpButton">
-	<input type="submit" name="SignUp" value="Sign Up" class="btn">
-	</div>
+<div id="WithoutSignUp">
+        <form role="form" method="post" action="PHPFUNC/REGISTER.php">
+            <div class="form_group">
+                <label for="user_email">Email</label>
+                <input autofocus="autofocus" class="form-control" required="required" type="email" name="email" id="user_email" />
+            </div>
+            <div class="form_group">
+                <label for="user_password">Password</label>
+                <input class="form-control" required="required" type="password" name="password" id="user_password" />
+            </div>
+            <div class="form_group">
+                <label for="user_password_confirmation">Password confirmation</label>
+                <input class="form-control" required="required" type="password" name="password_confirmation" id="user_password_confirmation" />
+            </div>
+                <div id="subscribe">
+		<p>I
+                    <input type="radio" value="true" checked="checked" name="subscribe_true" id="user_subscribe_true" />            <label class="radio-inline" for="user_subscribe_true">want</label>
+                    <input type="radio" value="false" name="subscribe_false" id="user_subscribe_false" />            <label class="radio-inline" for="user_subscribe_false">do not want</label>
+                    to receive the Project Banana newsletter and emails about other Project Banana campaigns.
+		</p>
+		</div>
+            <div id="SignUpButton">
+            <input type="submit" name="SignUp" value="Sign Up" class="btn">
+            </div>
         </form>
-	</div>
+</div>
 	</div>
 </div>
 
