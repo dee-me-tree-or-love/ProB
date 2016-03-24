@@ -39,7 +39,7 @@
             </div>
             <div class="form_group">
                 <label for="user_password_confirmation">Password confirmation</label>
-                <input class="form-control" required="required" type="password" name="password_confirmation" id="user_password_confirmation" />
+                <input class="form-control" required="required" type="password" name="password_confirm" id="user_password_confirmation" />
             </div>
                 <div id="subscribe">
 		<p>I

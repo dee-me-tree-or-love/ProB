@@ -1,7 +1,7 @@
 <?php
     define('DBHOST','localhost');
     define('DBUSER','dbi339282');
-    define('DBNAME','localhost');
+    define('DBNAME','dbi339282');
     define('DBPASS','bccMxqtHck'); 
   
     try {
