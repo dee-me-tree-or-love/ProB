@@ -104,6 +104,5 @@
 		<!-- Place for PHP-->
                 <?php require_once 'Integral/footer.php';?>
 	</div>
-
 </body>
 </html>

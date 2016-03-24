@@ -1,12 +1,5 @@
 <DOCTYPE! html>
-<?php
-$headercont = '';
-$footercont = '';
 
-require_once 'Integral/header.php';
-require_once 'Integral/footer.php';
-
-?>
     
     
     
@@ -16,13 +9,15 @@ require_once 'Integral/footer.php';
 		<link rel="stylesheet" type="text/css" href="css\learnMoreTempl.css">
 		<link rel="stylesheet" type="text/css" href="css\learnMoreProd.css">
 			<script src="Javascript\hefo.js"></script>
-                        <?php echo $pageicon;?>    
+                           
 <body>
 	<!-- Header -->
 	<div id="header">
 <!-- Place for PHP-->
-                <?php echo $headercont;?>
+                <?php require_once 'Integral/header.php';?>
+                
 	</div>
+
 
 <!-- Main -->
 <div id="content">
@@ -147,7 +142,7 @@ require_once 'Integral/footer.php';
 <!-- Footer -->
 	<div id = "footer">
 		<!-- Place for PHP-->
-                <?php echo $footercont;?>
+                <?php require_once 'Integral/footer.php';?>
 	</div>
 </body>
 </html>

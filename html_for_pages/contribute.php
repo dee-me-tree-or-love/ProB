@@ -1,11 +1,5 @@
 <DOCTYPE! html>
-<?php
-$headercont = '';
-$footercont = '';
-require_once 'Integral/header.php';
-require_once 'Integral/footer.php';
 
-?>
     
     
 <head>
@@ -18,9 +12,11 @@ require_once 'Integral/footer.php';
 </head>
 <body>
 		<!-- Header -->
+	<!-- Header -->
 	<div id="header">
 <!-- Place for PHP-->
-                <?php echo $headercont;?>
+                <?php require_once 'Integral/header.php';?>
+                
 	</div>
 
 <!-- Main -->
@@ -108,7 +104,7 @@ require_once 'Integral/footer.php';
 <!-- Footer -->
 	<div id = "footer">
 		<!-- Place for PHP-->
-                <?php echo $footercont;?>
-	</div
+                <?php require_once 'Integral/footer.php';?>
+	</div>
 </body>
 </html>

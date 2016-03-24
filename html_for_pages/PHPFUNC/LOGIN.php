@@ -1,4 +1,7 @@
 <?php
+
+include 'DBCONNECT.php';
+
     $email = $_POST["e-mail"];
     $pass = $_POST["password"];
     //$message = "HI! YOU ARE DUMB, $email, your password is $pass";

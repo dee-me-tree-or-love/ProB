@@ -1,13 +1,5 @@
 <DOCTYPE! html>
-<?php
-$headercont = '';
-$footercont = '';
 
-require_once 'Integral/header.php';
-require_once 'Integral/footer.php';
-
-?>
-    
 <head>
 	<title>ProB</title>
 	<link rel="stylesheet" type="text/css" href="css\hefo.css">
@@ -17,10 +9,11 @@ require_once 'Integral/footer.php';
 </head>
 <body>
 
-		<!-- Header -->
+<!-- Header -->
 	<div id="header">
 <!-- Place for PHP-->
-                <?php echo $headercont;?>
+                <?php require_once 'Integral/header.php';?>
+                
 	</div>
 
 
@@ -35,6 +28,7 @@ require_once 'Integral/footer.php';
 
 
 	<div id="WithoutSignUp">
+        <form role="form" method="post" action="PHPFUNC/REGSITER.php">
           <div class="form_group">
             <label for="user_email">Email</label>
             <input autofocus="autofocus" class="form-control" required="required" type="email" name="user[email]" id="user_email" />
@@ -57,6 +51,7 @@ require_once 'Integral/footer.php';
 				<div id="SignUpButton">
 	<input type="submit" name="SignUp" value="Sign Up" class="btn">
 	</div>
+        </form>
 	</div>
 	</div>
 </div>
@@ -68,7 +63,7 @@ require_once 'Integral/footer.php';
 <!-- Footer -->
 	<div id = "footer">
 		<!-- Place for PHP-->
-                <?php echo $footercont;?>
+                <?php require_once 'Integral/footer.php';?>
 	</div>
 </body>
 </html>

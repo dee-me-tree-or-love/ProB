@@ -21,7 +21,8 @@ require_once 'about/WhoWeAre.php';
 		<!-- Header -->
 	<div id="header">
 <!-- Place for PHP-->
-                <?php echo $headercont;?>
+                <?php require_once 'Integral/header.php';?>
+                
 	</div>
 <!-- Main -->
 
