@@ -43,9 +43,13 @@
             </div>
                 <div id="subscribe">
 		<p>I
-                    <input type="radio" value="true" checked="checked" name="subscribe_true" id="user_subscribe_true" />            <label class="radio-inline" for="user_subscribe_true">want</label>
-                    <input type="radio" value="false" name="subscribe_false" id="user_subscribe_false" />            <label class="radio-inline" for="user_subscribe_false">do not want</label>
-                    to receive the Project Banana newsletter and emails about other Project Banana campaigns.
+                
+                <input type="radio" value="true" checked="checked" name="subscribe" id="user_subscribe_true" />            
+                <label class="radio-inline" for="user_subscribe_true">want</label>
+                
+                <input type="radio" value="false" name="subscribe" id="user_subscribe_false" />            
+                <label class="radio-inline" for="user_subscribe_false">do not want</label>
+                to receive the Project Banana newsletter and emails about other Project Banana campaigns.
 		</p>
 		</div>
             <div id="SignUpButton">
