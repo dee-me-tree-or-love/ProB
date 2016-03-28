@@ -42,7 +42,7 @@ include 'DBCONNECT.php';
             // to start the session
             require 'StartSession.php';
             
-            StartSess($dbName);
+            StartSess($dbName,$dbEmail,$dbPassword);
         }
         // passwords apparently did not match
         else

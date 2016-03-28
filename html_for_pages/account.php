@@ -27,9 +27,11 @@ require_once 'phpfunc/checksessionperm.php';
 <div id="DetStats" class="horizontal">    
     <div id="Personal_Details" class="sect left">
         <h1>Personal Details</h1>
-        <form action="">
+        <form role="form" method="post" action="phpfunc/UPDNAMEMAIL.php">
         <div class="form-group">
-                    <label for="first_name">Name</label>
+                    <span title="Here you can change your name, email and password are needed for verification">
+                        <label for="first_name">Name</label>
+                    </span>
                     <input class="form-control" required="required" 
                            type="text" name="username" id="first_name" 
                            placeholder="<?php echo $_SESSION['username']; ?>"/>
@@ -43,16 +45,19 @@ require_once 'phpfunc/checksessionperm.php';
         <div class="form-group">
                     <label for="phone">Password</label>
                     <input class="form-control" required="required" 
-                           type="password" name="password" id="phone" placeholder="To confirm changes"/>
+                           type="password" name="password" id="phone" 
+                            placeholder="<?php echo $_SESSION['creds']; ?>"/>
+                    <!--placeholder="To confirm changes"/>-->
                   </div>
         
-        <input type="checkbox" name="subscription" value="subscription">
+        <input type="checkbox" name="subscription" value="yes">
             I want to receive the Project Banana newsletter and emails <br>about 
             other Project Banana campaigns<br>
         
         
         <input type="submit" value="Save Changes" class="btn" id="save_btn"/>
         </form>
+       
     </div>
 
     <div id="stats" class="sect right">
@@ -73,6 +78,10 @@ require_once 'phpfunc/checksessionperm.php';
                 <label for="your_donations">Total Video Views</label>
                 <input class="form-control" required="required" type="number" name="total_shares" id="total_shares" readonly/>
               </div>
+        <form role="form" method="post" action="phpfunc/LOGOUT.php">
+        <input class="btn" type="submit" name="logout"
+                        value="Log Out" />
+        </form>
     </div>
 </div>
 

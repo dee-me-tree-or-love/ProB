@@ -1,3 +1,9 @@
+<?php
+    ob_start();
+    session_start();
+    
+?>
+
 
     <div id = "home">
 			<a href="index.php" >

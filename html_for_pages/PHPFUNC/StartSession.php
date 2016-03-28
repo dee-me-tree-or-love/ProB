@@ -1,15 +1,18 @@
 <?php
-
+ob_start();
+session_start();
 // starts the session
-function StartSess($username){
+function StartSess($username,$email,$password){
     
+    $creds= $email.$password;
 
-    ob_start();
-    session_start();
+    
     // to be discussed, maybe a good option will be to add a new input to the form
     $_SESSION['username'] = $username;
-    $_SESSION['email'] = $_POST['email'];
+    $_SESSION['email'] = $email;
     $_SESSION['loggedin'] = 1;
+    $_SESSION['creds'] = $creds;
+    echo "<script type='text/javascript'> alert('{$_SESSION['creds']}');</script>";
     // sets the session variables
     header("Location: ../account.php");
 }
