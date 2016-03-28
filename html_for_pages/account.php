@@ -27,6 +27,7 @@ require_once 'phpfunc/checksessionperm.php';
 <div id="DetStats" class="horizontal">    
     <div id="Personal_Details" class="sect left">
         <h1>Personal Details</h1>
+        <form action="">
         <div class="form-group">
                     <label for="first_name">Name</label>
                     <input class="form-control" required="required" 
@@ -44,12 +45,12 @@ require_once 'phpfunc/checksessionperm.php';
                     <input class="form-control" required="required" 
                            type="password" name="password" id="phone" placeholder="To confirm changes"/>
                   </div>
-        <form action="">
+        
         <input type="checkbox" name="subscription" value="subscription">
             I want to receive the Project Banana newsletter and emails <br>about 
             other Project Banana campaigns<br>
-        </form>
-        <form action="">
+        
+        
         <input type="submit" value="Save Changes" class="btn" id="save_btn"/>
         </form>
     </div>
