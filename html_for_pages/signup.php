@@ -30,6 +30,10 @@
 <div id="WithoutSignUp">
         <form role="form" method="post" action="PHPFUNC/REGISTER.php">
             <div class="form_group">
+                <label for="user_email">Name</label>
+                <input autofocus="autofocus" class="form-control" required="required" type="text" name="username" id="user_name" />
+            </div>
+            <div class="form_group">
                 <label for="user_email">Email</label>
                 <input autofocus="autofocus" class="form-control" required="required" type="email" name="email" id="user_email" />
             </div>

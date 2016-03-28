@@ -25,7 +25,7 @@ div#Content{
 
 .horizontal{
      min-width: 30vw;
-     width: auto;
+     width: 965px;
      max-width: 70vw;
      margin: auto;
      border-bottom: 1px black solid;
@@ -51,6 +51,6 @@ div#Content{
 #footer{
     vertical-align: bottom;
 }
-.right{
+#Personal_Details{
     
 }

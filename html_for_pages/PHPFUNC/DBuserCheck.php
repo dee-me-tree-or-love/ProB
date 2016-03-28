@@ -2,6 +2,7 @@
 include 'DBCONNECT.php';
 global $dbEm;
 global $dbPass;
+
 // returns 1 if there is such email
 function CheckEm()
 {
@@ -17,11 +18,12 @@ function CheckEm()
     // store result 
     $stmt->store_result();
     $stmt->bind_result($dbEm, $dbPass);
-    if ($stmt->num_rows != 0) {
-        return 1;
-    } else {
-        return $stmt->num_rows;
-    }
+    echo "<script type='text/javascript'> alert('{$dbEm}');";
+//    if ($stmt->num_rows != 0) {
+//        return 1;
+//    } else {
+//        return $stmt->num_rows;
+//    }
     
 }  
 

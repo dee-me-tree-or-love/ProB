@@ -23,31 +23,30 @@ function SendError($message)
 
 //BEGIN
 
-//    // sql to check the db
-//    $sql = 'SELECT email FROM proBusers WHERE email = :email';
-//    $emver = $db->prepare($sql);
-//    $emver->execute(
-//            [
-//                ':email' => $_POST['email'] 
-//            ]
-//        );
-//    
-//    
-//    
-//        // gets an array from the 
-//    $row = $stmt->fetch(PDO::FETCH_ASSOC);
-    //echo "<script type='text/javascript'> alert('{$row}'); window.location.replace('../signup.php'); </script>";
-    //if(!empty($row['email'])){
-            //SendError('E-Mail provided is already in use. Please log in.');
-            // to open log in
-            //echo '<script type="text/javascript"> ShowAccountEnter(); </script>';
-            // end
-        //}
-
-//END
-
 
 // VALIDATION, PASSWORD VERIFICATION
+// Statement to fetch data about the user by given email.
+    $sqlst = 'SELECT email FROM proBusers WHERE email = :email'; 
+    $stmt = $db->prepare($sqlst);
+    // should result in one row, if everything goes well
+    $stmt->execute(
+            [
+            ':email' => $_POST['email']
+            ]
+        );
+    // store result 
+    
+    $result = $stmt->execute();
+    if($result){
+    $rows = $stmt->fetchAll(); // to get a user as an array
+    $numR = count($rows);
+        if($numR != 0)
+        {
+            SendError("Such email is already in use, try to log in");
+        }
+    }
+
+
 if($_POST['password'] != $_POST['password_confirm']){
    
 //    $error = 'fuck';
@@ -63,36 +62,36 @@ if(strlen($_POST['password']) < 3)
 
 
 // only if nothing happened and errorStatus remained 0 we can process
-if($errorStat === 0)
+if($errorStat == 0)
   //else
       {
     
     // if everything is okay, do this: 
-    $sql = 'INSERT INTO proBusers (email,password,subscription) VALUES (:email, :password, :subscription)';
+    $sql = 'INSERT INTO proBusers (email,password,subscription,name) VALUES (:email, :password, :subscription, :name)';
     $stmt = $db->prepare($sql);
     
-    if($_POST['subscribe'] == true)
+    if($_POST['subscribe'] == 'true')
     {
         // check if set and default values
-        $subscription = true;
+        $subscription = 1;
     }else
     {
-        $subscription = false;
+        $subscription = 0;
     }
     
     
     $stmt->execute([
         ':email' => $_POST['email'],
         ':password' => $_POST['password'],
-        ':subscription' => $subscription
+        ':subscription' => $subscription,
+        ':name' => $_POST['username']
         ]
     );
-    session_start();
-    // to be discussed, maybe a good option will be to add a new input to the form
-    $_SESSION['visitor_name'] = "";
-    $_SESSION['email'] = $_POST['email'];
-    // sets the session variables
-    header("Location: ../about.php");
+    // to start the session
+    require 'StartSession.php';
+    StartSess($_POST['username']);
+    echo "<script type='text/javascript'> alert('{$_SESSION['loggedin']}'); </script>";
+    
     exit;
     
     

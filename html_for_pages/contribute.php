@@ -4,6 +4,7 @@
     
 <head>
 	<title>Contribute</title>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="css\hefo.css">
 	<link rel="stylesheet" type="text/css" href="css\contribute.css">
 		<script src="Javascript\hefo.js"></script>
@@ -39,16 +40,16 @@
 		<h1>Donate</h1>
 		<form id="keke" onsubmit="alert('Your donation was successful. We really appreciate it!')">
 		<div id="inputs">
-			<input type="button" name="contribute_amount" value="5"  class="btn amount" onclick="SetAmount()"/>
-			<input type="button" name="contribute_amount" value="25" class="btn amount" onclick="SetAmount()"/>
-			<input type="button" name="contribute_amount" value="50" class="btn amount" onclick="SetAmount()"/>
+			<input type="button" name="contribute_amount" value="5"  class="btn amount" />
+			<input type="button" name="contribute_amount" value="25" class="btn amount" />
+			<input type="button" name="contribute_amount" value="50" class="btn amount" />
 			<input type="button" name="contribute_amount" value="Other" class="btn other"/>
 		</div>
 		<div id="formamount">
 					<h4 id="tit">Amount:</h4>
 					<div>
 					<label for="Your_amount">Your amount:</label>
-					<input autofocus="autofocus" class="form-control" required="required" type="number" name="your_amount" id="your_amount" />
+					<input autofocus="autofocus" class="form-control" required="required" type="number" min="0" name="your_amount" id="your_amount" />
 					<h4>EUR</h4>
 					</div>
 		</div>

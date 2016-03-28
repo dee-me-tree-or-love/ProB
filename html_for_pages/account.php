@@ -1,3 +1,8 @@
+<?php 
+require_once 'phpfunc/checksessionperm.php';
+?>
+
+
 <DOCTYPE! html>
 
 
@@ -23,24 +28,25 @@
     <div id="Personal_Details" class="sect left">
         <h1>Personal Details</h1>
         <div class="form-group">
-                    <label for="first_name">First Name</label>
-                    <input autofocus="autofocus" class="form-control" required="required" type="text" name="first_name" id="first_name" />
-                  </div>
-        <div class="form-group">
-                    <label for="last_name">Last Name</label>
-                    <input autofocus="autofocus" class="form-control" required="required" type="text" name="last_name" id="last_name" />
+                    <label for="first_name">Name</label>
+                    <input class="form-control" required="required" 
+                           type="text" name="username" id="first_name" 
+                           placeholder="<?php echo $_SESSION['username']; ?>"/>
                   </div>
         <div class="form-group">
                     <label for="e_mail">E- Mail</label>
-                    <input autofocus="autofocus" class="form-control" required="required" type="email" name="e_mail" id="e_mail" />
+                    <input class="form-control" required="required" 
+                           type="email" name="email" id="e_mail" 
+                           placeholder="<?php echo $_SESSION['email']; ?>"/>
                   </div>
         <div class="form-group">
-                    <label for="phone">Phone</label>
-                    <input autofocus="autofocus" class="form-control" required="required" type="number" name="phone" id="phone" />
+                    <label for="phone">Password</label>
+                    <input class="form-control" required="required" 
+                           type="password" name="password" id="phone" placeholder="To confirm changes"/>
                   </div>
         <form action="">
-        <input type="checkbox" name="Newsletter ProB" value="Newsletter ProB">
-            I want to receive the Project Banana newsletter and emails about 
+        <input type="checkbox" name="subscription" value="subscription">
+            I want to receive the Project Banana newsletter and emails <br>about 
             other Project Banana campaigns<br>
         </form>
         <form action="">
@@ -52,19 +58,19 @@
             <h1>Statistics</h1>
         <div class="Statistics">
                 <label for="your_donations">Your Donations</label>
-                <input autofocus="autofocus" class="form-control" required="required" type="number" name="your_donation" id="your_donation" readonly/>
+                <input  class="form-control" required="required" type="number" name="your_donation" id="your_donation" readonly/>
               </div>
         <div class="Statistics">
                 <label for="your_donations">Video Views</label>
-                <input autofocus="autofocus" class="form-control" required="required" type="number" name="shares" id="shares" readonly/>
+                <input class="form-control" required="required" type="number" name="shares" id="shares" readonly/>
               </div>
         <div class="Statistics">
                 <label for="your_donations">Total Donations</label>
-                <input autofocus="autofocus" class="form-control" required="required" type="number" name="total_donations" id="total_donations" readonly/>
+                <input  class="form-control" required="required" type="number" name="total_donations" id="total_donations" readonly/>
               </div>
         <div class="Statistics">
                 <label for="your_donations">Total Video Views</label>
-                <input autofocus="autofocus" class="form-control" required="required" type="number" name="total_shares" id="total_shares" readonly/>
+                <input class="form-control" required="required" type="number" name="total_shares" id="total_shares" readonly/>
               </div>
     </div>
 </div>
