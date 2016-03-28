@@ -1,6 +1,8 @@
 div#Content{
   	font-family : Copperplate Gothic Light;
-
+        min-height:100%;
+        height: auto;
+        
 }
 .btn{
 	font-family : Copperplate Gothic bold;
@@ -12,9 +14,43 @@ div#Content{
 	border: none;
 	padding-top:1%;
 	padding-bottom:1%;
+        
+        
 }
 .btn:hover{
 	background : #F0C64F;
 	background : rgba(240, 198, 79, 0.7);
 	border: none;
+}
+
+.horizontal{
+     min-width: 30vw;
+     width: auto;
+     max-width: 70vw;
+     margin: auto;
+     border-bottom: 1px black solid;
+     margin-top: 5vh;
+     height: auto;
+}
+
+#DetStats{
+    margin-top: 15vh;
+}
+.sect{
+    display: inline-block;
+    width: auto;
+    max-width: 40vw;
+    position: relative;
+    top: 0px;
+    vertical-align: top;
+}
+
+.sect *{
+    margin-bottom: 0.3vh;
+}
+#footer{
+    vertical-align: bottom;
+}
+.right{
+    
 }
