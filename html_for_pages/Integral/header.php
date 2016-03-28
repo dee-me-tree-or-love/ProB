@@ -1,4 +1,6 @@
-
+<?php 
+    include('session.php');
+?>
     <div id = "home">
 			<a href="index.php" >
 				ProB

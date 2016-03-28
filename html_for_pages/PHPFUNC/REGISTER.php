@@ -87,9 +87,16 @@ if($errorStat === 0)
         ':subscription' => $subscription
         ]
     );
-    
+    session_start();
+    // to be discussed, maybe a good option will be to add a new input to the form
+    $_SESSION['visitor_name'] = "";
+    $_SESSION['email'] = $_POST['email'];
+    // sets the session variables
     header("Location: ../about.php");
     exit;
+    
+    
+    
 }
 
 
