@@ -5,7 +5,7 @@ include 'DBCONNECT.php';
 
     
     // Statement to fetch data about the user by given email.
-    $sqlst = 'SELECT email, password, name FROM proBusers WHERE email = :email'; 
+    $sqlst = 'SELECT email, password, name, SUBSCRIPTION FROM proBusers WHERE email = :email'; 
     $stmt = $db->prepare($sqlst);
     // should result in one row, if everything goes well
     $stmt->execute(
@@ -30,7 +30,7 @@ include 'DBCONNECT.php';
         //echo "<script type='text/javascript'> alert('{$dbEmail}'); window.location.replace('../signup.php');</script>";
         $dbPassword = $rows[0][1];
         // testing
-        $out = $dbEmail." asd ".$dbPassword;
+        // $out = $dbEmail." asd ".$dbPassword;
         //echo "<script type='text/javascript'> alert('{$out}'); window.location.replace('../signup.php');</script>";
         
         // checking whether password is correct
@@ -39,10 +39,11 @@ include 'DBCONNECT.php';
             echo "<script type='text/javascript'> alert('NICE!'); window.location.replace('../signup.php');</script>";
             // we need the user's name
             $dbName = $rows[0][2];
+            $sbSubs = $rows[0][3];
             // to start the session
             require 'StartSession.php';
             
-            StartSess($dbName,$dbEmail,$dbPassword);
+            StartSess($dbName,$dbEmail,$dbPassword,$sbSubs);
         }
         // passwords apparently did not match
         else

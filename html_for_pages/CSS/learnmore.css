@@ -14,8 +14,9 @@ width: 100%;
 div#content{
 	display: block;
 	position: relative;
-	width: 100%;
+	width: auto;
 	left: 5 pt;
+        background-color: #F0C64F;
 	overflow: hidden;
 	height: 100%;
 }
@@ -39,21 +40,22 @@ div.cont{
 	width: 33vw;
 	display: inline-block;
 	height: 100%;
-	background-color: #F0C64F;
+	
+        position: absolute;
 }
 
 div#right{
 
 	float: left;
-	position: relative;
+	
 }
 div#left{
 	float: left;
-	position: relative;
+	position:relative;
 }
 div#mid{
 	float: left;
-	position: relative;
+	position:relative;
 }
 div.cont img{
 	width: 100%;
@@ -84,7 +86,7 @@ div.text{
 }
 div.text:hover  {
 	top:80%;
-
+        background-color: rgba(216,178,71 0.2);
 }
 
 

@@ -1,8 +1,4 @@
-<?php
-    ob_start();
-    session_start();
-    
-?>
+
 
 
     <div id = "home">

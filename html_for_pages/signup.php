@@ -1,3 +1,4 @@
+
 <DOCTYPE! html>
 
 <head>
@@ -71,7 +72,11 @@
 <!-- Footer -->
 	<div id = "footer">
 		<!-- Place for PHP-->
-                <?php require_once 'Integral/footer.php';?>
+                <?php 
+                require_once 'Integral/footer.php';
+                
+
+                ?>
 	</div>
 </body>
 </html>

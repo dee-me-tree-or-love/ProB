@@ -89,7 +89,7 @@ if($errorStat == 0)
     );
     // to start the session
     require 'StartSession.php';
-    StartSess($_POST['username'],$_POST['email'],$_POST['password']);
+    StartSess($_POST['username'],$_POST['email'],$_POST['password'],$subscription = 0);
     echo "<script type='text/javascript'> alert('{$_SESSION['loggedin']}'); </script>";
     
     exit;

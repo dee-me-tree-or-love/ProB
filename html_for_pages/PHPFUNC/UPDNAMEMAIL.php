@@ -1,13 +1,13 @@
 <?php
-
+session_start();
 // I don't understand why does not it work.
 
 
 include 'DBCONNECT.php';
+$usercred = $_POST['email'].$_POST['password'];
 
-
-
- echo "<script type='text/javascript'> alert('{$_SESSION['email']}');</script>";    
+$eml = $_SESSION['email'];
+ echo "<script type='text/javascript'> alert('{$eml}');</script>";    
 if($usercred == $_SESSION['creds'])
 {
     $sql = 'UPDATE probusers SET SUBSCRIPTION=:subscription, NAME=:name WHERE email=:email';
@@ -28,7 +28,6 @@ if($usercred == $_SESSION['creds'])
     // update
         $result = $stmt->execute([
         ':email' => $_POST['email'],
-        
         ':subscription' => $subscription,
         ':name' => $_POST['username']
         ]);
@@ -39,6 +38,7 @@ if($usercred == $_SESSION['creds'])
         {
             //if successfull
             $_SESSION['username'] = $_POST['username'];
+            $_SESSION['susbs'] = $subscription;
             // To show alert
             echo "<script type='text/javascript'> alert('Success'); window.location.replace('../account.php'); </script>";
             // end

@@ -1,5 +1,7 @@
 <?php 
 require_once 'phpfunc/checksessionperm.php';
+$checkbox = '';
+
 ?>
 
 
@@ -29,7 +31,7 @@ require_once 'phpfunc/checksessionperm.php';
         <h1>Personal Details</h1>
         <form role="form" method="post" action="phpfunc/UPDNAMEMAIL.php">
         <div class="form-group">
-                    <span title="Here you can change your name, email and password are needed for verification">
+                    <span title="Here you can change your name, but email and password are needed for verification">
                         <label for="first_name">Name</label>
                     </span>
                     <input class="form-control" required="required" 
@@ -46,14 +48,31 @@ require_once 'phpfunc/checksessionperm.php';
                     <label for="phone">Password</label>
                     <input class="form-control" required="required" 
                            type="password" name="password" id="phone" 
-                            placeholder="<?php echo $_SESSION['creds']; ?>"/>
-                    <!--placeholder="To confirm changes"/>-->
+                           placeholder="To confirm changes"/>
                   </div>
-        
-        <input type="checkbox" name="subscription" value="yes">
+        <div>
+<!--        <input type="checkbox" name="subscription" value="yes">
             I want to receive the Project Banana newsletter and emails <br>about 
-            other Project Banana campaigns<br>
-        
+            other Project Banana campaigns<br>-->
+            <?php 
+                echo "<script type='text/javascript'> alert('{$_SESSION['subs']}');</script>";
+                if($_SESSION['subs'] == 1)
+                {
+                    // subscription active
+                    $checkbox = '<input type="checkbox" name="subscription" value="yes" checked>
+                        I want to receive the Project Banana newsletter and emails <br>about 
+                        other Project Banana campaigns<br>';
+                }
+                else
+                {
+                    // no subs
+                    $checkbox = '<input type="checkbox" name="subscription" value="yes">
+                        I want to receive the Project Banana newsletter and emails <br>about 
+                        other Project Banana campaigns<br>';
+                }
+            echo $checkbox
+                    ?>
+        </div>
         
         <input type="submit" value="Save Changes" class="btn" id="save_btn"/>
         </form>

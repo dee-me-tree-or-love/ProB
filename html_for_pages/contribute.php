@@ -29,7 +29,7 @@
 		<div id = "info_body">
 
 		<p>Your contribution will help the Project Banana spread the knowledge about the fair and sustainable banana trades and the importance of implementing solutions together. Your donation is an act of solidarity that will make a real impact on the ground. </p>
-							<form action="signup.php" method="get">
+							<form action="phpfunc/accORreg.php" method='get'>
 							<input type="submit" name="Register"
 								value="Register" class="btn"/>
 							</form>

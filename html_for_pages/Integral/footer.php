@@ -1,17 +1,34 @@
 <?php
 $footercont = '';
 require_once 'Integral/header.php';
+include 'phpfunc/checkSessionMeth.php';
+$sessionInd;
+$sessionInd = isStarted();
+
 ?>
+
+
+
 <!--                         FOOTER GENERAL TEMPLATE                                        -->
 		<!-- to enter -->
 		<div id="account_form_in">
-                    <?php require_once 'PopUpDet/SIGNIN.php'?>
+                    <!-- SHOWN WHEN THE USER HAS LOGGED IN -->
+                    <?php 
+                        
+                        
+                        if($sessionInd == 1){
+                            require_once 'PopUpDet/LOGOUTpop.php';
+                        }else{
+                            require_once 'PopUpDet/SIGNINpop.php';
+                        }
+                    
+                    ?>
 		</div>
 
-		<!-- SHOWN WHEN THE USER HAS LOGGED IN -->
-
+		
+                <!-- needed present because of the js -->
 					<div id="account_form_out">
-                                            <?php require_once 'PopUpDet/LOGOUT.php'?>
+                                            
 					</div>
 
 
@@ -43,29 +60,29 @@ require_once 'Integral/header.php';
 
 
 
-		// <!-- to send us messages -->
-		// <div id="contact_us_form">
-		// 		<!-- THE ACTION LINK IS JUST FOR AN EXAMPLE... -->
-		// 			<div class="closeform" onclick="HideContactUs()">
-		// 					<p>X</p>
-		// 				</div>
-		// 			<form action="http://www.example.com/login.php">
-		// 				<p>Sender*:
-		// 					<input type="text" name="rec_name" size="15"
-		// 					maxlength="30" />
-		// 				</p>
-		// 				<p>E-Mail*:
-		// 					<input type="text" name="e-mail" size="15"
-		// 					maxlength="30" />
-		// 				</p>
-		// 				<hr/>
-		// 					<textarea name="comments" cols="20" rows="4"></textarea>
-		// 				</p>
-		// 			</form>
-		// 				<input class="bttn" type="submit" name="send_to_friend"
-		// 					value="Send" />
-		//
-		// 		</div>
+<!--		  to send us messages 
+		 <div id="contact_us_form">
+		 		 THE ACTION LINK IS JUST FOR AN EXAMPLE... 
+		 			<div class="closeform" onclick="HideContactUs()">
+							<p>X</p>
+		 				</div>
+				<form action="http://www.example.com/login.php">
+						<p>Sender*:
+		 					<input type="text" name="rec_name" size="15"
+							maxlength="30" />
+						</p>
+		 				<p>E-Mail*:
+		 					<input type="text" name="e-mail" size="15"
+		 					maxlength="30" />
+		 				</p>
+					<hr/>
+		 					<textarea name="comments" cols="20" rows="4"></textarea>
+		 				</p>
+		 			</form>
+		 				<input class="bttn" type="submit" name="send_to_friend"
+		 					value="Send" />
+		
+				</div>-->
 
 
 <!--					DIVISION							-->
