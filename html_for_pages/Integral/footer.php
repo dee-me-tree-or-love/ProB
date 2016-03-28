@@ -7,14 +7,14 @@ require_once 'Integral/header.php';
 		<div id="account_form_in">
                     <?php require_once 'PopUpDet/SIGNIN.php'?>
 		</div>
-		
+
 		<!-- SHOWN WHEN THE USER HAS LOGGED IN -->
-					
+
 					<div id="account_form_out">
                                             <?php require_once 'PopUpDet/LOGOUT.php'?>
 					</div>
-					
-					
+
+
 		<!-- A FORM SHOWN ON CLICK SENDERS NAME IS OPTIONAL -->
 					<div id="share_form">
 					<!-- THE ACTION LINK IS JUST FOR AN EXAMPLE... -->
@@ -38,56 +38,62 @@ require_once 'Integral/header.php';
 							</form>
 							<input class="bttn" type="submit" name="send_to_friend"
 								value="Send" />
-							
-					</div>			
-					
-					
-					
-		<!-- to send us messages -->
-		<div id="contact_us_form">
-				<!-- THE ACTION LINK IS JUST FOR AN EXAMPLE... -->
-					<div class="closeform" onclick="HideContactUs()">
-							<p>X</p>
-						</div>
-					<form action="http://www.example.com/login.php">
-						<p>Sender*:
-							<input type="text" name="rec_name" size="15"
-							maxlength="30" />
-						</p>
-						<p>E-Mail*:
-							<input type="text" name="e-mail" size="15"
-							maxlength="30" />
-						</p>
-						<hr/>
-							<textarea name="comments" cols="20" rows="4"></textarea>
-						</p>
-					</form>
-						<input class="bttn" type="submit" name="send_to_friend"
-							value="Send" />
-						
-				</div>
+
+					</div>
 
 
-<!--					DIVISION							-->			
+
+		// <!-- to send us messages -->
+		// <div id="contact_us_form">
+		// 		<!-- THE ACTION LINK IS JUST FOR AN EXAMPLE... -->
+		// 			<div class="closeform" onclick="HideContactUs()">
+		// 					<p>X</p>
+		// 				</div>
+		// 			<form action="http://www.example.com/login.php">
+		// 				<p>Sender*:
+		// 					<input type="text" name="rec_name" size="15"
+		// 					maxlength="30" />
+		// 				</p>
+		// 				<p>E-Mail*:
+		// 					<input type="text" name="e-mail" size="15"
+		// 					maxlength="30" />
+		// 				</p>
+		// 				<hr/>
+		// 					<textarea name="comments" cols="20" rows="4"></textarea>
+		// 				</p>
+		// 			</form>
+		// 				<input class="bttn" type="submit" name="send_to_friend"
+		// 					value="Send" />
+		//
+		// 		</div>
+
+
+<!--					DIVISION							-->
 		<div class="footermenu">
 			<ul class="footermenu">
 			<li>
 				<div>
-					<h5 onclick="ShowAccountEnter()">ACCOUNT</h5>					
+					<h5 onclick="ShowAccountEnter()">ACCOUNT</h5>
 				</div>
 			</li>
 
 			<li>
 				<div>
 					<h5 onclick="ShowShare()">SHARE WITH A FRIEND</h5>
-					
+
 				</div>
 			</li>
 			<li>
 				<div>
-					<h5 onclick="ShowContactUs()">CONTACT US</h5>
+					<h5 onclick="ContactUs()">CONTACT US</h5>
 
-				
+<script>
+function ContactUs()
+{
+    window.open("mailto:ddeivis2012@gmail.com");
+}
+</script>
+
 				</div>
 			</li>
 			</li>
@@ -129,4 +135,3 @@ require_once 'Integral/header.php';
 			</li>
 		</div>
 		</div>
-
