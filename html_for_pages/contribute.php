@@ -75,19 +75,19 @@
 		<hr>
 		<div class="form-group">
 					<label for="">Card Holder's Name</label>
-					<input autofocus="autofocus" class="form-control" required="required" type="text" name="card_holder's_name" id="card_holder's_name" />
+					<input autofocus="autofocus" class="form-control" required="required" type="text" name="card_holder's_name" autocomplete="off" id="card_holder's_name" />
 				</div>
 		<div class="form-group">
 					<label for="">Credit Card's Number</label>
-					<input autofocus="autofocus" class="form-control" required="required" type="text" name="credit_card_number" id="credit_card_number" />
+					<input autofocus="autofocus" class="form-control" required="required" type="text" name="credit_card_number" autocomplete="off" id="credit_card_number" />
 				</div>
 		<div class="form-group">
 					<label for="">Card's CVV</label>
-					<input autofocus="autofocus" class="form-control" required="required" type="text" name="card_CVV" id="card_CVV" />
+					<input autofocus="autofocus" class="form-control" required="required" type="text" name="card_CVV" autocomplete="off" id="card_CVV" />
 				</div>
 		<div class="form-group">
 					<label for="">Card's Expiration Date</label>
-					<input autofocus="autofocus" class="form-control" required="required" type="month" name="month" id="month" min="2016-05"/>
+					<input autofocus="autofocus" class="form-control" required="required" type="month" name="month" autocomplete="off" id="month" min="2016-05"/>
 				</div>
 		<hr>
 

@@ -7,7 +7,8 @@ include 'DBCONNECT.php';
 $usercred = $_POST['email'].$_POST['password'];
 
 $eml = $_SESSION['email'];
- echo "<script type='text/javascript'> alert('{$eml}');</script>";    
+// to test
+// echo "<script type='text/javascript'> alert('{$eml}');</script>";    
 if($usercred == $_SESSION['creds'])
 {
     $sql = 'UPDATE probusers SET SUBSCRIPTION=:subscription, NAME=:name WHERE email=:email';
@@ -22,8 +23,8 @@ if($usercred == $_SESSION['creds'])
     {
         $subscription = 0;
     }
-    
-    echo "<script type='text/javascript'> alert('{$_POST['username']}'); </script>";
+    // for testing
+    //echo "<script type='text/javascript'> alert('{$_POST['username']}'); </script>";
             
     // update
         $result = $stmt->execute([
@@ -41,7 +42,10 @@ if($usercred == $_SESSION['creds'])
             $_SESSION['username'] = $_POST['username'];
             $_SESSION['subs'] = $subscription;
             // To show alert
-            echo "<script type='text/javascript'> alert('{$_SESSION['subs']}'); window.location.replace('../account.php'); </script>";
+            // to test
+            //echo "<script type='text/javascript'> alert('{$_SESSION['subs']}'); window.location.replace('../account.php'); </script>";
+            // to redirect
+            echo "<script type='text/javascript'> window.location.replace('../account.php'); </script>";
             // end
           
         }

@@ -23,7 +23,7 @@ $result = $stmt->execute([
 //                $mailToLoc = $mailToLoc.'")';
 //echo "<script type='text/javascript'> alert('Your donation was successful. We really appreciate it!);</script>";
 //echo "<script type='text/javascript'> alert('Thank you very much, for your support!'); window.open({$mailToLoc}); </script>";
-echo "<script type='text/javascript'> alert('Thank you very much, for your support! {$tempShares}'); window.location.replace('../account.php'); </script>";
+echo "<script type='text/javascript'> alert('Thank you very much, for your support!'); window.location.replace('../account.php'); </script>";
 //echo "<script type='text/javascript'> window.location.replace('../account.php'); </script>";
 
 //?cc=someoneelse@example.com&bcc=andsomeoneelse@example.com

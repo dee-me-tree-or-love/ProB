@@ -84,19 +84,19 @@ $checkbox = '';
             <h1>Statistics</h1>
         <div class="Statistics">
                 <label for="your_donations">Your Donations</label>
-                <input  class="form-control" required="required" type="number" name="your_donation" id="your_donation" readonly/>
+                <input  class="form-control" type="number" name="your_donation" id="your_donation" readonly value="<?php echo $_SESSION['dons']; ?>"/>
               </div>
         <div class="Statistics">
                 <label for="your_donations">Your Shares</label>
-                <input class="form-control" required="required" type="number" name="shares" id="shares" readonly/>
+                <input class="form-control" type="number" name="shares" id="shares" readonly value="<?php echo $_SESSION['shares']; ?>"/>
               </div>
         <div class="Statistics">
                 <label for="your_donations">Total Donations</label>
-                <input  class="form-control" required="required" type="number" name="total_donations" id="total_donations" readonly/>
+                <input  class="form-control" type="number" name="total_donations" id="total_donations" readonly value="<?php include 'PHPFUNC/GETTOTALDONS.php' ?>"/>
               </div>
         <div class="Statistics">
                 <label for="your_donations">Total Shares</label>
-                <input class="form-control" required="required" type="number" name="total_shares" id="total_shares" readonly/>
+                <input class="form-control" type="number" name="total_shares" id="total_shares" readonly value="<?php include 'PHPFUNC/GETTOTALSHARES.php'  ?>"/>
               </div>
         <form role="form" method="post" action="phpfunc/LOGOUT.php">
         <input class="btn" type="submit" name="logout"
@@ -117,21 +117,26 @@ $checkbox = '';
         
         <h1>Donate</h1>
         <form role="form"  method="post" action="PHPFUNC/DONATE.php" >
+            <div>
+                <label for="Your_amount">Your amount:</label>
+                <input autofocus="autofocus" class="form-control" required="required" type="number" min="0" name="your_amount" id="your_amount" />
+                <h4>EUR</h4>
+            </div>
         <div class="form-group">
                     <label for="">Card Holder's Name</label>
-                    <input autofocus="autofocus" class="form-control" required="required" type="text" name="card_holder's_name" id="card_holder's_name" />
+                    <input autofocus="autofocus" class="form-control" required="required" type="text" name="card_holder's_name" autocomplete="off" id="card_holder's_name" />
                   </div>
         <div class="form-group">
                     <label for="">Credit Card's Number</label>
-                    <input autofocus="autofocus" class="form-control" required="required" type="text" name="credit_card_number" id="credit_card_number" />
+                    <input autofocus="autofocus" class="form-control" required="required" type="text" name="credit_card_number" autocomplete="off" id="credit_card_number" />
                   </div>
         <div class="form-group">
                     <label for="">Card's CVV</label>
-                    <input autofocus="autofocus" class="form-control" required="required" type="text" name="card_CVV" id="card_CVV" />
+                    <input autofocus="autofocus" class="form-control" required="required" type="text" name="card_CVV" autocomplete="off" id="card_CVV" />
                   </div>
         <div class="form-group">
                     <label for="">Card's Expiration Date</label>
-                    <input autofocus="autofocus" class="form-control" required="required" type="month" name="month" id="month" min="2016-05">
+                    <input autofocus="autofocus" class="form-control" required="required" type="month" name="month" autocomplete="off" id="month" min="2016-05">
                   </div>
         <p>
         <input type="submit" name="DONATE" value="DONATE" class="btn" id="donate_btn"/>

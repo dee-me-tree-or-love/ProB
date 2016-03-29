@@ -1,0 +1,33 @@
+FUNCTIONALITY________________________
+1. registration +
+2. log in
+3. personified account page:
+	a. name and details +
+	b. stats:
+		I) your donations +
+		II) your shares +
+		III) total don-s +
+		IV) total shares +
+4. details change:
+	a. name +
+	b. newsletter +
+5. popups:
+	a. login +
+	b. logout +
+	c. share with a friend
+	d. no testing alerts
+6. contribution tracking +
+7. session functionality +
+8. contact us +
+9. log out +
+10. account page access control+
+11. donate and share tracking +
+12. real sharing with email sending 
+13. no autocomplete for sensitive user data
+
+
+WRONGS_______________________________
+1. required fields in personal page (fixed)
+2. fucked up styling of articles
+3. articles not shifting
+4. banana icons not everywhere

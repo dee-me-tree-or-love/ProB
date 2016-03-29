@@ -1,0 +1,283 @@
+body{
+	background: #FFFBF0;
+}
+#footer{
+	width: 100%;
+	
+	position: relative;
+}
+
+div#content{
+	height: 100%;
+	width: 100%;
+	position: static;
+	top: 25pt;
+	background: #FFFBF0;
+	font-family : Copperplate Gothic Light;
+        overflow: hidden;
+}
+div#content h1{
+	font-family : Copperplate Gothic Bold;
+	font-size : 24pt;
+	color : #422920;
+	color : rgb(66, 41, 32);
+}
+
+div#find_more li{
+	width: 100%;
+	height: auto;
+	margin-bottom: 22pt;
+}
+div#find_more img{
+	width: 100%;
+	height: auto;
+}
+table#video_info{
+	width: 100%;
+	
+	height: auto;
+	margin-bottom: 5pt;
+}
+div#viddet{
+	width: 100%;
+}
+div#vidtext{
+	margin-bottom: 10pt;
+}
+div#vidtit{
+	border-bottom: 2px #0D0D0D dashed;
+	padding-bottom:2pt;
+}
+
+td.rtd{
+	
+	text-align: right;
+	float: right;
+	position: relative;
+	font-family : Copperplate Gothic Light;
+	font-size : 11pt;
+	color : #422920;
+	color : rgb(66, 41, 32);
+}
+td.rtd div:hover{
+	background : rgba(130, 130, 130,0.4);
+}
+div#youtube_ref{
+	font-family : Copperplate Gothic Light;
+	font-size : 11pt;
+	color : #828282;
+	color : rgb(130, 130, 130);
+	border : 1pt #828282 solid;
+	padding: 2pt;
+	margin-top: -6pt;
+}
+td.ltd{
+	float: left;
+	font-family : Copperplate Gothic Light;
+	font-size : 11pt;
+	color : #422920;
+	color : rgb(66, 41, 32);
+}
+div#featured {
+	width: 60%;
+}
+	
+div#featured div{
+	position: relative;
+	
+}
+
+div.video{
+		margin-top:20pt;
+	margin-left:0pt;
+	margin-right: 5%;
+	display: block;
+	height: auto;
+        width: 45%;
+	position: relative !important;
+}
+div.video *{
+	
+	
+	height: auto;
+
+	
+}
+div.video img{
+	display:block;
+	width: 100%;
+
+	z-index:5;
+}
+
+
+div.video iframe{
+	display:none;
+	height: 174pt;
+        width: 100%;
+	z-index: 4;
+}
+
+div#video_desc{
+	
+	position: relative !important;
+	width:45%;
+	display: inline-block !important;
+	float: right;
+}
+
+p#video_anotation{
+
+  font-family : Copperplate Gothic Light;
+  font-size : 11pt;
+  color : #828282;
+  color : rgb(130, 130, 130);
+ 
+}
+
+div#section1{
+	width: 70%;
+	float: left;
+	position: relative;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 100pt;
+	border-bottom: 1px #0D0D0D solid;
+}
+h1.part{
+	border-bottom: 1px #0D0D0D solid;
+}
+
+div#find_more{
+	width: 33%;
+	display: inline-block;
+	float: right;
+	position: relative;
+}
+
+
+div#section1 div{
+	display: inline-block;
+}	
+
+div#content hr{
+	
+	margin-bottom:20pt;
+}	
+/*
+
+THE HORRIBLE PART:
+
+
+*/
+div#morenews{
+	clear: both;
+	width: 50vw;
+	height:20%;
+	clear: both;
+
+	position: relative;
+	margin: auto;
+        overflow: hidden;
+	
+}
+div#morenews div{
+	display: inline-block;
+        
+}
+
+div.article_tile{
+	width:auto;
+	height: auto;
+}
+div.article_tile img{
+	width:auto;
+	height: 100%;
+        position: relative;
+}
+
+div.news_overlap{
+	
+	
+	size: auto;
+}
+
+div.news_overlap div{
+       
+	display: inline-block;
+	width: 140px;
+	height:	30px;
+	overflow: hidden;
+	position:absolute;
+	top: 115px;
+	margin-top: 0;
+	margin-left: -144px;
+	padding-bottom: 24px;
+	background: #EFC54D;
+	background: rgba(239,197,77,0.8)
+	
+}
+
+div.news_overlap div:hover{
+	top: 16%;
+	height: 140px;
+	margin-top: -4pt;
+	padding-bottom: 1pt;
+	padding-top: -9pt;
+}
+div.news_overlap p{
+	top: 5%;
+	position: relative;
+	margin-bottom: 31pt;
+	font-size: 9pt;
+	font-family : Copperplate Gothic Light;
+	text-align: center;
+	color : #FFFBF0;
+	color : rgb(255, 251, 240);
+	opacity: 1;
+	width:95%;
+	left: 2%;
+}
+
+
+
+div#content ul{
+	list-style-type: none;
+	margin: 0pt;
+	padding: 0pt;
+}
+div#morenews  ul li{
+	display: inline;
+	height: auto;
+	margin-right: 15px;
+}
+
+div.arrow{
+	margin-left:0;
+	margin-right:0pt;
+	width: 70px;
+	height: 140px;
+	position: relative;
+	top: 0pt;
+}
+div.arrow img{
+	height: 140px;
+}
+div#selector{
+	margin-left:7%;
+        height: 140px;
+        overflow:hidden;
+     
+}
+
+div#morenews a{
+ overflow: hidden;
+}
+
+
+#firsttile{
+    height: 10vh;
+    width: 10vh;
+    background-image: url("../ImgContent/articles/tote.jpg");
+					
+}
