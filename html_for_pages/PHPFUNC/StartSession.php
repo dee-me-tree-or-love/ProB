@@ -2,7 +2,7 @@
 ob_start();
 session_start();
 // starts the session
-function StartSess($username,$email,$password,$subs){
+function StartSess($username,$email,$password,$subs,$shares,$dons){
     
     $creds= $email.$password;
 
@@ -13,6 +13,8 @@ function StartSess($username,$email,$password,$subs){
     $_SESSION['subs'] = $subs;
     $_SESSION['loggedin'] = 1;
     $_SESSION['creds'] = $creds;
+    $_SESSION['shares'] = $shares;
+    $_SESSION['dons'] = $dons;
     echo "<script type='text/javascript'> alert('{$_SESSION['creds']}');</script>";
     // sets the session variables
     header("Location: ../account.php");

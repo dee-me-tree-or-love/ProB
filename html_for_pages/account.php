@@ -49,13 +49,14 @@ $checkbox = '';
                     <input class="form-control" required="required" 
                            type="password" name="password" id="phone" 
                            placeholder="To confirm changes"/>
+                   
                   </div>
         <div>
 <!--        <input type="checkbox" name="subscription" value="yes">
             I want to receive the Project Banana newsletter and emails <br>about 
             other Project Banana campaigns<br>-->
             <?php 
-                echo "<script type='text/javascript'> alert('{$_SESSION['subs']}');</script>";
+                //echo "<script type='text/javascript'> alert('{$_SESSION['subs']}');</script>";
                 if($_SESSION['subs'] == 1)
                 {
                     // subscription active
@@ -86,7 +87,7 @@ $checkbox = '';
                 <input  class="form-control" required="required" type="number" name="your_donation" id="your_donation" readonly/>
               </div>
         <div class="Statistics">
-                <label for="your_donations">Video Views</label>
+                <label for="your_donations">Your Shares</label>
                 <input class="form-control" required="required" type="number" name="shares" id="shares" readonly/>
               </div>
         <div class="Statistics">
@@ -94,7 +95,7 @@ $checkbox = '';
                 <input  class="form-control" required="required" type="number" name="total_donations" id="total_donations" readonly/>
               </div>
         <div class="Statistics">
-                <label for="your_donations">Total Video Views</label>
+                <label for="your_donations">Total Shares</label>
                 <input class="form-control" required="required" type="number" name="total_shares" id="total_shares" readonly/>
               </div>
         <form role="form" method="post" action="phpfunc/LOGOUT.php">
@@ -112,9 +113,10 @@ $checkbox = '';
             <?php require_once 'account/affilVideo.php';?>
     
     </div>
-    <div id="Donate" class="sect right">
+    <div id="Donate" class="sect right" >
+        
         <h1>Donate</h1>
-
+        <form role="form"  method="post" action="PHPFUNC/DONATE.php" >
         <div class="form-group">
                     <label for="">Card Holder's Name</label>
                     <input autofocus="autofocus" class="form-control" required="required" type="text" name="card_holder's_name" id="card_holder's_name" />
@@ -129,12 +131,12 @@ $checkbox = '';
                   </div>
         <div class="form-group">
                     <label for="">Card's Expiration Date</label>
-                    <input autofocus="autofocus" class="form-control" required="required" type="month" name="month" id="month" />
+                    <input autofocus="autofocus" class="form-control" required="required" type="month" name="month" id="month" min="2016-05">
                   </div>
         <p>
         <input type="submit" name="DONATE" value="DONATE" class="btn" id="donate_btn"/>
         </p>
-
+        </FORM>
     </div>
 </div>
 

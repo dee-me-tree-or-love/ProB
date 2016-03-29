@@ -1,3 +1,6 @@
+<div class="closeform" onclick="HideAccountEnter()">
+                        <p>X</p>
+                </div>
 <div id='accountOut' style="text-align: center; font-family: Copperplate Gothic Light;">
     <p style="margin-top: 4pt; margin-bottom: 2pt; 
        margin-left: 4pt; margin-left: 4pt;
@@ -9,7 +12,7 @@
        font-size: 10pt;
        ">Your Account</a>
     <br>
-
+<form action="PHPFUNC/LOGOUT.php" method="post">
     <!-- WHERE XXXX IS THE USER'S NAME  -->
     <input class="bttn" type="submit" name="sign_out"
             value="Sign Out" 
@@ -26,4 +29,5 @@
 	width:auto;
 	height: 5%;
 	margin-bottom:2%;"/>
+</form> 
 </div>    

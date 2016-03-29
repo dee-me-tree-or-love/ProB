@@ -38,23 +38,20 @@ $sessionInd = isStarted();
 						<div class="closeform" onclick="HideShare()">
 								<p>X</p>
 							</div>
-						<form action="http://www.example.com/login.php">
+                                                        <form  role="form"  method="post" action="PHPFUNC/SHARE.php">
 							<p>Recipient*:
 								<input type="text" name="rec_name" size="15"
 								maxlength="30" />
 							</p>
-							<p>E-Mail*:
-								<input type="text" name="e-mail" size="15"
-								maxlength="30" />
-							</p>
 							<hr/>
-							<p>Sender:
-								<input type="text" name="send_name" size="15"
+							<p>Comment:
+								<input type="text" name="comm" size="15"
 								maxlength="30" />
 							</p>
-							</form>
+							
 							<input class="bttn" type="submit" name="send_to_friend"
 								value="Send" />
+                                                        </form>
 
 					</div>
 

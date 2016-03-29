@@ -23,7 +23,7 @@ if($usercred == $_SESSION['creds'])
         $subscription = 0;
     }
     
-    echo "<script type='text/javascript'> alert('{$_POST['username']}'); window.location.replace('../account.php'); </script>";
+    echo "<script type='text/javascript'> alert('{$_POST['username']}'); </script>";
             
     // update
         $result = $stmt->execute([
@@ -37,10 +37,11 @@ if($usercred == $_SESSION['creds'])
         if($result)
         {
             //if successfull
+            // assign this to the session username, and subscription choice to the subs
             $_SESSION['username'] = $_POST['username'];
-            $_SESSION['susbs'] = $subscription;
+            $_SESSION['subs'] = $subscription;
             // To show alert
-            echo "<script type='text/javascript'> alert('Success'); window.location.replace('../account.php'); </script>";
+            echo "<script type='text/javascript'> alert('{$_SESSION['subs']}'); window.location.replace('../account.php'); </script>";
             // end
           
         }

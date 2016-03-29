@@ -38,7 +38,7 @@
 
 	<div class="recblock" id="Donate">
 		<h1>Donate</h1>
-		<form id="keke" onsubmit="alert('Your donation was successful. We really appreciate it!')">
+                <form id="keke" role="form"  method="post" action="PHPFUNC/DONATE.php">
 		<div id="inputs">
 			<input type="button" name="contribute_amount" value="5"  class="btn amount" />
 			<input type="button" name="contribute_amount" value="25" class="btn amount" />
@@ -87,12 +87,12 @@
 				</div>
 		<div class="form-group">
 					<label for="">Card's Expiration Date</label>
-					<input autofocus="autofocus" class="form-control" required="required" type="month" name="month" id="month" />
+					<input autofocus="autofocus" class="form-control" required="required" type="month" name="month" id="month" min="2016-05"/>
 				</div>
 		<hr>
 
 		<input type="submit" name="DONATE" value="DONATE" class="btn" id="donate_btn"/>
-</form>
+                </form>
 
 
 
