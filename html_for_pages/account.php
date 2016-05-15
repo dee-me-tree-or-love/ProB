@@ -36,7 +36,8 @@ $checkbox = '';
                     </span>
                     <input class="form-control" required="required" 
                            type="text" name="username" id="first_name" 
-                           placeholder="<?php echo $_SESSION['username']; ?>"/>
+                           placeholder="<?php echo $_SESSION['username']; ?>"
+                           value="<?php echo $_SESSION['username']; ?>"/>
                   </div>
         <div class="form-group">
                     <label for="e_mail">E- Mail</label>

@@ -1,6 +1,6 @@
 FUNCTIONALITY________________________
 1. registration +
-2. log in
+2. log in +
 3. personified account page:
 	a. name and details +
 	b. stats:
@@ -23,7 +23,7 @@ FUNCTIONALITY________________________
 10. account page access control+
 11. donate and share tracking +
 12. real sharing with email sending 
-13. no autocomplete for sensitive user data
+13. no autocomplete for sensitive user data +
 
 
 WRONGS_______________________________
